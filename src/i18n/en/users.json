@@ -1,0 +1,19 @@
+{
+  "created": "User created successfully.",
+  "updated": "User updated successfully.",
+  "deleted": "User deleted successfully.",
+  "activated": "User activated successfully.",
+  "deactivated": "User deactivated successfully.",
+  "notFound": "User not found.",
+  "alreadyExists": "User already exists.",
+  "emailAlreadyExists": "Email already exists.",
+  "phoneAlreadyExists": "Phone number already exists.",
+  "invalidRole": "Invalid role.",
+  "cannotDeleteSelf": "You cannot delete your own account.",
+  "cannotDeactivateSelf": "You cannot deactivate your own account.",
+  "errors": {
+    "emailRequired": "Email is required.",
+    "phoneRequired": "Phone number is required.",
+    "invalidStatus": "Invalid user status."
+  }
+}

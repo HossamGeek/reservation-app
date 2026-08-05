@@ -1,0 +1,29 @@
+{
+  "getAll": {
+    "success": "تم استرجاع اللغات بنجاح."
+  },
+  "create": {
+    "success": "تم إنشاء اللغة بنجاح"
+  },
+  "update": {
+    "success": "تم تحديث حالة اللغة بنجاح",
+    "bulkActivate": {
+      "success": "تم تفعيل اللغات بنجاح."
+    },
+    "bulkDeactivate": {
+      "success": "تم إلغاء تفعيل اللغات بنجاح."
+    }
+  },
+  "activate": {
+    "success": "تم تفعيل اللغة بنجاح."
+  },
+  "deactivate": {
+    "success": "تم إلغاء تفعيل اللغة بنجاح."
+  },
+  "notFound": "اللغة غير موجودة",
+  "alreadyExists": "اللغة موجودة بالفعل.",
+  "errors": {
+    "nameArExists": "الاسم العربي موجود بالفعل.",
+    "nameEnExists": "الاسم الإنجليزي موجود بالفعل."
+  }
+}

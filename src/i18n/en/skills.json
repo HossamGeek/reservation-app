@@ -1,0 +1,29 @@
+{
+  "getAll": {
+    "success": "Skills retrieved successfully."
+  },
+  "create": {
+    "success": "Skill created successfully."
+  },
+  "update": {
+    "success": "Skill updated successfully.",
+    "bulkActivate": {
+      "success": "Skills activated successfully."
+    },
+    "bulkDeactivate": {
+      "success": "Skills deactivated successfully."
+    }
+  },
+  "activate": {
+    "success": "Skill activated successfully."
+  },
+  "deactivate": {
+    "success": "Skill deactivated successfully."
+  },
+  "notFound": "Skill not found.",
+  "alreadyExists": "Skill already exists.",
+  "errors": {
+    "nameArExists": "Arabic name already exists.",
+    "nameEnExists": "English name already exists."
+  }
+}

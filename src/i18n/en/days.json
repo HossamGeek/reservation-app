@@ -1,0 +1,8 @@
+{
+  "getAll": {
+    "success": "Days retrieved successfully."
+  },
+  "errors": {
+    "notFound": "Day not found."
+  }
+}

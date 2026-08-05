@@ -1,0 +1,29 @@
+{
+  "create": {
+    "success": "City created successfully."
+  },
+  "getAll": {
+    "success": "Cities retrieved successfully."
+  },
+  "getOne": {
+    "success": "City retrieved successfully."
+  },
+  "update": {
+    "bulkActivate": {
+      "success": "Cities activated successfully."
+    },
+    "bulkDeactivate": {
+      "success": "Cities deactivated successfully."
+    }
+  },
+  "activate": {
+    "success": "City activated successfully."
+  },
+  "deactivate": {
+    "success": "City deactivated successfully."
+  },
+  "notFound": "City not found.",
+  "errors": {
+    "duplicate": "City already exists in this country."
+  }
+}

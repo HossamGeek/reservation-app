@@ -1,0 +1,19 @@
+{
+  "create": {},
+  "getAll": {
+    "success": "All service types retrieved successfully"
+  },
+  "activate": {
+    "success": "Service type activated successfully"
+  },
+  "deactivate": {
+    "success": "Service type deactivated successfully"
+  },
+  "getOne": {},
+  "update": {},
+  "remove": {},
+  "errors": {
+    "notFound": "Service type not found",
+    "doesNotSupportOptions": "This service type does not support options"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "upload": {
+    "success": "Document uploaded successfully."
+  },
+  "update":{
+    "approved": "Document approved successfully.",
+    "rejected": "Document rejected successfully."
+  },
+  "errors": {
+    "noFile": "No file uploaded.",
+    "tooManyFiles": "Number of files exceeds the limit of {maxCount}.",
+    "unsupportedType": "Unsupported media type: {ext} - Supported types: {supportedTypes}",
+    "fileTooLarge": "File size exceeds limit of {maxSize}MB.",
+    "notFound": "Document not found.",
+    "physicalFileNotFound": "Physical file not found.",
+    "onlyProviderDocumentsCanBeReviewed": "Only provider documents can be reviewed",
+    "alreadyReviewed": "Document already reviewed",
+    "alreadyUsed": "Document already used"
+  }
+}

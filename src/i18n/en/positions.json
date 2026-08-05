@@ -1,0 +1,29 @@
+{
+  "getAll": {
+    "success": "Positions retrieved successfully."
+  },
+  "create": {
+    "success": "Position created successfully."
+  },
+  "update": {
+    "success": "Position updated successfully.",
+    "bulkActivate": {
+      "success": "Positions activated successfully."
+    },
+    "bulkDeactivate": {
+      "success": "Positions deactivated successfully."
+    }
+  },
+  "activate": {
+    "success": "Position activated successfully."
+  },
+  "deactivate": {
+    "success": "Position deactivated successfully."
+  },
+  "notFound": "Position not found.",
+  "alreadyExists": "Position already exists.",
+  "errors": {
+    "nameArExists": "Arabic name already exists.",
+    "nameEnExists": "English name already exists."
+  }
+}

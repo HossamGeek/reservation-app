@@ -1,0 +1,24 @@
+{
+  "getAll": {
+    "success": "Nationalities retrieved successfully."
+  },
+  "create": {
+    "success": "Nationality created successfully."
+  },
+  "update": {
+    "bulkActivate": {
+      "success": "Nationalities activated successfully."
+    },
+    "bulkDeactivate": {
+      "success": "Nationalities deactivated successfully."
+    }
+  },
+  "activate": {
+    "success": "Nationality activated successfully."
+  },
+  "deactivate": {
+    "success": "Nationality deactivated successfully."
+  },
+  "notFound": "Nationality not found.",
+  "alreadyExists": "Nationality name already exists."
+}

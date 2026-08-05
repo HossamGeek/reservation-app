@@ -1,0 +1,1002 @@
+[
+  {
+    "nameEn": "Afghan",
+    "nameAr": "أفغانستاني"
+  },
+  {
+    "nameEn": "Aland Islander",
+    "nameAr": "آلاندي"
+  },
+  {
+    "nameEn": "Albanian",
+    "nameAr": "ألباني"
+  },
+  {
+    "nameEn": "Algerian",
+    "nameAr": "جزائري"
+  },
+  {
+    "nameEn": "American Samoan",
+    "nameAr": "أمريكي سامواني"
+  },
+  {
+    "nameEn": "Andorran",
+    "nameAr": "أندوري"
+  },
+  {
+    "nameEn": "Angolan",
+    "nameAr": "أنقولي"
+  },
+  {
+    "nameEn": "Anguillan",
+    "nameAr": "أنغويلي"
+  },
+  {
+    "nameEn": "Antarctican",
+    "nameAr": "أنتاركتيكي"
+  },
+  {
+    "nameEn": "Antiguan",
+    "nameAr": "بربودي"
+  },
+  {
+    "nameEn": "Argentinian",
+    "nameAr": "أرجنتيني"
+  },
+  {
+    "nameEn": "Armenian",
+    "nameAr": "أرميني"
+  },
+  {
+    "nameEn": "Aruban",
+    "nameAr": "أوروبهيني"
+  },
+  {
+    "nameEn": "Australian",
+    "nameAr": "أسترالي"
+  },
+  {
+    "nameEn": "Austrian",
+    "nameAr": "نمساوي"
+  },
+  {
+    "nameEn": "Azerbaijani",
+    "nameAr": "أذربيجاني"
+  },
+  {
+    "nameEn": "Bahamian",
+    "nameAr": "باهاميسي"
+  },
+  {
+    "nameEn": "Bahraini",
+    "nameAr": "بحريني"
+  },
+  {
+    "nameEn": "Bangladeshi",
+    "nameAr": "بنغلاديشي"
+  },
+  {
+    "nameEn": "Barbadian",
+    "nameAr": "بربادوسي"
+  },
+  {
+    "nameEn": "Belarusian",
+    "nameAr": "روسي"
+  },
+  {
+    "nameEn": "Belgian",
+    "nameAr": "بلجيكي"
+  },
+  {
+    "nameEn": "Belizean",
+    "nameAr": "بيليزي"
+  },
+  {
+    "nameEn": "Beninese",
+    "nameAr": "بنيني"
+  },
+  {
+    "nameEn": "Bermudan",
+    "nameAr": "برمودي"
+  },
+  {
+    "nameEn": "Bhutanese",
+    "nameAr": "بوتاني"
+  },
+  {
+    "nameEn": "Bolivian",
+    "nameAr": "بوليفي"
+  },
+  {
+    "nameEn": "Bosnian / Herzegovinian",
+    "nameAr": "بوسني/هرسكي"
+  },
+  {
+    "nameEn": "Botswanan",
+    "nameAr": "بوتسواني"
+  },
+  {
+    "nameEn": "Bouvetian",
+    "nameAr": "بوفيهي"
+  },
+  {
+    "nameEn": "Brazilian",
+    "nameAr": "برازيلي"
+  },
+  {
+    "nameEn": "British Indian Ocean Territory",
+    "nameAr": "إقليم المحيط الهندي البريطاني"
+  },
+  {
+    "nameEn": "British Virgin Islands",
+    "nameAr": "جزر العذراء البريطانية"
+  },
+  {
+    "nameEn": "Bruneian",
+    "nameAr": "بروني"
+  },
+  {
+    "nameEn": "Bulgarian",
+    "nameAr": "بلغاري"
+  },
+  {
+    "nameEn": "Burkinabe",
+    "nameAr": "بوركيني"
+  },
+  {
+    "nameEn": "Burundian",
+    "nameAr": "بورونيدي"
+  },
+  {
+    "nameEn": "Cape Verdean",
+    "nameAr": "الرأس الأخضر"
+  },
+  {
+    "nameEn": "Cambodian",
+    "nameAr": "كمبودي"
+  },
+  {
+    "nameEn": "Cameroonian",
+    "nameAr": "كاميروني"
+  },
+  {
+    "nameEn": "Canadian",
+    "nameAr": "كندي"
+  },
+  {
+    "nameEn": "Caribbean Netherlands",
+    "nameAr": "الجزر الكاريبية الهولندية"
+  },
+  {
+    "nameEn": "Caymanian",
+    "nameAr": "كايماني"
+  },
+  {
+    "nameEn": "Central African",
+    "nameAr": "أفريقي"
+  },
+  {
+    "nameEn": "Chadian",
+    "nameAr": "تشادي"
+  },
+  {
+    "nameEn": "Chilean",
+    "nameAr": "شيلي"
+  },
+  {
+    "nameEn": "Chinese",
+    "nameAr": "صيني"
+  },
+  {
+    "nameEn": "Christmas Islander",
+    "nameAr": "جزيرة عيد الميلاد"
+  },
+  {
+    "nameEn": "Cocos Islander",
+    "nameAr": "جزر كوكوس"
+  },
+  {
+    "nameEn": "Colombian",
+    "nameAr": "كولومبي"
+  },
+  {
+    "nameEn": "Comorian",
+    "nameAr": "جزر القمر"
+  },
+  {
+    "nameEn": "Congolese",
+    "nameAr": "كونغي"
+  },
+  {
+    "nameEn": "Cook Islander",
+    "nameAr": "جزر كوك"
+  },
+  {
+    "nameEn": "Costa Rican",
+    "nameAr": "كوستاريكي"
+  },
+  {
+    "nameEn": "Croatian",
+    "nameAr": "كوراتي"
+  },
+  {
+    "nameEn": "Cuban",
+    "nameAr": "كوبي"
+  },
+  {
+    "nameEn": "Curacian",
+    "nameAr": "كوراساوي"
+  },
+  {
+    "nameEn": "Cypriot",
+    "nameAr": "قبرصي"
+  },
+  {
+    "nameEn": "Czech",
+    "nameAr": "تشيكي"
+  },
+  {
+    "nameEn": "Danish",
+    "nameAr": "دنماركي"
+  },
+  {
+    "nameEn": "Djiboutian",
+    "nameAr": "جيبوتي"
+  },
+  {
+    "nameEn": "Dominican",
+    "nameAr": "دومينيكي"
+  },
+  {
+    "nameEn": "Dominican",
+    "nameAr": "دومينيكي"
+  },
+  {
+    "nameEn": "DR Congo",
+    "nameAr": "جمهورية الكونغو الديمقراطية"
+  },
+  {
+    "nameEn": "Ecuadorian",
+    "nameAr": "إكوادوري"
+  },
+  {
+    "nameEn": "Egyptian",
+    "nameAr": "مصري"
+  },
+  {
+    "nameEn": "Salvadoran",
+    "nameAr": "سلفادوري"
+  },
+  {
+    "nameEn": "Equatorial Guinean",
+    "nameAr": "غيني"
+  },
+  {
+    "nameEn": "Eritrean",
+    "nameAr": "إريتيري"
+  },
+  {
+    "nameEn": "Estonian",
+    "nameAr": "استوني"
+  },
+  {
+    "nameEn": "Swazi",
+    "nameAr": "سوازيلندي"
+  },
+  {
+    "nameEn": "Ethiopian",
+    "nameAr": "أثيوبي"
+  },
+  {
+    "nameEn": "Falkland Islander",
+    "nameAr": "فوكلاندي"
+  },
+  {
+    "nameEn": "Faroese",
+    "nameAr": "جزر فارو"
+  },
+  {
+    "nameEn": "Fijian",
+    "nameAr": "فيجي"
+  },
+  {
+    "nameEn": "Finnish",
+    "nameAr": "فنلندي"
+  },
+  {
+    "nameEn": "French",
+    "nameAr": "فرنسي"
+  },
+  {
+    "nameEn": "French Guianese",
+    "nameAr": "غويانا الفرنسية"
+  },
+  {
+    "nameEn": "French Polynesian",
+    "nameAr": "بولينيزيي"
+  },
+  {
+    "nameEn": "French",
+    "nameAr": "أراض فرنسية جنوبية وأنتارتيكية"
+  },
+  {
+    "nameEn": "Gabonese",
+    "nameAr": "غابوني"
+  },
+  {
+    "nameEn": "Gambian",
+    "nameAr": "غامبي"
+  },
+  {
+    "nameEn": "Georgian",
+    "nameAr": "جيورجي"
+  },
+  {
+    "nameEn": "German",
+    "nameAr": "ألماني"
+  },
+  {
+    "nameEn": "Ghanaian",
+    "nameAr": "غاني"
+  },
+  {
+    "nameEn": "Gibraltar",
+    "nameAr": "جبل طارق"
+  },
+  {
+    "nameEn": "Greek",
+    "nameAr": "يوناني"
+  },
+  {
+    "nameEn": "Greenlandic",
+    "nameAr": "جرينلاندي"
+  },
+  {
+    "nameEn": "Grenadian",
+    "nameAr": "غرينادي"
+  },
+  {
+    "nameEn": "Guadeloupe",
+    "nameAr": "جزر جوادلوب"
+  },
+  {
+    "nameEn": "Guamanian",
+    "nameAr": "جوامي"
+  },
+  {
+    "nameEn": "Guatemalan",
+    "nameAr": "غواتيمالي"
+  },
+  {
+    "nameEn": "Guernsian",
+    "nameAr": "غيرنزي"
+  },
+  {
+    "nameEn": "Guinean",
+    "nameAr": "غيني"
+  },
+  {
+    "nameEn": "Guinea-Bissauan",
+    "nameAr": "غيني"
+  },
+  {
+    "nameEn": "Guyanese",
+    "nameAr": "غياني"
+  },
+  {
+    "nameEn": "Haitian",
+    "nameAr": "هايتي"
+  },
+  {
+    "nameEn": "Heard and Mc Donald Islanders",
+    "nameAr": "جزيرة هيرد وجزر ماكدونالد"
+  },
+  {
+    "nameEn": "Honduran",
+    "nameAr": "هندوراسي"
+  },
+  {
+    "nameEn": "Hongkongese",
+    "nameAr": "هونغ كونغي"
+  },
+  {
+    "nameEn": "Hungarian",
+    "nameAr": "مجري"
+  },
+  {
+    "nameEn": "Icelandic",
+    "nameAr": "آيسلندي"
+  },
+  {
+    "nameEn": "Indian",
+    "nameAr": "هندي"
+  },
+  {
+    "nameEn": "Indonesian",
+    "nameAr": "أندونيسيي"
+  },
+  {
+    "nameEn": "Iranian",
+    "nameAr": "إيراني"
+  },
+  {
+    "nameEn": "Iraqi",
+    "nameAr": "عراقي"
+  },
+  {
+    "nameEn": "Irish",
+    "nameAr": "إيرلندي"
+  },
+  {
+    "nameEn": "Manx",
+    "nameAr": "ماني"
+  },
+  {
+    "nameEn": "Italian",
+    "nameAr": "إيطالي"
+  },
+  {
+    "nameEn": "Ivory Coastian",
+    "nameAr": "ساحل العاج"
+  },
+  {
+    "nameEn": "Jamaican",
+    "nameAr": "جمايكي"
+  },
+  {
+    "nameEn": "Japanese",
+    "nameAr": "ياباني"
+  },
+  {
+    "nameEn": "Jersian",
+    "nameAr": "جيرزي"
+  },
+  {
+    "nameEn": "Jordanian",
+    "nameAr": "أردني"
+  },
+  {
+    "nameEn": "Kazakh",
+    "nameAr": "كازاخستاني"
+  },
+  {
+    "nameEn": "Kenyan",
+    "nameAr": "كيني"
+  },
+  {
+    "nameEn": "I-Kiribati",
+    "nameAr": "كيريباتي"
+  },
+  {
+    "nameEn": "Kosovar",
+    "nameAr": "كوسيفي"
+  },
+  {
+    "nameEn": "Kuwaiti",
+    "nameAr": "كويتي"
+  },
+  {
+    "nameEn": "Kyrgyzstani",
+    "nameAr": "قيرغيزستاني"
+  },
+  {
+    "nameEn": "Laotian",
+    "nameAr": "لاوسي"
+  },
+  {
+    "nameEn": "Latvian",
+    "nameAr": "لاتيفي"
+  },
+  {
+    "nameEn": "Lebanese",
+    "nameAr": "لبناني"
+  },
+  {
+    "nameEn": "Basotho",
+    "nameAr": "ليوسيتي"
+  },
+  {
+    "nameEn": "Liberian",
+    "nameAr": "ليبيري"
+  },
+  {
+    "nameEn": "Libyan",
+    "nameAr": "ليبي"
+  },
+  {
+    "nameEn": "Liechtenstein",
+    "nameAr": "ليختنشتيني"
+  },
+  {
+    "nameEn": "Lithuanian",
+    "nameAr": "لتوانيي"
+  },
+  {
+    "nameEn": "Luxembourger",
+    "nameAr": "لوكسمبورغي"
+  },
+  {
+    "nameEn": "Macanese",
+    "nameAr": "ماكاوي"
+  },
+  {
+    "nameEn": "Malagasy",
+    "nameAr": "مدغشقري"
+  },
+  {
+    "nameEn": "Malawian",
+    "nameAr": "مالاوي"
+  },
+  {
+    "nameEn": "Malaysian",
+    "nameAr": "ماليزي"
+  },
+  {
+    "nameEn": "Maldivian",
+    "nameAr": "مالديفي"
+  },
+  {
+    "nameEn": "Malian",
+    "nameAr": "مالي"
+  },
+  {
+    "nameEn": "Maltese",
+    "nameAr": "مالطي"
+  },
+  {
+    "nameEn": "Marshallese",
+    "nameAr": "مارشالي"
+  },
+  {
+    "nameEn": "Martiniquais",
+    "nameAr": "مارتينيكي"
+  },
+  {
+    "nameEn": "Mauritanian",
+    "nameAr": "موريتانيي"
+  },
+  {
+    "nameEn": "Mauritian",
+    "nameAr": "موريشيوسي"
+  },
+  {
+    "nameEn": "Mahoran",
+    "nameAr": "مايوتي"
+  },
+  {
+    "nameEn": "Mexican",
+    "nameAr": "مكسيكي"
+  },
+  {
+    "nameEn": "Micronesian",
+    "nameAr": "مايكرونيزيي"
+  },
+  {
+    "nameEn": "Moldovan",
+    "nameAr": "مولديفي"
+  },
+  {
+    "nameEn": "Monacan",
+    "nameAr": "مونيكي"
+  },
+  {
+    "nameEn": "Mongolian",
+    "nameAr": "منغولي"
+  },
+  {
+    "nameEn": "Montenegrin",
+    "nameAr": "الجبل الأسود"
+  },
+  {
+    "nameEn": "Montserratian",
+    "nameAr": "مونتسيراتي"
+  },
+  {
+    "nameEn": "Moroccan",
+    "nameAr": "مغربي"
+  },
+  {
+    "nameEn": "Mozambican",
+    "nameAr": "موزمبيقي"
+  },
+  {
+    "nameEn": "Myanmarian",
+    "nameAr": "ميانماري"
+  },
+  {
+    "nameEn": "Namibian",
+    "nameAr": "ناميبي"
+  },
+  {
+    "nameEn": "Nauruan",
+    "nameAr": "نوري"
+  },
+  {
+    "nameEn": "Nepalese",
+    "nameAr": "نيبالي"
+  },
+  {
+    "nameEn": "Dutch",
+    "nameAr": "هولندي"
+  },
+  {
+    "nameEn": "Dutch Antilier",
+    "nameAr": "هولندي"
+  },
+  {
+    "nameEn": "New Caledonian",
+    "nameAr": "كاليدوني"
+  },
+  {
+    "nameEn": "New Zealander",
+    "nameAr": "نيوزيلندي"
+  },
+  {
+    "nameEn": "Nicaraguan",
+    "nameAr": "نيكاراجوي"
+  },
+  {
+    "nameEn": "Nigerien",
+    "nameAr": "نيجيري"
+  },
+  {
+    "nameEn": "Nigerian",
+    "nameAr": "نيجيري"
+  },
+  {
+    "nameEn": "Niuean",
+    "nameAr": "ني"
+  },
+  {
+    "nameEn": "Norfolk Islander",
+    "nameAr": "نورفوليكي"
+  },
+  {
+    "nameEn": "North Korean",
+    "nameAr": "كوري"
+  },
+  {
+    "nameEn": "Macedonian",
+    "nameAr": "مقدوني"
+  },
+  {
+    "nameEn": "Northern Marianan",
+    "nameAr": "ماريني"
+  },
+  {
+    "nameEn": "Norwegian",
+    "nameAr": "نرويجي"
+  },
+  {
+    "nameEn": "Omani",
+    "nameAr": "عماني"
+  },
+  {
+    "nameEn": "Pakistani",
+    "nameAr": "باكستاني"
+  },
+  {
+    "nameEn": "Palauan",
+    "nameAr": "بالاوي"
+  },
+  {
+    "nameEn": "Palestinian",
+    "nameAr": "فلسطيني"
+  },
+  {
+    "nameEn": "Panamanian",
+    "nameAr": "بنمي"
+  },
+  {
+    "nameEn": "Papua New Guinean",
+    "nameAr": "بابوي"
+  },
+  {
+    "nameEn": "Paraguayan",
+    "nameAr": "بارغاوي"
+  },
+  {
+    "nameEn": "Peruvian",
+    "nameAr": "بيري"
+  },
+  {
+    "nameEn": "Filipino",
+    "nameAr": "فلبيني"
+  },
+  {
+    "nameEn": "Pitcairn Islander",
+    "nameAr": "بيتكيرني"
+  },
+  {
+    "nameEn": "Polish",
+    "nameAr": "بولندي"
+  },
+  {
+    "nameEn": "Portuguese",
+    "nameAr": "برتغالي"
+  },
+  {
+    "nameEn": "Puerto Rican",
+    "nameAr": "بورتي"
+  },
+  {
+    "nameEn": "Qatari",
+    "nameAr": "قطري"
+  },
+  {
+    "nameEn": "Reunionese",
+    "nameAr": "ريونيوني"
+  },
+  {
+    "nameEn": "Romanian",
+    "nameAr": "روماني"
+  },
+  {
+    "nameEn": "Russian",
+    "nameAr": "روسي"
+  },
+  {
+    "nameEn": "Rwandan",
+    "nameAr": "رواندا"
+  },
+  {
+    "nameEn": "Saint Barthelmian",
+    "nameAr": "سان بارتيلمي"
+  },
+  {
+    "nameEn": "St. Helenian",
+    "nameAr": "هيلاني"
+  },
+  {
+    "nameEn": "Kittitian/Nevisian",
+    "nameAr": "سانت كيتس ونيفس"
+  },
+  {
+    "nameEn": "St. Pierre and Miquelon",
+    "nameAr": "سان بيير وميكلوني"
+  },
+  {
+    "nameEn": "St. Martian(French)",
+    "nameAr": "ساينت مارتني فرنسي"
+  },
+  {
+    "nameEn": "Saint Pierre and Miquelon",
+    "nameAr": "سان بيير وميكلون"
+  },
+  {
+    "nameEn": "Saint Vincent and the Grenadines",
+    "nameAr": "سانت فنسنت وجزر غرينادين"
+  },
+  {
+    "nameEn": "Samoan",
+    "nameAr": "ساموي"
+  },
+  {
+    "nameEn": "Sammarinese",
+    "nameAr": "ماريني"
+  },
+  {
+    "nameEn": "Sao Tomean",
+    "nameAr": "ساو تومي وبرينسيبي"
+  },
+  {
+    "nameEn": "Saudi Arabian",
+    "nameAr": "سعودي"
+  },
+  {
+    "nameEn": "Senegalese",
+    "nameAr": "سنغالي"
+  },
+  {
+    "nameEn": "Serbian",
+    "nameAr": "صربي"
+  },
+  {
+    "nameEn": "Seychellois",
+    "nameAr": "سيشيلي"
+  },
+  {
+    "nameEn": "Sierra Leonean",
+    "nameAr": "سيراليوني"
+  },
+  {
+    "nameEn": "Singaporean",
+    "nameAr": "سنغافوري"
+  },
+  {
+    "nameEn": "St. Martian(Dutch)",
+    "nameAr": "ساينت مارتني هولندي"
+  },
+  {
+    "nameEn": "Slovak",
+    "nameAr": "سولفاكي"
+  },
+  {
+    "nameEn": "Slovenian",
+    "nameAr": "سولفيني"
+  },
+  {
+    "nameEn": "Solomon Island",
+    "nameAr": "جزر سليمان"
+  },
+  {
+    "nameEn": "Somali",
+    "nameAr": "صومالي"
+  },
+  {
+    "nameEn": "South African",
+    "nameAr": "أفريقي"
+  },
+  {
+    "nameEn": "South Georgia and the South Sandwich",
+    "nameAr": "لمنطقة القطبية الجنوبية"
+  },
+  {
+    "nameEn": "South Korean",
+    "nameAr": "كوري"
+  },
+  {
+    "nameEn": "South Sudanese",
+    "nameAr": "سوادني جنوبي"
+  },
+  {
+    "nameEn": "Spanish",
+    "nameAr": "إسباني"
+  },
+  {
+    "nameEn": "Sri Lankian",
+    "nameAr": "سريلانكي"
+  },
+  {
+    "nameEn": "Sudanese",
+    "nameAr": "سوداني"
+  },
+  {
+    "nameEn": "Surinamese",
+    "nameAr": "سورينامي"
+  },
+  {
+    "nameEn": "Svalbardian/Jan Mayenian",
+    "nameAr": "سفالبارد ويان ماين"
+  },
+  {
+    "nameEn": "Swedish",
+    "nameAr": "سويدي"
+  },
+  {
+    "nameEn": "Swiss",
+    "nameAr": "سويسري"
+  },
+  {
+    "nameEn": "Syrian",
+    "nameAr": "سوري"
+  },
+  {
+    "nameEn": "Taiwanese",
+    "nameAr": "تايواني"
+  },
+  {
+    "nameEn": "Tajikistani",
+    "nameAr": "طاجيكستاني"
+  },
+  {
+    "nameEn": "Tanzanian",
+    "nameAr": "تنزانيي"
+  },
+  {
+    "nameEn": "Thai",
+    "nameAr": "تايلندي"
+  },
+  {
+    "nameEn": "Timor-Lestian",
+    "nameAr": "تيموري"
+  },
+  {
+    "nameEn": "Togolese",
+    "nameAr": "توغي"
+  },
+  {
+    "nameEn": "Tokelaian",
+    "nameAr": "توكيلاوي"
+  },
+  {
+    "nameEn": "Tongan",
+    "nameAr": "تونغي"
+  },
+  {
+    "nameEn": "Trinidadian/Tobagonian",
+    "nameAr": "ترينيداد وتوباغو"
+  },
+  {
+    "nameEn": "Tunisian",
+    "nameAr": "تونسي"
+  },
+  {
+    "nameEn": "Turkish",
+    "nameAr": "تركي"
+  },
+  {
+    "nameEn": "Turkmen",
+    "nameAr": "تركمانستاني"
+  },
+  {
+    "nameEn": "Turks and Caicos Islands",
+    "nameAr": "جزر توركس وكايكوس"
+  },
+  {
+    "nameEn": "Tuvaluan",
+    "nameAr": "توفالي"
+  },
+  {
+    "nameEn": "US Minor Outlying Islander",
+    "nameAr": "أمريكي"
+  },
+  {
+    "nameEn": "American Virgin Islander",
+    "nameAr": "أمريكي"
+  },
+  {
+    "nameEn": "Ugandan",
+    "nameAr": "أوغندي"
+  },
+  {
+    "nameEn": "Ukrainian",
+    "nameAr": "أوكراني"
+  },
+  {
+    "nameEn": "Emirati",
+    "nameAr": "إماراتي"
+  },
+  {
+    "nameEn": "British",
+    "nameAr": "بريطاني"
+  },
+  {
+    "nameEn": "American",
+    "nameAr": "أمريكي"
+  },
+  {
+    "nameEn": "Uruguayan",
+    "nameAr": "أورغواي"
+  },
+  {
+    "nameEn": "Uzbek",
+    "nameAr": "أوزباكستاني"
+  },
+  {
+    "nameEn": "Vanuatuan",
+    "nameAr": "فانواتي"
+  },
+  {
+    "nameEn": "Vatican",
+    "nameAr": "فاتيكاني"
+  },
+  {
+    "nameEn": "Venezuelan",
+    "nameAr": "فنزويلي"
+  },
+  {
+    "nameEn": "Vietnamese",
+    "nameAr": "فيتنامي"
+  },
+  {
+    "nameEn": "Wallisian/Futunan",
+    "nameAr": "فوتوني"
+  },
+  {
+    "nameEn": "Sahrawian",
+    "nameAr": "صحراوي"
+  },
+  {
+    "nameEn": "Yemeni",
+    "nameAr": "يمني"
+  },
+  {
+    "nameEn": "Zambian",
+    "nameAr": "زامبياني"
+  },
+  {
+    "nameEn": "Zimbabwean",
+    "nameAr": "زمبابوي"
+  }
+]

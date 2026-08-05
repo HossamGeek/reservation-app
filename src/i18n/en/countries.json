@@ -1,0 +1,21 @@
+{
+  "getAll": {
+    "success": "Countries retrieved successfully."
+  },
+  "update": {
+    "bulkActivate": {
+      "success": "Countries activated successfully."
+    },
+    "bulkDeactivate": {
+      "success": "Countries deactivated successfully."
+    }
+  },
+  "activate": {
+    "success": "Country activated successfully."
+  },
+  "deactivate": {
+    "success": "Country deactivated successfully."
+  },
+  "notFound": "Country not found.",
+  "alreadyExists": "Country name already exists."
+}

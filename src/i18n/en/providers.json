@@ -1,0 +1,76 @@
+{
+  "alreadyExists": "Provider already exists.",
+  "created": "Provider created successfully.",
+  "list": {
+    "success": "Providers join requests retrieved successfully."
+  },
+  "update": {
+    "success": "Provider join request updated successfully."
+  },
+  "get": {
+    "providerJoinRequestNotFound": "Provider join request not found",
+    "success": "Provider join request retrieved successfully.",
+    "providerMainBranchNotFound": "Provider main branch not found",
+    "documents": {
+      "success": "Provider documents retrieved successfully."
+    }
+  },
+  "application": {
+    "reviewed": "Provider application has been reviewed."
+  },
+  "errors": {
+    "notFound": "Provider not found.",
+    "status": {
+      "forbidden": "Cannot update provider application status because the provider is already approved."
+    },
+    "documents": {
+      "success": "Provider documents retrieved successfully.",
+      "mustBeUnique": "All document ids must be different.",
+      "notApproved": "Cannot approve provider application because not all required documents have been approved.",
+      "replaceAllRejected": "All invalid documents must be replaced to modify the provider application.",
+      "notFound": {
+        "commercialDoc": "Commercial registration document not found.",
+        "recruitmentLicenseDoc": "Recruitment license document not found.",
+        "nationalAddressProofDoc": "National address proof document not found.",
+        "ibanCertificateDoc": "IBAN certificate document not found.",
+        "vatCertificateDoc": "VAT certificate document not found.",
+        "logo": "Logo not found."
+      },
+      "alreadyAssigned": {
+        "commercialDoc": "Commercial registration document is already assigned to another provider.",
+        "recruitmentLicenseDoc": "Recruitment license document is already assigned to another provider.",
+        "nationalAddressProofDoc": "National address proof document is already assigned to another provider.",
+        "ibanCertificateDoc": "IBAN certificate document is already assigned to another provider.",
+        "vatCertificateDoc": "VAT certificate document is already assigned to another provider.",
+        "logo": "Logo is already assigned to another provider."
+      },
+      "alreadyUsed": {
+        "commercialDoc": "Commercial registration document is already in use.",
+        "recruitmentLicenseDoc": "Recruitment license document is already in use.",
+        "nationalAddressProofDoc": "National address proof document is already in use.",
+        "ibanCertificateDoc": "IBAN certificate document is already in use.",
+        "vatCertificateDoc": "VAT certificate document is already in use.",
+        "logo": "Logo is already in use."
+      },
+      "notPending": {
+        "commercialDoc": "Commercial registration document is not pending.",
+        "recruitmentLicenseDoc": "Recruitment license document is not pending.",
+        "nationalAddressProofDoc": "National address proof document is not pending.",
+        "ibanCertificateDoc": "IBAN certificate document is not pending.",
+        "vatCertificateDoc": "VAT certificate document is not pending.",
+        "logo": "Logo is not pending."
+      },
+      "notReplaceable": {
+        "commercialDoc": "Commercial registration document is not replaceable right now.",
+        "recruitmentLicenseDoc": "Recruitment license document is not replaceable right now.",
+        "nationalAddressProofDoc": "National address proof document is not replaceable right now.",
+        "ibanCertificateDoc": "IBAN certificate document is not replaceable right now.",
+        "vatCertificateDoc": "VAT certificate document is not replaceable right now.",
+        "logo": "Logo is not replaceable right now."
+      }
+    },
+    "passwordRequired": "Password is required for provider owner.",
+    "onUnderReview": "Provider is already under review.",
+    "onRejected": "Provider is already rejected."
+  }
+}

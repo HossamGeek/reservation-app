@@ -1,0 +1,11 @@
+{
+  "success": {
+    "created": "Service created successfully",
+    "statistics": "Services statistics retrieved successfully",
+    "getAll": "Services retrieved successfully.",
+    "getOne": "Service details retrieved successfully.",
+    "delete": "Service deleted successfully"
+  },
+  "alreadyExists": "Service already exists.",
+  "notFound": "Service not found"
+}

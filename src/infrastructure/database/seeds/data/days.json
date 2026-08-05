@@ -1,0 +1,9 @@
+[
+  { "sortOrder": 1, "nameAr": "السبت", "nameEn": "saturday" },
+  { "sortOrder": 2, "nameAr": "الأحد", "nameEn": "sunday" },
+  { "sortOrder": 3, "nameAr": "الإثنين", "nameEn": "monday" },
+  { "sortOrder": 4, "nameAr": "الثلاثاء", "nameEn": "tuesday" },
+  { "sortOrder": 5, "nameAr": "الأربعاء", "nameEn": "wednesday" },
+  { "sortOrder": 6, "nameAr": "الخميس", "nameEn": "thursday" },
+  { "sortOrder": 7, "nameAr": "الجمعة", "nameEn": "friday" }
+]

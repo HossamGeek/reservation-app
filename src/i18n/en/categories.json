@@ -1,0 +1,31 @@
+{
+  "getAll": {
+    "success": "Categories retrieved successfully."
+  },
+  "getOne": {
+    "success": "Category retrieved successfully."
+  },
+  "create": {
+    "success": "Category created successfully."
+  },
+  "update": {
+    "success": "Category updated successfully."
+  },
+  "activate": {
+    "success": "Category activated successfully."
+  },
+  "deactivate": {
+    "success": "Category deactivated successfully."
+  },
+  "delete": {
+    "success": "Category deleted successfully."
+  },
+  "notFound": "Category not found",
+  "alreadyExists": "Category already exists.",
+  "errors": {
+    "nameArExists": "Arabic name already exists.",
+    "nameEnExists": "English name already exists.",
+    "logoAlreadyUsed": "Logo is already used.",
+    "logoNotFound": "Logo not found."
+  }
+}

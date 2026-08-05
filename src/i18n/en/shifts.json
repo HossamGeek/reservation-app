@@ -1,0 +1,28 @@
+{
+  "getAll": {
+    "success": "Shifts retrieved successfully."
+  },
+  "getOne": {
+    "success": "Shift retrieved successfully."
+  },
+  "create": {
+    "success": "Shift created successfully."
+  },
+  "update": {
+    "success": "Shift updated successfully."
+  },
+  "activate": {
+    "success": "Shift activated successfully."
+  },
+  "deactivate": {
+    "success": "Shift deactivated successfully."
+  },
+  "errors": {
+    "notFound": "Shift not found.",
+    "fromHourOutOfBoundaries": "From hour is out of boundaries.",
+    "toHourOutOfBoundaries": "To hour is out of boundaries.",
+    "invalidTimeRange": "Invalid time range.",
+    "duplicateShiftName": "Shift name already exists.",
+    "providerAssociationRequired": "Authenticated user is not associated with a provider."
+  }
+}

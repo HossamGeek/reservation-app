@@ -1,0 +1,18 @@
+{
+  "getAll": {
+    "success": "Branches retrieved successfully"
+  },
+  "create": {
+    "success": "Branch created successfully."
+  },
+  "getOne": {
+    "success": "Branch retrieved successfully."
+  },
+  "errors": {
+    "notFound": "Branch not found",
+    "duplicate": "Branch already exists",
+    "invalidLogo": "Invalid logo document",
+    "logoAlreadyUsed": "Logo document is already used",
+    "providerAssociationRequired": "Provider association is required"
+  }
+}

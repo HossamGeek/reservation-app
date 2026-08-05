@@ -1,0 +1,29 @@
+{
+  "getAll": {
+    "success": "Religions retrieved successfully."
+  },
+  "create": {
+    "success": "Religion created successfully."
+  },
+  "update": {
+    "success": "Religion updated successfully.",
+    "bulkActivate": {
+      "success": "Religions activated successfully."
+    },
+    "bulkDeactivate": {
+      "success": "Religions deactivated successfully."
+    }
+  },
+  "activate": {
+    "success": "Religion activated successfully."
+  },
+  "deactivate": {
+    "success": "Religion deactivated successfully."
+  },
+  "notFound": "Religion not found.",
+  "alreadyExists": "Religion already exists.",
+  "errors": {
+    "nameArExists": "Arabic name already exists.",
+    "nameEnExists": "English name already exists."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "getAll": {
+    "success": "تم استرجاع الدول بنجاح."
+  },
+  "update": {
+    "bulkActivate": {
+      "success": "تم تفعيل الدول بنجاح."
+    },
+    "bulkDeactivate": {
+      "success": "تم إلغاء تفعيل الدول بنجاح."
+    }
+  },
+  "activate": {
+    "success": "تم تفعيل الدولة بنجاح."
+  },
+  "deactivate": {
+    "success": "تم إلغاء تفعيل الدولة بنجاح."
+  },
+  "notFound": "الدولة غير موجودة.",
+  "alreadyExists": "الدولة موجودة بالفعل."
+}

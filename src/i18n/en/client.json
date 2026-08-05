@@ -1,0 +1,29 @@
+{
+  "profile": {
+    "update": {
+      "success": "Profile updated successfully"
+    },
+    "get": {
+      "success": "Client profile retrieved successfully"
+    },
+    "errors": {
+      "forbidden": "Only clients can update their profile",
+      "duplicate": "Profile data already exists",
+      "logoAlreadyUsed": "Profile image document is already used",
+      "invalidLogo": "Invalid profile image document"
+    }
+  },
+  "address": {
+    "create": {
+      "success": "Address created successfully"
+    },
+    "errors": {
+      "cityNotFound": "City not found",
+      "clientNotFound": "Client not found",
+      "forbidden": "Only clients can create addresses"
+    }
+  },
+  "errors": {
+    "notFound": "Client not found"
+  }
+}

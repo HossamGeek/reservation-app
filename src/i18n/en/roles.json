@@ -1,0 +1,23 @@
+{
+  "getAll": {
+    "success": "Roles retrieved successfully."
+  },
+  "getOne": {
+    "success": "Role retrieved successfully."
+  },
+  "create": {
+    "success": "Role created successfully."
+  },
+  "update": {
+    "success": "Role updated successfully."
+  },
+  "delete": {
+    "success": "Role deleted successfully."
+  },
+  "restore": {
+    "success": "Role restored successfully."
+  },
+  "notFound": "Role not found.",
+  "alreadyExists": "Role already exists.",
+  "systemRole": "System role cannot be modified or deleted."
+}

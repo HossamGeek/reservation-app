@@ -1,0 +1,28 @@
+{
+  "getAll": {
+    "success": "تم جلب مناوبات العمل بنجاح."
+  },
+  "getOne": {
+    "success": "تم جلب مناوبة العمل بنجاح."
+  },
+  "create": {
+    "success": "تم إنشاء مناوبة العمل بنجاح."
+  },
+  "update": {
+    "success": "تم تحديث مناوبة العمل بنجاح."
+  },
+  "activate": {
+    "success": "تم تفعيل مناوبة العمل بنجاح."
+  },
+  "deactivate": {
+    "success": "تم إلغاء تفعيل مناوبة العمل بنجاح."
+  },
+  "errors": {
+    "notFound": "مناوبة العمل غير موجودة.",
+    "fromHourOutOfBoundaries": "ساعة البداية خارج الحدود المسموح بها.",
+    "toHourOutOfBoundaries": "ساعة النهاية خارج الحدود المسموح بها",
+    "invalidTimeRange": "نطاق الوقت غير صحيح.",
+    "duplicateShiftName": "اسم مناوبة العمل موجود بالفعل.",
+    "providerAssociationRequired": "المستخدم المصادق عليه غير مرتبط بمزود خدمة."
+  }
+}

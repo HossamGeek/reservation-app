@@ -1,0 +1,62 @@
+[
+  {
+    "nameEn": "Driver",
+    "nameAr": "سائق"
+  },
+  {
+    "nameEn": "Housemaid",
+    "nameAr": "عاملة منزلية"
+  },
+  {
+    "nameEn": "Nanny",
+    "nameAr": "مربية أطفال"
+  },
+  {
+    "nameEn": "Cleaner",
+    "nameAr": "عامل نظافة"
+  },
+  {
+    "nameEn": "Elderly Care",
+    "nameAr": "مقدم رعاية لكبار السن"
+  },
+  {
+    "nameEn": "Supervisor",
+    "nameAr": "مشرف"
+  },
+  {
+    "nameEn": "Cook",
+    "nameAr": "طباخ"
+  },
+  {
+    "nameEn": "Private Tutor",
+    "nameAr": "مدرس خاص"
+  },
+  {
+    "nameEn": "Nurse",
+    "nameAr": "ممرض"
+  },
+  {
+    "nameEn": "Security Guard",
+    "nameAr": "حارس أمن"
+  },
+  {
+    "nameEn": "Receptionist",
+    "nameAr": "موظف استقبال"
+  },
+  {
+    "nameEn": "Office Assistant",
+    "nameAr": "مساعد إداري"
+  },
+  {
+    "nameEn": "Gardener",
+    "nameAr": "بستاني"
+  },
+  {
+    "nameEn": "Laundry Worker",
+    "nameAr": "عامل مغسلة"
+  },
+  {
+    "nameEn": "Housekeeper",
+    "nameAr": "مديرة منزل"
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "errors": {
+    "BadRequest": "طلب غير صالح",
+    "Unauthorized": "غير مصرح به",
+    "Forbidden": "محظور",
+    "NotFound": "غير موجود",
+    "InternalServerError": "خطأ داخلي في الخادم",
+    "MethodNotAllowed": "الطريقة غير مسموح بها",
+    "NotAcceptable": "غير مقبول",
+    "RequestTimeout": "انتهت مهلة الطلب",
+    "Conflict": "تعارض",
+    "Gone": "لم يعد موجوداً",
+    "PayloadTooLarge": "حجم الحمولة كبير جداً",
+    "UnsupportedMediaType": "نوع الوسائط غير مدعوم",
+    "UnprocessableEntity": "كيان غير قابل للمعالجة",
+    "TooManyRequests": "طلبات كثيرة جداً"
+  }
+}

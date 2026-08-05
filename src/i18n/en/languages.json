@@ -1,0 +1,29 @@
+{
+  "getAll": {
+    "success": "Languages retrieved successfully."
+  },
+  "create": {
+    "success": "Language created successfully"
+  },
+  "update": {
+    "success": "Language status updated successfully",
+    "bulkActivate": {
+      "success": "Languages activated successfully."
+    },
+    "bulkDeactivate": {
+      "success": "Languages deactivated successfully."
+    }
+  },
+  "activate": {
+    "success": "Language activated successfully."
+  },
+  "deactivate": {
+    "success": "Language deactivated successfully."
+  },
+  "notFound": "Language not found",
+  "alreadyExists": "language already exists.",
+  "errors": {
+    "nameArExists": "Arabic name already exists.",
+    "nameEnExists": "English name already exists."
+  }
+}

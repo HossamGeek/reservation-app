@@ -1,0 +1,23 @@
+name: Deploy to Dev Server
+
+on:
+  push:
+    branches:
+      - new/pre-dev
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: SSH Deploy
+        uses: appleboy/ssh-action@v1.2.2
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}
+          key: ${{ secrets.SSH_KEY }}
+          script: |
+            cd /home/ubuntu/ERP-api
+            git pull origin dev
+            docker compose down
+            docker compose up -d --build

@@ -1,0 +1,20 @@
+[
+  {
+    "nameAr": "بالساعة",
+    "nameEn": "Hourly",
+    "supportsOptions": true,
+    "type": "HOURLY"
+  },
+  {
+    "nameAr": "إقامة",
+    "nameEn": "Live-in",
+    "supportsOptions": false,
+    "type": "LIVE_IN"
+  },
+  {
+    "nameAr": "استقدام",
+    "nameEn": "Recruitment",
+    "supportsOptions": false,
+    "type": "RECRUITMENT"
+  }
+]

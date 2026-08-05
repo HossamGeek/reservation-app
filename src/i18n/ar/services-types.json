@@ -1,0 +1,19 @@
+{
+  "create": {},
+  "getAll": {
+    "success": "تم استرجاع جميع انواع الخدمات بنجاح"
+  },
+  "activate": {
+    "success": "تم تفعيل نوع الخدمة بنجاح"
+  },
+  "deactivate": {
+    "success": "تم إلغاء تفعيل نوع الخدمة بنجاح"
+  },
+  "getOne": {},
+  "update": {},
+  "remove": {},
+  "errors": {
+    "notFound": "نوع الخدمة غير موجود",
+    "doesNotSupportOptions": "نوع الخدمة المحدد لا يدعم الخيارات"
+  }
+}

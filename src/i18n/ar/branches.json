@@ -1,0 +1,18 @@
+{
+  "getAll": {
+    "success": "تم استرجاع الفروع بنجاح"
+  },
+  "create": {
+    "success": "تم إنشاء الفرع بنجاح."
+  },
+  "getOne": {
+    "success": "تم استرجاع الفرع بنجاح."
+  },
+  "errors": {
+    "notFound": "الفرع غير موجودة.",
+    "duplicate": "الفرع موجود بالفعل.",
+    "invalidLogo": "مستند الشعار غير صالح.",
+    "logoAlreadyUsed": "مستند الشعار مستخدم بالفعل",
+    "providerAssociationRequired": "يجب ربط المستخدم بمقدم خدمة."
+  }
+}

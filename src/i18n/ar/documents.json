@@ -1,0 +1,20 @@
+{
+  "upload": {
+    "success": "تم رفع المستند بنجاح."
+  },
+  "update":{
+    "approved": "تمت مراجعة المستند بنجاح.",
+    "rejected": "تم رفض المستند بنجاح."
+  },
+  "errors": {
+    "noFile": "لم يتم رفع أي ملف.",
+    "tooManyFiles": "عدد الملفات يتجاوز الحد الأقصى المسموح به وهو {maxCount}.",
+    "unsupportedType": "نوع ملف غير مدعوم: {ext} - الأنواع المدعومة: {supportedTypes}",
+    "fileTooLarge": "حجم الملف يتجاوز الحد الأقصى المسموح به {maxSize} ميجابايت.",
+    "notFound": "المستند غير موجود.",
+    "physicalFileNotFound": "الملف الفعلي غير موجود.",
+    "onlyProviderDocumentsCanBeReviewed": ".مراجعة المستندات الخاصة بالمزود فقط",
+    "alreadyReviewed": "المستند قد تم مراجعته",
+    "alreadyUsed": "المستند قد تم استخدامه"
+  }
+}

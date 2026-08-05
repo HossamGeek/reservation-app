@@ -1,0 +1,4232 @@
+[
+  {
+    "english_name": "Kabul",
+    "arabic_name": "كابل",
+    "country_alpha2_code": "AF"
+  },
+  {
+    "english_name": "Kandahar",
+    "arabic_name": "قندهار",
+    "country_alpha2_code": "AF"
+  },
+  {
+    "english_name": "Herat",
+    "arabic_name": "هرات",
+    "country_alpha2_code": "AF"
+  },
+  {
+    "english_name": "Mariehamn",
+    "arabic_name": "ماريهامن",
+    "country_alpha2_code": "AX"
+  },
+  {
+    "english_name": "Jomala",
+    "arabic_name": "يومالا",
+    "country_alpha2_code": "AX"
+  },
+  {
+    "english_name": "Finström",
+    "arabic_name": "فينستروم",
+    "country_alpha2_code": "AX"
+  },
+  {
+    "english_name": "Tirana",
+    "arabic_name": "تيرانا",
+    "country_alpha2_code": "AL"
+  },
+  {
+    "english_name": "Durrës",
+    "arabic_name": "دوريس",
+    "country_alpha2_code": "AL"
+  },
+  {
+    "english_name": "Vlorë",
+    "arabic_name": "فلورا",
+    "country_alpha2_code": "AL"
+  },
+  {
+    "english_name": "Algiers",
+    "arabic_name": "الجزائر العاصمة",
+    "country_alpha2_code": "DZ"
+  },
+  {
+    "english_name": "Oran",
+    "arabic_name": "وهران",
+    "country_alpha2_code": "DZ"
+  },
+  {
+    "english_name": "Constantine",
+    "arabic_name": "قسنطينة",
+    "country_alpha2_code": "DZ"
+  },
+  {
+    "english_name": "Pago Pago",
+    "arabic_name": "باغو باغو",
+    "country_alpha2_code": "AS"
+  },
+  {
+    "english_name": "Tafuna",
+    "arabic_name": "تافونا",
+    "country_alpha2_code": "AS"
+  },
+  {
+    "english_name": "Leone",
+    "arabic_name": "ليوني",
+    "country_alpha2_code": "AS"
+  },
+  {
+    "english_name": "Andorra la Vella",
+    "arabic_name": "أندورا لا فيلا",
+    "country_alpha2_code": "AD"
+  },
+  {
+    "english_name": "Escaldes-Engordany",
+    "arabic_name": "إسكالديس إنغورداني",
+    "country_alpha2_code": "AD"
+  },
+  {
+    "english_name": "Encamp",
+    "arabic_name": "إنكامب",
+    "country_alpha2_code": "AD"
+  },
+  {
+    "english_name": "Luanda",
+    "arabic_name": "لواندا",
+    "country_alpha2_code": "AO"
+  },
+  {
+    "english_name": "Huambo",
+    "arabic_name": "هوامبو",
+    "country_alpha2_code": "AO"
+  },
+  {
+    "english_name": "Lobito",
+    "arabic_name": "لوبيتو",
+    "country_alpha2_code": "AO"
+  },
+  {
+    "english_name": "The Valley",
+    "arabic_name": "ذا فالي",
+    "country_alpha2_code": "AI"
+  },
+  {
+    "english_name": "North Hill",
+    "arabic_name": "نورث هيل",
+    "country_alpha2_code": "AI"
+  },
+  {
+    "english_name": "Sandy Ground",
+    "arabic_name": "ساندي غراوند",
+    "country_alpha2_code": "AI"
+  },
+  {
+    "english_name": "McMurdo Station",
+    "arabic_name": "محطة ماكموردو",
+    "country_alpha2_code": "AQ"
+  },
+  {
+    "english_name": "Palmer Station",
+    "arabic_name": "محطة بالمر",
+    "country_alpha2_code": "AQ"
+  },
+  {
+    "english_name": "Rothera Station",
+    "arabic_name": "محطة روثيرا",
+    "country_alpha2_code": "AQ"
+  },
+  {
+    "english_name": "St. John's",
+    "arabic_name": "سانت جونز",
+    "country_alpha2_code": "AG"
+  },
+  {
+    "english_name": "All Saints",
+    "arabic_name": "جميع القديسين",
+    "country_alpha2_code": "AG"
+  },
+  {
+    "english_name": "Liberta",
+    "arabic_name": "ليبرتا",
+    "country_alpha2_code": "AG"
+  },
+  {
+    "english_name": "Buenos Aires",
+    "arabic_name": "بوينس آيرس",
+    "country_alpha2_code": "AR"
+  },
+  {
+    "english_name": "Córdoba",
+    "arabic_name": "قرطبة",
+    "country_alpha2_code": "AR"
+  },
+  {
+    "english_name": "Rosario",
+    "arabic_name": "روزاريو",
+    "country_alpha2_code": "AR"
+  },
+  {
+    "english_name": "Yerevan",
+    "arabic_name": "يريفان",
+    "country_alpha2_code": "AM"
+  },
+  {
+    "english_name": "Gyumri",
+    "arabic_name": "غيومري",
+    "country_alpha2_code": "AM"
+  },
+  {
+    "english_name": "Vanadzor",
+    "arabic_name": "فانادزور",
+    "country_alpha2_code": "AM"
+  },
+  {
+    "english_name": "Oranjestad",
+    "arabic_name": "أورانيستاد",
+    "country_alpha2_code": "AW"
+  },
+  {
+    "english_name": "San Nicolas",
+    "arabic_name": "سان نيكولاس",
+    "country_alpha2_code": "AW"
+  },
+  {
+    "english_name": "Santa Cruz",
+    "arabic_name": "سانتا كروز",
+    "country_alpha2_code": "AW"
+  },
+  {
+    "english_name": "Sydney",
+    "arabic_name": "سيدني",
+    "country_alpha2_code": "AU"
+  },
+  {
+    "english_name": "Melbourne",
+    "arabic_name": "ملبورن",
+    "country_alpha2_code": "AU"
+  },
+  {
+    "english_name": "Brisbane",
+    "arabic_name": "بريزبين",
+    "country_alpha2_code": "AU"
+  },
+  {
+    "english_name": "Vienna",
+    "arabic_name": "فيينا",
+    "country_alpha2_code": "AT"
+  },
+  {
+    "english_name": "Graz",
+    "arabic_name": "غراتس",
+    "country_alpha2_code": "AT"
+  },
+  {
+    "english_name": "Linz",
+    "arabic_name": "لينتس",
+    "country_alpha2_code": "AT"
+  },
+  {
+    "english_name": "Baku",
+    "arabic_name": "باكو",
+    "country_alpha2_code": "AZ"
+  },
+  {
+    "english_name": "Ganja",
+    "arabic_name": "غنجة",
+    "country_alpha2_code": "AZ"
+  },
+  {
+    "english_name": "Sumgait",
+    "arabic_name": "سومقاييت",
+    "country_alpha2_code": "AZ"
+  },
+  {
+    "english_name": "Nassau",
+    "arabic_name": "ناسو",
+    "country_alpha2_code": "BS"
+  },
+  {
+    "english_name": "Freeport",
+    "arabic_name": "فريبورت",
+    "country_alpha2_code": "BS"
+  },
+  {
+    "english_name": "West End",
+    "arabic_name": "ويست إند",
+    "country_alpha2_code": "BS"
+  },
+  {
+    "english_name": "Manama",
+    "arabic_name": "المنامة",
+    "country_alpha2_code": "BH"
+  },
+  {
+    "english_name": "Riffa",
+    "arabic_name": "الرفاع",
+    "country_alpha2_code": "BH"
+  },
+  {
+    "english_name": "Muharraq",
+    "arabic_name": "المحرق",
+    "country_alpha2_code": "BH"
+  },
+  {
+    "english_name": "Dhaka",
+    "arabic_name": "دكا",
+    "country_alpha2_code": "BD"
+  },
+  {
+    "english_name": "Chittagong",
+    "arabic_name": "شيتاغونغ",
+    "country_alpha2_code": "BD"
+  },
+  {
+    "english_name": "Khulna",
+    "arabic_name": "خولنا",
+    "country_alpha2_code": "BD"
+  },
+  {
+    "english_name": "Bridgetown",
+    "arabic_name": "بريدج تاون",
+    "country_alpha2_code": "BB"
+  },
+  {
+    "english_name": "Speightstown",
+    "arabic_name": "سبايتستاون",
+    "country_alpha2_code": "BB"
+  },
+  {
+    "english_name": "Oistins",
+    "arabic_name": "أويستنز",
+    "country_alpha2_code": "BB"
+  },
+  {
+    "english_name": "Minsk",
+    "arabic_name": "مينسك",
+    "country_alpha2_code": "BY"
+  },
+  {
+    "english_name": "Gomel",
+    "arabic_name": "غوميل",
+    "country_alpha2_code": "BY"
+  },
+  {
+    "english_name": "Mogilev",
+    "arabic_name": "موغيليف",
+    "country_alpha2_code": "BY"
+  },
+  {
+    "english_name": "Brussels",
+    "arabic_name": "بروكسل",
+    "country_alpha2_code": "BE"
+  },
+  {
+    "english_name": "Antwerp",
+    "arabic_name": "أنتويرب",
+    "country_alpha2_code": "BE"
+  },
+  {
+    "english_name": "Ghent",
+    "arabic_name": "غنت",
+    "country_alpha2_code": "BE"
+  },
+  {
+    "english_name": "Belize City",
+    "arabic_name": "مدينة بليز",
+    "country_alpha2_code": "BZ"
+  },
+  {
+    "english_name": "San Ignacio",
+    "arabic_name": "سان إغناسيو",
+    "country_alpha2_code": "BZ"
+  },
+  {
+    "english_name": "Belmopan",
+    "arabic_name": "بلموبان",
+    "country_alpha2_code": "BZ"
+  },
+  {
+    "english_name": "Cotonou",
+    "arabic_name": "كوتونو",
+    "country_alpha2_code": "BJ"
+  },
+  {
+    "english_name": "Porto-Novo",
+    "arabic_name": "بورتو نوفو",
+    "country_alpha2_code": "BJ"
+  },
+  {
+    "english_name": "Parakou",
+    "arabic_name": "باراكو",
+    "country_alpha2_code": "BJ"
+  },
+  {
+    "english_name": "Hamilton",
+    "arabic_name": "هاملتون",
+    "country_alpha2_code": "BM"
+  },
+  {
+    "english_name": "Saint George",
+    "arabic_name": "سانت جورج",
+    "country_alpha2_code": "BM"
+  },
+  {
+    "english_name": "Flatts Village",
+    "arabic_name": "فلاتس فيليج",
+    "country_alpha2_code": "BM"
+  },
+  {
+    "english_name": "Thimphu",
+    "arabic_name": "تيمفو",
+    "country_alpha2_code": "BT"
+  },
+  {
+    "english_name": "Phuntsholing",
+    "arabic_name": "فونتشولينغ",
+    "country_alpha2_code": "BT"
+  },
+  {
+    "english_name": "Paro",
+    "arabic_name": "بارو",
+    "country_alpha2_code": "BT"
+  },
+  {
+    "english_name": "Santa Cruz de la Sierra",
+    "arabic_name": "سانتا كروز دي لا سييرا",
+    "country_alpha2_code": "BO"
+  },
+  {
+    "english_name": "La Paz",
+    "arabic_name": "لاباز",
+    "country_alpha2_code": "BO"
+  },
+  {
+    "english_name": "Cochabamba",
+    "arabic_name": "كوتشابامبا",
+    "country_alpha2_code": "BO"
+  },
+  {
+    "english_name": "Sarajevo",
+    "arabic_name": "سراييفو",
+    "country_alpha2_code": "BA"
+  },
+  {
+    "english_name": "Banja Luka",
+    "arabic_name": "بانيا لوكا",
+    "country_alpha2_code": "BA"
+  },
+  {
+    "english_name": "Tuzla",
+    "arabic_name": "توزلا",
+    "country_alpha2_code": "BA"
+  },
+  {
+    "english_name": "Gaborone",
+    "arabic_name": "غابورون",
+    "country_alpha2_code": "BW"
+  },
+  {
+    "english_name": "Francistown",
+    "arabic_name": "فرانسيستاون",
+    "country_alpha2_code": "BW"
+  },
+  {
+    "english_name": "Molepolole",
+    "arabic_name": "موليبولولي",
+    "country_alpha2_code": "BW"
+  },
+  {
+    "english_name": "Bouvet Island",
+    "arabic_name": "جزيرة بوفيه",
+    "country_alpha2_code": "BV"
+  },
+  {
+    "english_name": "Bouvet Station",
+    "arabic_name": "محطة بوفيه",
+    "country_alpha2_code": "BV"
+  },
+  {
+    "english_name": "Nyrøysa",
+    "arabic_name": "نيرويسا",
+    "country_alpha2_code": "BV"
+  },
+  {
+    "english_name": "São Paulo",
+    "arabic_name": "ساو باولو",
+    "country_alpha2_code": "BR"
+  },
+  {
+    "english_name": "Rio de Janeiro",
+    "arabic_name": "ريو دي جانيرو",
+    "country_alpha2_code": "BR"
+  },
+  {
+    "english_name": "Brasília",
+    "arabic_name": "برازيليا",
+    "country_alpha2_code": "BR"
+  },
+  {
+    "english_name": "Diego Garcia",
+    "arabic_name": "دييغو غارسيا",
+    "country_alpha2_code": "IO"
+  },
+  {
+    "english_name": "Eagle Islands",
+    "arabic_name": "جزر إيغل",
+    "country_alpha2_code": "IO"
+  },
+  {
+    "english_name": "Peros Banhos",
+    "arabic_name": "بيروس بانوس",
+    "country_alpha2_code": "IO"
+  },
+  {
+    "english_name": "Road Town",
+    "arabic_name": "رود تاون",
+    "country_alpha2_code": "VG"
+  },
+  {
+    "english_name": "Spanish Town",
+    "arabic_name": "سبانيش تاون",
+    "country_alpha2_code": "VG"
+  },
+  {
+    "english_name": "The Settlement",
+    "arabic_name": "ذا سيتلمنت",
+    "country_alpha2_code": "VG"
+  },
+  {
+    "english_name": "Bandar Seri Begawan",
+    "arabic_name": "بندر سري بيغاوان",
+    "country_alpha2_code": "BN"
+  },
+  {
+    "english_name": "Seria",
+    "arabic_name": "سيريا",
+    "country_alpha2_code": "BN"
+  },
+  {
+    "english_name": "Tutong",
+    "arabic_name": "توتونغ",
+    "country_alpha2_code": "BN"
+  },
+  {
+    "english_name": "Sofia",
+    "arabic_name": "صوفيا",
+    "country_alpha2_code": "BG"
+  },
+  {
+    "english_name": "Plovdiv",
+    "arabic_name": "بلوفديف",
+    "country_alpha2_code": "BG"
+  },
+  {
+    "english_name": "Varna",
+    "arabic_name": "فارنا",
+    "country_alpha2_code": "BG"
+  },
+  {
+    "english_name": "Ouagadougou",
+    "arabic_name": "واغادوغو",
+    "country_alpha2_code": "BF"
+  },
+  {
+    "english_name": "Bobo-Dioulasso",
+    "arabic_name": "بوبو ديولاسو",
+    "country_alpha2_code": "BF"
+  },
+  {
+    "english_name": "Koudougou",
+    "arabic_name": "كودوغو",
+    "country_alpha2_code": "BF"
+  },
+  {
+    "english_name": "Bujumbura",
+    "arabic_name": "بوجومبورا",
+    "country_alpha2_code": "BI"
+  },
+  {
+    "english_name": "Gitega",
+    "arabic_name": "غيتيغا",
+    "country_alpha2_code": "BI"
+  },
+  {
+    "english_name": "Ngozi",
+    "arabic_name": "نغوزي",
+    "country_alpha2_code": "BI"
+  },
+  {
+    "english_name": "Praia",
+    "arabic_name": "برايا",
+    "country_alpha2_code": "CV"
+  },
+  {
+    "english_name": "Mindelo",
+    "arabic_name": "مينديلو",
+    "country_alpha2_code": "CV"
+  },
+  {
+    "english_name": "Santa Maria",
+    "arabic_name": "سانتا ماريا",
+    "country_alpha2_code": "CV"
+  },
+  {
+    "english_name": "Phnom Penh",
+    "arabic_name": "بنوم بنه",
+    "country_alpha2_code": "KH"
+  },
+  {
+    "english_name": "Siem Reap",
+    "arabic_name": "سييم ريب",
+    "country_alpha2_code": "KH"
+  },
+  {
+    "english_name": "Battambang",
+    "arabic_name": "باتامبانغ",
+    "country_alpha2_code": "KH"
+  },
+  {
+    "english_name": "Douala",
+    "arabic_name": "دوالا",
+    "country_alpha2_code": "CM"
+  },
+  {
+    "english_name": "Yaoundé",
+    "arabic_name": "ياوندي",
+    "country_alpha2_code": "CM"
+  },
+  {
+    "english_name": "Bamenda",
+    "arabic_name": "باميندا",
+    "country_alpha2_code": "CM"
+  },
+  {
+    "english_name": "Toronto",
+    "arabic_name": "تورونتو",
+    "country_alpha2_code": "CA"
+  },
+  {
+    "english_name": "Montreal",
+    "arabic_name": "مونتريال",
+    "country_alpha2_code": "CA"
+  },
+  {
+    "english_name": "Vancouver",
+    "arabic_name": "فانكوفر",
+    "country_alpha2_code": "CA"
+  },
+  {
+    "english_name": "Kralendijk",
+    "arabic_name": "كرالنديك",
+    "country_alpha2_code": "BQ"
+  },
+  {
+    "english_name": "Oranjestad",
+    "arabic_name": "أورانيستاد",
+    "country_alpha2_code": "BQ"
+  },
+  {
+    "english_name": "The Bottom",
+    "arabic_name": "ذا بوتوم",
+    "country_alpha2_code": "BQ"
+  },
+  {
+    "english_name": "George Town",
+    "arabic_name": "جورج تاون",
+    "country_alpha2_code": "KY"
+  },
+  {
+    "english_name": "West Bay",
+    "arabic_name": "ويست باي",
+    "country_alpha2_code": "KY"
+  },
+  {
+    "english_name": "Bodden Town",
+    "arabic_name": "بودن تاون",
+    "country_alpha2_code": "KY"
+  },
+  {
+    "english_name": "Bangui",
+    "arabic_name": "بانغي",
+    "country_alpha2_code": "CF"
+  },
+  {
+    "english_name": "Bimbo",
+    "arabic_name": "بيمبو",
+    "country_alpha2_code": "CF"
+  },
+  {
+    "english_name": "Berbérati",
+    "arabic_name": "بربراتي",
+    "country_alpha2_code": "CF"
+  },
+  {
+    "english_name": "N'Djamena",
+    "arabic_name": "نجامينا",
+    "country_alpha2_code": "TD"
+  },
+  {
+    "english_name": "Moundou",
+    "arabic_name": "موندو",
+    "country_alpha2_code": "TD"
+  },
+  {
+    "english_name": "Sarh",
+    "arabic_name": "سار",
+    "country_alpha2_code": "TD"
+  },
+  {
+    "english_name": "Santiago",
+    "arabic_name": "سانتياغو",
+    "country_alpha2_code": "CL"
+  },
+  {
+    "english_name": "Valparaíso",
+    "arabic_name": "فالبارايسو",
+    "country_alpha2_code": "CL"
+  },
+  {
+    "english_name": "Concepción",
+    "arabic_name": "كونسبسيون",
+    "country_alpha2_code": "CL"
+  },
+  {
+    "english_name": "Shanghai",
+    "arabic_name": "شنغهاي",
+    "country_alpha2_code": "CN"
+  },
+  {
+    "english_name": "Beijing",
+    "arabic_name": "بكين",
+    "country_alpha2_code": "CN"
+  },
+  {
+    "english_name": "Guangzhou",
+    "arabic_name": "غوانزو",
+    "country_alpha2_code": "CN"
+  },
+  {
+    "english_name": "Flying Fish Cove",
+    "arabic_name": "فلاينغ فيش كوف",
+    "country_alpha2_code": "CX"
+  },
+  {
+    "english_name": "Silver City",
+    "arabic_name": "سيلفر سيتي",
+    "country_alpha2_code": "CX"
+  },
+  {
+    "english_name": "Poon Saan",
+    "arabic_name": "بون سان",
+    "country_alpha2_code": "CX"
+  },
+  {
+    "english_name": "West Island",
+    "arabic_name": "الجزيرة الغربية",
+    "country_alpha2_code": "CC"
+  },
+  {
+    "english_name": "Bantam Village",
+    "arabic_name": "قرية بانتام",
+    "country_alpha2_code": "CC"
+  },
+  {
+    "english_name": "Home Island",
+    "arabic_name": "جزيرة هوم",
+    "country_alpha2_code": "CC"
+  },
+  {
+    "english_name": "Bogotá",
+    "arabic_name": "بوغوتا",
+    "country_alpha2_code": "CO"
+  },
+  {
+    "english_name": "Medellín",
+    "arabic_name": "ميديين",
+    "country_alpha2_code": "CO"
+  },
+  {
+    "english_name": "Cali",
+    "arabic_name": "كالي",
+    "country_alpha2_code": "CO"
+  },
+  {
+    "english_name": "Moroni",
+    "arabic_name": "موروني",
+    "country_alpha2_code": "KM"
+  },
+  {
+    "english_name": "Mutsamudu",
+    "arabic_name": "موتسامودو",
+    "country_alpha2_code": "KM"
+  },
+  {
+    "english_name": "Fomboni",
+    "arabic_name": "فومبوني",
+    "country_alpha2_code": "KM"
+  },
+  {
+    "english_name": "Brazzaville",
+    "arabic_name": "برازافيل",
+    "country_alpha2_code": "CG"
+  },
+  {
+    "english_name": "Pointe-Noire",
+    "arabic_name": "بوانت نوار",
+    "country_alpha2_code": "CG"
+  },
+  {
+    "english_name": "Dolisie",
+    "arabic_name": "دوليسي",
+    "country_alpha2_code": "CG"
+  },
+  {
+    "english_name": "Avarua",
+    "arabic_name": "أفاروا",
+    "country_alpha2_code": "CK"
+  },
+  {
+    "english_name": "Amuri",
+    "arabic_name": "أموري",
+    "country_alpha2_code": "CK"
+  },
+  {
+    "english_name": "Omoka",
+    "arabic_name": "أوموكا",
+    "country_alpha2_code": "CK"
+  },
+  {
+    "english_name": "San José",
+    "arabic_name": "سان خوسيه",
+    "country_alpha2_code": "CR"
+  },
+  {
+    "english_name": "Alajuela",
+    "arabic_name": "ألاخويلا",
+    "country_alpha2_code": "CR"
+  },
+  {
+    "english_name": "Cartago",
+    "arabic_name": "كارتاغو",
+    "country_alpha2_code": "CR"
+  },
+  {
+    "english_name": "Zagreb",
+    "arabic_name": "زغرب",
+    "country_alpha2_code": "HR"
+  },
+  {
+    "english_name": "Split",
+    "arabic_name": "سبليت",
+    "country_alpha2_code": "HR"
+  },
+  {
+    "english_name": "Rijeka",
+    "arabic_name": "رييكا",
+    "country_alpha2_code": "HR"
+  },
+  {
+    "english_name": "Havana",
+    "arabic_name": "هافانا",
+    "country_alpha2_code": "CU"
+  },
+  {
+    "english_name": "Santiago de Cuba",
+    "arabic_name": "سانتياغو دي كوبا",
+    "country_alpha2_code": "CU"
+  },
+  {
+    "english_name": "Camagüey",
+    "arabic_name": "كاماغوي",
+    "country_alpha2_code": "CU"
+  },
+  {
+    "english_name": "Willemstad",
+    "arabic_name": "ويلمستاد",
+    "country_alpha2_code": "CW"
+  },
+  {
+    "english_name": "Sint Willibrordus",
+    "arabic_name": "سينت ويليبروردس",
+    "country_alpha2_code": "CW"
+  },
+  {
+    "english_name": "Barber",
+    "arabic_name": "باربر",
+    "country_alpha2_code": "CW"
+  },
+  {
+    "english_name": "Nicosia",
+    "arabic_name": "نيقوسيا",
+    "country_alpha2_code": "CY"
+  },
+  {
+    "english_name": "Limassol",
+    "arabic_name": "ليماسول",
+    "country_alpha2_code": "CY"
+  },
+  {
+    "english_name": "Larnaca",
+    "arabic_name": "لارنكا",
+    "country_alpha2_code": "CY"
+  },
+  {
+    "english_name": "Prague",
+    "arabic_name": "براغ",
+    "country_alpha2_code": "CZ"
+  },
+  {
+    "english_name": "Brno",
+    "arabic_name": "برنو",
+    "country_alpha2_code": "CZ"
+  },
+  {
+    "english_name": "Ostrava",
+    "arabic_name": "أوسترافا",
+    "country_alpha2_code": "CZ"
+  },
+  {
+    "english_name": "Copenhagen",
+    "arabic_name": "كوبنهاغن",
+    "country_alpha2_code": "DK"
+  },
+  {
+    "english_name": "Aarhus",
+    "arabic_name": "آرهوس",
+    "country_alpha2_code": "DK"
+  },
+  {
+    "english_name": "Odense",
+    "arabic_name": "أودنسه",
+    "country_alpha2_code": "DK"
+  },
+  {
+    "english_name": "Djibouti City",
+    "arabic_name": "مدينة جيبوتي",
+    "country_alpha2_code": "DJ"
+  },
+  {
+    "english_name": "Ali Sabieh",
+    "arabic_name": "علي صبيح",
+    "country_alpha2_code": "DJ"
+  },
+  {
+    "english_name": "Tadjoura",
+    "arabic_name": "تاجورة",
+    "country_alpha2_code": "DJ"
+  },
+  {
+    "english_name": "Roseau",
+    "arabic_name": "روسو",
+    "country_alpha2_code": "DM"
+  },
+  {
+    "english_name": "Portsmouth",
+    "arabic_name": "بورتسموث",
+    "country_alpha2_code": "DM"
+  },
+  {
+    "english_name": "Marigot",
+    "arabic_name": "ماريغوت",
+    "country_alpha2_code": "DM"
+  },
+  {
+    "english_name": "Santo Domingo",
+    "arabic_name": "سانتو دومينغو",
+    "country_alpha2_code": "DO"
+  },
+  {
+    "english_name": "Santiago de los Caballeros",
+    "arabic_name": "سانتياغو دي لوس كاباييروس",
+    "country_alpha2_code": "DO"
+  },
+  {
+    "english_name": "San Pedro de Macorís",
+    "arabic_name": "سان بيدرو دي ماكوريس",
+    "country_alpha2_code": "DO"
+  },
+  {
+    "english_name": "Kinshasa",
+    "arabic_name": "كينشاسا",
+    "country_alpha2_code": "CD"
+  },
+  {
+    "english_name": "Lubumbashi",
+    "arabic_name": "لوبومباشي",
+    "country_alpha2_code": "CD"
+  },
+  {
+    "english_name": "Mbuji-Mayi",
+    "arabic_name": "مبوجي مايي",
+    "country_alpha2_code": "CD"
+  },
+  {
+    "english_name": "Guayaquil",
+    "arabic_name": "غواياكيل",
+    "country_alpha2_code": "EC"
+  },
+  {
+    "english_name": "Quito",
+    "arabic_name": "كيتو",
+    "country_alpha2_code": "EC"
+  },
+  {
+    "english_name": "Cuenca",
+    "arabic_name": "كوينكا",
+    "country_alpha2_code": "EC"
+  },
+  {
+    "english_name": "Cairo",
+    "arabic_name": "القاهرة",
+    "country_alpha2_code": "EG"
+  },
+  {
+    "english_name": "Alexandria",
+    "arabic_name": "الإسكندرية",
+    "country_alpha2_code": "EG"
+  },
+  {
+    "english_name": "Giza",
+    "arabic_name": "الجيزة",
+    "country_alpha2_code": "EG"
+  },
+  {
+    "english_name": "San Salvador",
+    "arabic_name": "سان سلفادور",
+    "country_alpha2_code": "SV"
+  },
+  {
+    "english_name": "Santa Ana",
+    "arabic_name": "سانتا آنا",
+    "country_alpha2_code": "SV"
+  },
+  {
+    "english_name": "San Miguel",
+    "arabic_name": "سان ميغيل",
+    "country_alpha2_code": "SV"
+  },
+  {
+    "english_name": "Malabo",
+    "arabic_name": "مالابو",
+    "country_alpha2_code": "GQ"
+  },
+  {
+    "english_name": "Bata",
+    "arabic_name": "باتا",
+    "country_alpha2_code": "GQ"
+  },
+  {
+    "english_name": "Ebebiyin",
+    "arabic_name": "إيبيبيين",
+    "country_alpha2_code": "GQ"
+  },
+  {
+    "english_name": "Asmara",
+    "arabic_name": "أسمرة",
+    "country_alpha2_code": "ER"
+  },
+  {
+    "english_name": "Keren",
+    "arabic_name": "كيرين",
+    "country_alpha2_code": "ER"
+  },
+  {
+    "english_name": "Massawa",
+    "arabic_name": "مصوع",
+    "country_alpha2_code": "ER"
+  },
+  {
+    "english_name": "Tallinn",
+    "arabic_name": "تالين",
+    "country_alpha2_code": "EE"
+  },
+  {
+    "english_name": "Tartu",
+    "arabic_name": "تارتو",
+    "country_alpha2_code": "EE"
+  },
+  {
+    "english_name": "Narva",
+    "arabic_name": "نارفا",
+    "country_alpha2_code": "EE"
+  },
+  {
+    "english_name": "Mbabane",
+    "arabic_name": "مباباني",
+    "country_alpha2_code": "SZ"
+  },
+  {
+    "english_name": "Manzini",
+    "arabic_name": "مانزيني",
+    "country_alpha2_code": "SZ"
+  },
+  {
+    "english_name": "Lobamba",
+    "arabic_name": "لوبامبا",
+    "country_alpha2_code": "SZ"
+  },
+  {
+    "english_name": "Addis Ababa",
+    "arabic_name": "أديس أبابا",
+    "country_alpha2_code": "ET"
+  },
+  {
+    "english_name": "Dire Dawa",
+    "arabic_name": "دير داوا",
+    "country_alpha2_code": "ET"
+  },
+  {
+    "english_name": "Mekelle",
+    "arabic_name": "ميكيلي",
+    "country_alpha2_code": "ET"
+  },
+  {
+    "english_name": "Stanley",
+    "arabic_name": "ستانلي",
+    "country_alpha2_code": "FK"
+  },
+  {
+    "english_name": "Goose Green",
+    "arabic_name": "غوس غرين",
+    "country_alpha2_code": "FK"
+  },
+  {
+    "english_name": "Port Howard",
+    "arabic_name": "بورت هاوارد",
+    "country_alpha2_code": "FK"
+  },
+  {
+    "english_name": "Tórshavn",
+    "arabic_name": "تورسهافن",
+    "country_alpha2_code": "FO"
+  },
+  {
+    "english_name": "Klaksvík",
+    "arabic_name": "كلاكسفيك",
+    "country_alpha2_code": "FO"
+  },
+  {
+    "english_name": "Fuglafjørður",
+    "arabic_name": "فوغلافيوردور",
+    "country_alpha2_code": "FO"
+  },
+  {
+    "english_name": "Suva",
+    "arabic_name": "سوفا",
+    "country_alpha2_code": "FJ"
+  },
+  {
+    "english_name": "Nadi",
+    "arabic_name": "نادي",
+    "country_alpha2_code": "FJ"
+  },
+  {
+    "english_name": "Lautoka",
+    "arabic_name": "لاوتوكا",
+    "country_alpha2_code": "FJ"
+  },
+  {
+    "english_name": "Helsinki",
+    "arabic_name": "هلسنكي",
+    "country_alpha2_code": "FI"
+  },
+  {
+    "english_name": "Espoo",
+    "arabic_name": "إسبو",
+    "country_alpha2_code": "FI"
+  },
+  {
+    "english_name": "Tampere",
+    "arabic_name": "تامبيره",
+    "country_alpha2_code": "FI"
+  },
+  {
+    "english_name": "Paris",
+    "arabic_name": "باريس",
+    "country_alpha2_code": "FR"
+  },
+  {
+    "english_name": "Marseille",
+    "arabic_name": "مارسيليا",
+    "country_alpha2_code": "FR"
+  },
+  {
+    "english_name": "Lyon",
+    "arabic_name": "ليون",
+    "country_alpha2_code": "FR"
+  },
+  {
+    "english_name": "Cayenne",
+    "arabic_name": "كايين",
+    "country_alpha2_code": "GF"
+  },
+  {
+    "english_name": "Saint-Laurent-du-Maroni",
+    "arabic_name": "سان لوران دو ماروني",
+    "country_alpha2_code": "GF"
+  },
+  {
+    "english_name": "Kourou",
+    "arabic_name": "كورو",
+    "country_alpha2_code": "GF"
+  },
+  {
+    "english_name": "Papeete",
+    "arabic_name": "بابيتي",
+    "country_alpha2_code": "PF"
+  },
+  {
+    "english_name": "Faaa",
+    "arabic_name": "فاآ",
+    "country_alpha2_code": "PF"
+  },
+  {
+    "english_name": "Punaauia",
+    "arabic_name": "بوناويا",
+    "country_alpha2_code": "PF"
+  },
+  {
+    "english_name": "Port-aux-Français",
+    "arabic_name": "بورت أو فرانسيه",
+    "country_alpha2_code": "TF"
+  },
+  {
+    "english_name": "Alfred Faure",
+    "arabic_name": "ألفريد فور",
+    "country_alpha2_code": "TF"
+  },
+  {
+    "english_name": "Martin-de-Viviès",
+    "arabic_name": "مارتن دي فيفييه",
+    "country_alpha2_code": "TF"
+  },
+  {
+    "english_name": "Libreville",
+    "arabic_name": "ليبرفيل",
+    "country_alpha2_code": "GA"
+  },
+  {
+    "english_name": "Port-Gentil",
+    "arabic_name": "بور جنتيل",
+    "country_alpha2_code": "GA"
+  },
+  {
+    "english_name": "Franceville",
+    "arabic_name": "فرانسفيل",
+    "country_alpha2_code": "GA"
+  },
+  {
+    "english_name": "Banjul",
+    "arabic_name": "بانجول",
+    "country_alpha2_code": "GM"
+  },
+  {
+    "english_name": "Serekunda",
+    "arabic_name": "سيريكوندا",
+    "country_alpha2_code": "GM"
+  },
+  {
+    "english_name": "Brikama",
+    "arabic_name": "بريكاما",
+    "country_alpha2_code": "GM"
+  },
+  {
+    "english_name": "Tbilisi",
+    "arabic_name": "تبليسي",
+    "country_alpha2_code": "GE"
+  },
+  {
+    "english_name": "Batumi",
+    "arabic_name": "باتومي",
+    "country_alpha2_code": "GE"
+  },
+  {
+    "english_name": "Kutaisi",
+    "arabic_name": "كوتايسي",
+    "country_alpha2_code": "GE"
+  },
+  {
+    "english_name": "Berlin",
+    "arabic_name": "برلين",
+    "country_alpha2_code": "DE"
+  },
+  {
+    "english_name": "Hamburg",
+    "arabic_name": "هامبورغ",
+    "country_alpha2_code": "DE"
+  },
+  {
+    "english_name": "Munich",
+    "arabic_name": "ميونخ",
+    "country_alpha2_code": "DE"
+  },
+  {
+    "english_name": "Accra",
+    "arabic_name": "أكرا",
+    "country_alpha2_code": "GH"
+  },
+  {
+    "english_name": "Kumasi",
+    "arabic_name": "كوماسي",
+    "country_alpha2_code": "GH"
+  },
+  {
+    "english_name": "Tamale",
+    "arabic_name": "تمالي",
+    "country_alpha2_code": "GH"
+  },
+  {
+    "english_name": "Gibraltar",
+    "arabic_name": "جبل طارق",
+    "country_alpha2_code": "GI"
+  },
+  {
+    "english_name": "Westside",
+    "arabic_name": "ويستسايد",
+    "country_alpha2_code": "GI"
+  },
+  {
+    "english_name": "Eastside",
+    "arabic_name": "إيستسايد",
+    "country_alpha2_code": "GI"
+  },
+  {
+    "english_name": "Athens",
+    "arabic_name": "أثينا",
+    "country_alpha2_code": "GR"
+  },
+  {
+    "english_name": "Thessaloniki",
+    "arabic_name": "سالونيك",
+    "country_alpha2_code": "GR"
+  },
+  {
+    "english_name": "Patras",
+    "arabic_name": "باتراس",
+    "country_alpha2_code": "GR"
+  },
+  {
+    "english_name": "Nuuk",
+    "arabic_name": "نوك",
+    "country_alpha2_code": "GL"
+  },
+  {
+    "english_name": "Ilulissat",
+    "arabic_name": "إيلوليسات",
+    "country_alpha2_code": "GL"
+  },
+  {
+    "english_name": "Sisimiut",
+    "arabic_name": "سيسيميوت",
+    "country_alpha2_code": "GL"
+  },
+  {
+    "english_name": "St. George's",
+    "arabic_name": "سانت جورجز",
+    "country_alpha2_code": "GD"
+  },
+  {
+    "english_name": "Gouyave",
+    "arabic_name": "غوياف",
+    "country_alpha2_code": "GD"
+  },
+  {
+    "english_name": "Grenville",
+    "arabic_name": "غرينفيل",
+    "country_alpha2_code": "GD"
+  },
+  {
+    "english_name": "Les Abymes",
+    "arabic_name": "ليس أبيم",
+    "country_alpha2_code": "GP"
+  },
+  {
+    "english_name": "Baie-Mahault",
+    "arabic_name": "باي ماهو",
+    "country_alpha2_code": "GP"
+  },
+  {
+    "english_name": "Le Gosier",
+    "arabic_name": "لو غوزييه",
+    "country_alpha2_code": "GP"
+  },
+  {
+    "english_name": "Dededo",
+    "arabic_name": "ديديدو",
+    "country_alpha2_code": "GU"
+  },
+  {
+    "english_name": "Yigo",
+    "arabic_name": "ييغو",
+    "country_alpha2_code": "GU"
+  },
+  {
+    "english_name": "Tamuning",
+    "arabic_name": "تامونينغ",
+    "country_alpha2_code": "GU"
+  },
+  {
+    "english_name": "Guatemala City",
+    "arabic_name": "مدينة غواتيمالا",
+    "country_alpha2_code": "GT"
+  },
+  {
+    "english_name": "Mixco",
+    "arabic_name": "ميكسكو",
+    "country_alpha2_code": "GT"
+  },
+  {
+    "english_name": "Villa Nueva",
+    "arabic_name": "فيلا نويفا",
+    "country_alpha2_code": "GT"
+  },
+  {
+    "english_name": "St. Peter Port",
+    "arabic_name": "سانت بيتر بورت",
+    "country_alpha2_code": "GG"
+  },
+  {
+    "english_name": "St. Sampson",
+    "arabic_name": "سانت سامبسون",
+    "country_alpha2_code": "GG"
+  },
+  {
+    "english_name": "Vale",
+    "arabic_name": "فال",
+    "country_alpha2_code": "GG"
+  },
+  {
+    "english_name": "Conakry",
+    "arabic_name": "كوناكري",
+    "country_alpha2_code": "GN"
+  },
+  {
+    "english_name": "Nzérékoré",
+    "arabic_name": "نزيريكوري",
+    "country_alpha2_code": "GN"
+  },
+  {
+    "english_name": "Kankan",
+    "arabic_name": "كانكان",
+    "country_alpha2_code": "GN"
+  },
+  {
+    "english_name": "Bissau",
+    "arabic_name": "بيساو",
+    "country_alpha2_code": "GW"
+  },
+  {
+    "english_name": "Bafatá",
+    "arabic_name": "بافاتا",
+    "country_alpha2_code": "GW"
+  },
+  {
+    "english_name": "Gabú",
+    "arabic_name": "غابو",
+    "country_alpha2_code": "GW"
+  },
+  {
+    "english_name": "Georgetown",
+    "arabic_name": "جورج تاون",
+    "country_alpha2_code": "GY"
+  },
+  {
+    "english_name": "Linden",
+    "arabic_name": "ليندن",
+    "country_alpha2_code": "GY"
+  },
+  {
+    "english_name": "New Amsterdam",
+    "arabic_name": "نيو أمستردام",
+    "country_alpha2_code": "GY"
+  },
+  {
+    "english_name": "Port-au-Prince",
+    "arabic_name": "بورت أو برنس",
+    "country_alpha2_code": "HT"
+  },
+  {
+    "english_name": "Cap-Haïtien",
+    "arabic_name": "كاب هايتيان",
+    "country_alpha2_code": "HT"
+  },
+  {
+    "english_name": "Gonaïves",
+    "arabic_name": "غونايف",
+    "country_alpha2_code": "HT"
+  },
+  {
+    "english_name": "Atlas Cove",
+    "arabic_name": "أطلس كوف",
+    "country_alpha2_code": "HM"
+  },
+  {
+    "english_name": "Spit Bay",
+    "arabic_name": "سبيت باي",
+    "country_alpha2_code": "HM"
+  },
+  {
+    "english_name": "Heard Island",
+    "arabic_name": "جزيرة هيرد",
+    "country_alpha2_code": "HM"
+  },
+  {
+    "english_name": "Tegucigalpa",
+    "arabic_name": "تيغوسيغالبا",
+    "country_alpha2_code": "HN"
+  },
+  {
+    "english_name": "San Pedro Sula",
+    "arabic_name": "سان بيدرو سولا",
+    "country_alpha2_code": "HN"
+  },
+  {
+    "english_name": "La Ceiba",
+    "arabic_name": "لا سيبا",
+    "country_alpha2_code": "HN"
+  },
+  {
+    "english_name": "Hong Kong",
+    "arabic_name": "هونغ كونغ",
+    "country_alpha2_code": "HK"
+  },
+  {
+    "english_name": "Kowloon",
+    "arabic_name": "كولون",
+    "country_alpha2_code": "HK"
+  },
+  {
+    "english_name": "Tsuen Wan",
+    "arabic_name": "تسوين وان",
+    "country_alpha2_code": "HK"
+  },
+  {
+    "english_name": "Budapest",
+    "arabic_name": "بودابست",
+    "country_alpha2_code": "HU"
+  },
+  {
+    "english_name": "Debrecen",
+    "arabic_name": "دبرتسن",
+    "country_alpha2_code": "HU"
+  },
+  {
+    "english_name": "Szeged",
+    "arabic_name": "سيغد",
+    "country_alpha2_code": "HU"
+  },
+  {
+    "english_name": "Reykjavik",
+    "arabic_name": "ريكيافيك",
+    "country_alpha2_code": "IS"
+  },
+  {
+    "english_name": "Kópavogur",
+    "arabic_name": "كوبافوغور",
+    "country_alpha2_code": "IS"
+  },
+  {
+    "english_name": "Hafnarfjörður",
+    "arabic_name": "هافنارفيوردور",
+    "country_alpha2_code": "IS"
+  },
+  {
+    "english_name": "Mumbai",
+    "arabic_name": "مومباي",
+    "country_alpha2_code": "IN"
+  },
+  {
+    "english_name": "Delhi",
+    "arabic_name": "دلهي",
+    "country_alpha2_code": "IN"
+  },
+  {
+    "english_name": "Bangalore",
+    "arabic_name": "بنغالور",
+    "country_alpha2_code": "IN"
+  },
+  {
+    "english_name": "Jakarta",
+    "arabic_name": "جاكرتا",
+    "country_alpha2_code": "ID"
+  },
+  {
+    "english_name": "Surabaya",
+    "arabic_name": "سورابايا",
+    "country_alpha2_code": "ID"
+  },
+  {
+    "english_name": "Bandung",
+    "arabic_name": "باندونغ",
+    "country_alpha2_code": "ID"
+  },
+  {
+    "english_name": "Tehran",
+    "arabic_name": "طهران",
+    "country_alpha2_code": "IR"
+  },
+  {
+    "english_name": "Mashhad",
+    "arabic_name": "مشهد",
+    "country_alpha2_code": "IR"
+  },
+  {
+    "english_name": "Isfahan",
+    "arabic_name": "أصفهان",
+    "country_alpha2_code": "IR"
+  },
+  {
+    "english_name": "Baghdad",
+    "arabic_name": "بغداد",
+    "country_alpha2_code": "IQ"
+  },
+  {
+    "english_name": "Basra",
+    "arabic_name": "البصرة",
+    "country_alpha2_code": "IQ"
+  },
+  {
+    "english_name": "Erbil",
+    "arabic_name": "أربيل",
+    "country_alpha2_code": "IQ"
+  },
+  {
+    "english_name": "Dublin",
+    "arabic_name": "دبلن",
+    "country_alpha2_code": "IE"
+  },
+  {
+    "english_name": "Cork",
+    "arabic_name": "كورك",
+    "country_alpha2_code": "IE"
+  },
+  {
+    "english_name": "Galway",
+    "arabic_name": "غالواي",
+    "country_alpha2_code": "IE"
+  },
+  {
+    "english_name": "Douglas",
+    "arabic_name": "دوغلاس",
+    "country_alpha2_code": "IM"
+  },
+  {
+    "english_name": "Ramsey",
+    "arabic_name": "رامزي",
+    "country_alpha2_code": "IM"
+  },
+  {
+    "english_name": "Peel",
+    "arabic_name": "بيل",
+    "country_alpha2_code": "IM"
+  },
+  {
+    "english_name": "Rome",
+    "arabic_name": "روما",
+    "country_alpha2_code": "IT"
+  },
+  {
+    "english_name": "Milan",
+    "arabic_name": "ميلان",
+    "country_alpha2_code": "IT"
+  },
+  {
+    "english_name": "Naples",
+    "arabic_name": "نابولي",
+    "country_alpha2_code": "IT"
+  },
+  {
+    "english_name": "Abidjan",
+    "arabic_name": "أبيدجان",
+    "country_alpha2_code": "CI"
+  },
+  {
+    "english_name": "Bouaké",
+    "arabic_name": "بواكي",
+    "country_alpha2_code": "CI"
+  },
+  {
+    "english_name": "Yamoussoukro",
+    "arabic_name": "ياموسوكرو",
+    "country_alpha2_code": "CI"
+  },
+  {
+    "english_name": "Kingston",
+    "arabic_name": "كينغستون",
+    "country_alpha2_code": "JM"
+  },
+  {
+    "english_name": "Montego Bay",
+    "arabic_name": "مونتيغو باي",
+    "country_alpha2_code": "JM"
+  },
+  {
+    "english_name": "Spanish Town",
+    "arabic_name": "سبانيش تاون",
+    "country_alpha2_code": "JM"
+  },
+  {
+    "english_name": "Tokyo",
+    "arabic_name": "طوكيو",
+    "country_alpha2_code": "JP"
+  },
+  {
+    "english_name": "Yokohama",
+    "arabic_name": "يوكوهاما",
+    "country_alpha2_code": "JP"
+  },
+  {
+    "english_name": "Osaka",
+    "arabic_name": "أوساكا",
+    "country_alpha2_code": "JP"
+  },
+  {
+    "english_name": "Saint Helier",
+    "arabic_name": "سانت هيلير",
+    "country_alpha2_code": "JE"
+  },
+  {
+    "english_name": "Grouville",
+    "arabic_name": "غروفيل",
+    "country_alpha2_code": "JE"
+  },
+  {
+    "english_name": "Saint Brelade",
+    "arabic_name": "سانت بريلاد",
+    "country_alpha2_code": "JE"
+  },
+  {
+    "english_name": "Amman",
+    "arabic_name": "عمّان",
+    "country_alpha2_code": "JO"
+  },
+  {
+    "english_name": "Zarqa",
+    "arabic_name": "الزرقاء",
+    "country_alpha2_code": "JO"
+  },
+  {
+    "english_name": "Irbid",
+    "arabic_name": "إربد",
+    "country_alpha2_code": "JO"
+  },
+  {
+    "english_name": "Almaty",
+    "arabic_name": "ألماتي",
+    "country_alpha2_code": "KZ"
+  },
+  {
+    "english_name": "Astana",
+    "arabic_name": "أستانا",
+    "country_alpha2_code": "KZ"
+  },
+  {
+    "english_name": "Shymkent",
+    "arabic_name": "شيمكنت",
+    "country_alpha2_code": "KZ"
+  },
+  {
+    "english_name": "Nairobi",
+    "arabic_name": "نيروبي",
+    "country_alpha2_code": "KE"
+  },
+  {
+    "english_name": "Mombasa",
+    "arabic_name": "ممباسا",
+    "country_alpha2_code": "KE"
+  },
+  {
+    "english_name": "Kisumu",
+    "arabic_name": "كيسومو",
+    "country_alpha2_code": "KE"
+  },
+  {
+    "english_name": "Tarawa",
+    "arabic_name": "تاراوا",
+    "country_alpha2_code": "KI"
+  },
+  {
+    "english_name": "Betio",
+    "arabic_name": "بيتيو",
+    "country_alpha2_code": "KI"
+  },
+  {
+    "english_name": "Bikenibeu",
+    "arabic_name": "بيكينيبيو",
+    "country_alpha2_code": "KI"
+  },
+  {
+    "english_name": "Pristina",
+    "arabic_name": "بريشتينا",
+    "country_alpha2_code": "XK"
+  },
+  {
+    "english_name": "Prizren",
+    "arabic_name": "بريزرين",
+    "country_alpha2_code": "XK"
+  },
+  {
+    "english_name": "Ferizaj",
+    "arabic_name": "فيريزاي",
+    "country_alpha2_code": "XK"
+  },
+  {
+    "english_name": "Kuwait City",
+    "arabic_name": "مدينة الكويت",
+    "country_alpha2_code": "KW"
+  },
+  {
+    "english_name": "Hawalli",
+    "arabic_name": "حولي",
+    "country_alpha2_code": "KW"
+  },
+  {
+    "english_name": "Al Ahmadi",
+    "arabic_name": "الأحمدي",
+    "country_alpha2_code": "KW"
+  },
+  {
+    "english_name": "Bishkek",
+    "arabic_name": "بيشكك",
+    "country_alpha2_code": "KG"
+  },
+  {
+    "english_name": "Osh",
+    "arabic_name": "أوش",
+    "country_alpha2_code": "KG"
+  },
+  {
+    "english_name": "Jalal-Abad",
+    "arabic_name": "جلال آباد",
+    "country_alpha2_code": "KG"
+  },
+  {
+    "english_name": "Vientiane",
+    "arabic_name": "فيينتيان",
+    "country_alpha2_code": "LA"
+  },
+  {
+    "english_name": "Savannakhet",
+    "arabic_name": "سافاناخيت",
+    "country_alpha2_code": "LA"
+  },
+  {
+    "english_name": "Pakse",
+    "arabic_name": "باكسي",
+    "country_alpha2_code": "LA"
+  },
+  {
+    "english_name": "Riga",
+    "arabic_name": "ريغا",
+    "country_alpha2_code": "LV"
+  },
+  {
+    "english_name": "Daugavpils",
+    "arabic_name": "داوغافبيلس",
+    "country_alpha2_code": "LV"
+  },
+  {
+    "english_name": "Liepāja",
+    "arabic_name": "ليبايا",
+    "country_alpha2_code": "LV"
+  },
+  {
+    "english_name": "Beirut",
+    "arabic_name": "بيروت",
+    "country_alpha2_code": "LB"
+  },
+  {
+    "english_name": "Tripoli",
+    "arabic_name": "طرابلس",
+    "country_alpha2_code": "LB"
+  },
+  {
+    "english_name": "Sidon",
+    "arabic_name": "صيدا",
+    "country_alpha2_code": "LB"
+  },
+  {
+    "english_name": "Maseru",
+    "arabic_name": "ماسيرو",
+    "country_alpha2_code": "LS"
+  },
+  {
+    "english_name": "Teyateyaneng",
+    "arabic_name": "تيياتيانينغ",
+    "country_alpha2_code": "LS"
+  },
+  {
+    "english_name": "Mafeteng",
+    "arabic_name": "مافيتينغ",
+    "country_alpha2_code": "LS"
+  },
+  {
+    "english_name": "Monrovia",
+    "arabic_name": "مونروفيا",
+    "country_alpha2_code": "LR"
+  },
+  {
+    "english_name": "Gbarnga",
+    "arabic_name": "غبارنغا",
+    "country_alpha2_code": "LR"
+  },
+  {
+    "english_name": "Buchanan",
+    "arabic_name": "بوكانان",
+    "country_alpha2_code": "LR"
+  },
+  {
+    "english_name": "Tripoli",
+    "arabic_name": "طرابلس",
+    "country_alpha2_code": "LY"
+  },
+  {
+    "english_name": "Benghazi",
+    "arabic_name": "بنغازي",
+    "country_alpha2_code": "LY"
+  },
+  {
+    "english_name": "Misrata",
+    "arabic_name": "مصراتة",
+    "country_alpha2_code": "LY"
+  },
+  {
+    "english_name": "Vaduz",
+    "arabic_name": "فادوتس",
+    "country_alpha2_code": "LI"
+  },
+  {
+    "english_name": "Schaan",
+    "arabic_name": "شان",
+    "country_alpha2_code": "LI"
+  },
+  {
+    "english_name": "Triesen",
+    "arabic_name": "تريزن",
+    "country_alpha2_code": "LI"
+  },
+  {
+    "english_name": "Vilnius",
+    "arabic_name": "فيلنيوس",
+    "country_alpha2_code": "LT"
+  },
+  {
+    "english_name": "Kaunas",
+    "arabic_name": "كاوناس",
+    "country_alpha2_code": "LT"
+  },
+  {
+    "english_name": "Klaipėda",
+    "arabic_name": "كلايبيدا",
+    "country_alpha2_code": "LT"
+  },
+  {
+    "english_name": "Luxembourg City",
+    "arabic_name": "مدينة لوكسمبورغ",
+    "country_alpha2_code": "LU"
+  },
+  {
+    "english_name": "Esch-sur-Alzette",
+    "arabic_name": "إيش سور ألزيت",
+    "country_alpha2_code": "LU"
+  },
+  {
+    "english_name": "Differdange",
+    "arabic_name": "ديفردانج",
+    "country_alpha2_code": "LU"
+  },
+  {
+    "english_name": "Macau",
+    "arabic_name": "ماكاو",
+    "country_alpha2_code": "MO"
+  },
+  {
+    "english_name": "Taipa",
+    "arabic_name": "تايبا",
+    "country_alpha2_code": "MO"
+  },
+  {
+    "english_name": "Coloane",
+    "arabic_name": "كولوان",
+    "country_alpha2_code": "MO"
+  },
+  {
+    "english_name": "Antananarivo",
+    "arabic_name": "أنتاناناريفو",
+    "country_alpha2_code": "MG"
+  },
+  {
+    "english_name": "Toamasina",
+    "arabic_name": "تواماسينا",
+    "country_alpha2_code": "MG"
+  },
+  {
+    "english_name": "Antsirabe",
+    "arabic_name": "أنتسيرابي",
+    "country_alpha2_code": "MG"
+  },
+  {
+    "english_name": "Lilongwe",
+    "arabic_name": "ليلونغوي",
+    "country_alpha2_code": "MW"
+  },
+  {
+    "english_name": "Blantyre",
+    "arabic_name": "بلانتير",
+    "country_alpha2_code": "MW"
+  },
+  {
+    "english_name": "Mzuzu",
+    "arabic_name": "مزوزو",
+    "country_alpha2_code": "MW"
+  },
+  {
+    "english_name": "Kuala Lumpur",
+    "arabic_name": "كوالالمبور",
+    "country_alpha2_code": "MY"
+  },
+  {
+    "english_name": "George Town",
+    "arabic_name": "جورج تاون",
+    "country_alpha2_code": "MY"
+  },
+  {
+    "english_name": "Johor Bahru",
+    "arabic_name": "جوهور باهرو",
+    "country_alpha2_code": "MY"
+  },
+  {
+    "english_name": "Malé",
+    "arabic_name": "ماليه",
+    "country_alpha2_code": "MV"
+  },
+  {
+    "english_name": "Addu City",
+    "arabic_name": "مدينة أدو",
+    "country_alpha2_code": "MV"
+  },
+  {
+    "english_name": "Fuvahmulah",
+    "arabic_name": "فوا مولاك",
+    "country_alpha2_code": "MV"
+  },
+  {
+    "english_name": "Bamako",
+    "arabic_name": "باماكو",
+    "country_alpha2_code": "ML"
+  },
+  {
+    "english_name": "Sikasso",
+    "arabic_name": "سيكاسو",
+    "country_alpha2_code": "ML"
+  },
+  {
+    "english_name": "Mopti",
+    "arabic_name": "موبتي",
+    "country_alpha2_code": "ML"
+  },
+  {
+    "english_name": "Valletta",
+    "arabic_name": "فاليتا",
+    "country_alpha2_code": "MT"
+  },
+  {
+    "english_name": "Birkirkara",
+    "arabic_name": "بيركيركارا",
+    "country_alpha2_code": "MT"
+  },
+  {
+    "english_name": "Mosta",
+    "arabic_name": "موستا",
+    "country_alpha2_code": "MT"
+  },
+  {
+    "english_name": "Majuro",
+    "arabic_name": "ماجورو",
+    "country_alpha2_code": "MH"
+  },
+  {
+    "english_name": "Ebeye",
+    "arabic_name": "إيباي",
+    "country_alpha2_code": "MH"
+  },
+  {
+    "english_name": "Jaluit",
+    "arabic_name": "جالويت",
+    "country_alpha2_code": "MH"
+  },
+  {
+    "english_name": "Fort-de-France",
+    "arabic_name": "فور دو فرانس",
+    "country_alpha2_code": "MQ"
+  },
+  {
+    "english_name": "Le Lamentin",
+    "arabic_name": "لو لامنتان",
+    "country_alpha2_code": "MQ"
+  },
+  {
+    "english_name": "Le Robert",
+    "arabic_name": "لو روبير",
+    "country_alpha2_code": "MQ"
+  },
+  {
+    "english_name": "Nouakchott",
+    "arabic_name": "نواكشوط",
+    "country_alpha2_code": "MR"
+  },
+  {
+    "english_name": "Nouadhibou",
+    "arabic_name": "نواذيبو",
+    "country_alpha2_code": "MR"
+  },
+  {
+    "english_name": "Rosso",
+    "arabic_name": "روصو",
+    "country_alpha2_code": "MR"
+  },
+  {
+    "english_name": "Port Louis",
+    "arabic_name": "بورت لويس",
+    "country_alpha2_code": "MU"
+  },
+  {
+    "english_name": "Beau Bassin-Rose Hill",
+    "arabic_name": "بو باسان روز هيل",
+    "country_alpha2_code": "MU"
+  },
+  {
+    "english_name": "Vacoas-Phoenix",
+    "arabic_name": "فاكواس فينيكس",
+    "country_alpha2_code": "MU"
+  },
+  {
+    "english_name": "Mamoudzou",
+    "arabic_name": "مامودزو",
+    "country_alpha2_code": "YT"
+  },
+  {
+    "english_name": "Koungou",
+    "arabic_name": "كونغو",
+    "country_alpha2_code": "YT"
+  },
+  {
+    "english_name": "Dzaoudzi",
+    "arabic_name": "دزاودزي",
+    "country_alpha2_code": "YT"
+  },
+  {
+    "english_name": "Mexico City",
+    "arabic_name": "مكسيكو سيتي",
+    "country_alpha2_code": "MX"
+  },
+  {
+    "english_name": "Guadalajara",
+    "arabic_name": "غوادالاخارا",
+    "country_alpha2_code": "MX"
+  },
+  {
+    "english_name": "Monterrey",
+    "arabic_name": "مونتيري",
+    "country_alpha2_code": "MX"
+  },
+  {
+    "english_name": "Palikir",
+    "arabic_name": "باليكير",
+    "country_alpha2_code": "FM"
+  },
+  {
+    "english_name": "Weno",
+    "arabic_name": "وينو",
+    "country_alpha2_code": "FM"
+  },
+  {
+    "english_name": "Kolonia",
+    "arabic_name": "كولونيا",
+    "country_alpha2_code": "FM"
+  },
+  {
+    "english_name": "Chișinău",
+    "arabic_name": "كيشيناو",
+    "country_alpha2_code": "MD"
+  },
+  {
+    "english_name": "Tiraspol",
+    "arabic_name": "تيراسبول",
+    "country_alpha2_code": "MD"
+  },
+  {
+    "english_name": "Bălți",
+    "arabic_name": "بيلتسي",
+    "country_alpha2_code": "MD"
+  },
+  {
+    "english_name": "Monaco",
+    "arabic_name": "موناكو",
+    "country_alpha2_code": "MC"
+  },
+  {
+    "english_name": "Monte Carlo",
+    "arabic_name": "مونت كارلو",
+    "country_alpha2_code": "MC"
+  },
+  {
+    "english_name": "La Condamine",
+    "arabic_name": "لا كوندامين",
+    "country_alpha2_code": "MC"
+  },
+  {
+    "english_name": "Ulaanbaatar",
+    "arabic_name": "أولان باتور",
+    "country_alpha2_code": "MN"
+  },
+  {
+    "english_name": "Erdenet",
+    "arabic_name": "إردينيت",
+    "country_alpha2_code": "MN"
+  },
+  {
+    "english_name": "Darkhan",
+    "arabic_name": "دارخان",
+    "country_alpha2_code": "MN"
+  },
+  {
+    "english_name": "Podgorica",
+    "arabic_name": "بودغوريتسا",
+    "country_alpha2_code": "ME"
+  },
+  {
+    "english_name": "Nikšić",
+    "arabic_name": "نيكشيتش",
+    "country_alpha2_code": "ME"
+  },
+  {
+    "english_name": "Herceg Novi",
+    "arabic_name": "هيرسيغ نوفي",
+    "country_alpha2_code": "ME"
+  },
+  {
+    "english_name": "Brades",
+    "arabic_name": "بريدز",
+    "country_alpha2_code": "MS"
+  },
+  {
+    "english_name": "Plymouth",
+    "arabic_name": "بليموث",
+    "country_alpha2_code": "MS"
+  },
+  {
+    "english_name": "St. John's",
+    "arabic_name": "سانت جونز",
+    "country_alpha2_code": "MS"
+  },
+  {
+    "english_name": "Casablanca",
+    "arabic_name": "الدار البيضاء",
+    "country_alpha2_code": "MA"
+  },
+  {
+    "english_name": "Rabat",
+    "arabic_name": "الرباط",
+    "country_alpha2_code": "MA"
+  },
+  {
+    "english_name": "Fez",
+    "arabic_name": "فاس",
+    "country_alpha2_code": "MA"
+  },
+  {
+    "english_name": "Maputo",
+    "arabic_name": "مابوتو",
+    "country_alpha2_code": "MZ"
+  },
+  {
+    "english_name": "Matola",
+    "arabic_name": "ماتولا",
+    "country_alpha2_code": "MZ"
+  },
+  {
+    "english_name": "Beira",
+    "arabic_name": "بيرا",
+    "country_alpha2_code": "MZ"
+  },
+  {
+    "english_name": "Yangon",
+    "arabic_name": "يانغون",
+    "country_alpha2_code": "MM"
+  },
+  {
+    "english_name": "Mandalay",
+    "arabic_name": "ماندلاي",
+    "country_alpha2_code": "MM"
+  },
+  {
+    "english_name": "Naypyidaw",
+    "arabic_name": "نايبيداو",
+    "country_alpha2_code": "MM"
+  },
+  {
+    "english_name": "Windhoek",
+    "arabic_name": "ويندهوك",
+    "country_alpha2_code": "NA"
+  },
+  {
+    "english_name": "Rundu",
+    "arabic_name": "روندو",
+    "country_alpha2_code": "NA"
+  },
+  {
+    "english_name": "Walvis Bay",
+    "arabic_name": "خليج والفيس",
+    "country_alpha2_code": "NA"
+  },
+  {
+    "english_name": "Yaren",
+    "arabic_name": "يارين",
+    "country_alpha2_code": "NR"
+  },
+  {
+    "english_name": "Denigomodu",
+    "arabic_name": "دينيغومودو",
+    "country_alpha2_code": "NR"
+  },
+  {
+    "english_name": "Meneng",
+    "arabic_name": "مينينغ",
+    "country_alpha2_code": "NR"
+  },
+  {
+    "english_name": "Kathmandu",
+    "arabic_name": "كاتماندو",
+    "country_alpha2_code": "NP"
+  },
+  {
+    "english_name": "Pokhara",
+    "arabic_name": "بوخارا",
+    "country_alpha2_code": "NP"
+  },
+  {
+    "english_name": "Lalitpur",
+    "arabic_name": "لاليتبور",
+    "country_alpha2_code": "NP"
+  },
+  {
+    "english_name": "Amsterdam",
+    "arabic_name": "أمستردام",
+    "country_alpha2_code": "NL"
+  },
+  {
+    "english_name": "Rotterdam",
+    "arabic_name": "روتردام",
+    "country_alpha2_code": "NL"
+  },
+  {
+    "english_name": "The Hague",
+    "arabic_name": "لاهاي",
+    "country_alpha2_code": "NL"
+  },
+  {
+    "english_name": "Willemstad",
+    "arabic_name": "ويلمستاد",
+    "country_alpha2_code": "AN"
+  },
+  {
+    "english_name": "Philipsburg",
+    "arabic_name": "فيليبسبورغ",
+    "country_alpha2_code": "AN"
+  },
+  {
+    "english_name": "Kralendijk",
+    "arabic_name": "كرالنديك",
+    "country_alpha2_code": "AN"
+  },
+  {
+    "english_name": "Nouméa",
+    "arabic_name": "نوميا",
+    "country_alpha2_code": "NC"
+  },
+  {
+    "english_name": "Mont-Dore",
+    "arabic_name": "مون دور",
+    "country_alpha2_code": "NC"
+  },
+  {
+    "english_name": "Dumbéa",
+    "arabic_name": "دومبيا",
+    "country_alpha2_code": "NC"
+  },
+  {
+    "english_name": "Auckland",
+    "arabic_name": "أوكلاند",
+    "country_alpha2_code": "NZ"
+  },
+  {
+    "english_name": "Wellington",
+    "arabic_name": "ولينغتون",
+    "country_alpha2_code": "NZ"
+  },
+  {
+    "english_name": "Christchurch",
+    "arabic_name": "كرايستشيرش",
+    "country_alpha2_code": "NZ"
+  },
+  {
+    "english_name": "Managua",
+    "arabic_name": "ماناغوا",
+    "country_alpha2_code": "NI"
+  },
+  {
+    "english_name": "León",
+    "arabic_name": "ليون",
+    "country_alpha2_code": "NI"
+  },
+  {
+    "english_name": "Masaya",
+    "arabic_name": "ماسايا",
+    "country_alpha2_code": "NI"
+  },
+  {
+    "english_name": "Niamey",
+    "arabic_name": "نيامي",
+    "country_alpha2_code": "NE"
+  },
+  {
+    "english_name": "Zinder",
+    "arabic_name": "زيندر",
+    "country_alpha2_code": "NE"
+  },
+  {
+    "english_name": "Maradi",
+    "arabic_name": "مارادي",
+    "country_alpha2_code": "NE"
+  },
+  {
+    "english_name": "Lagos",
+    "arabic_name": "لاغوس",
+    "country_alpha2_code": "NG"
+  },
+  {
+    "english_name": "Kano",
+    "arabic_name": "كانو",
+    "country_alpha2_code": "NG"
+  },
+  {
+    "english_name": "Abuja",
+    "arabic_name": "أبوجا",
+    "country_alpha2_code": "NG"
+  },
+  {
+    "english_name": "Alofi",
+    "arabic_name": "ألوفي",
+    "country_alpha2_code": "NU"
+  },
+  {
+    "english_name": "Hakupu",
+    "arabic_name": "هاكوبو",
+    "country_alpha2_code": "NU"
+  },
+  {
+    "english_name": "Avatele",
+    "arabic_name": "أفاتيلي",
+    "country_alpha2_code": "NU"
+  },
+  {
+    "english_name": "Kingston",
+    "arabic_name": "كينغستون",
+    "country_alpha2_code": "NF"
+  },
+  {
+    "english_name": "Burnt Pine",
+    "arabic_name": "بيرنت باين",
+    "country_alpha2_code": "NF"
+  },
+  {
+    "english_name": "Longridge",
+    "arabic_name": "لونغريدج",
+    "country_alpha2_code": "NF"
+  },
+  {
+    "english_name": "Pyongyang",
+    "arabic_name": "بيونغ يانغ",
+    "country_alpha2_code": "KP"
+  },
+  {
+    "english_name": "Hamhung",
+    "arabic_name": "هامهونغ",
+    "country_alpha2_code": "KP"
+  },
+  {
+    "english_name": "Chongjin",
+    "arabic_name": "تشونغجين",
+    "country_alpha2_code": "KP"
+  },
+  {
+    "english_name": "Skopje",
+    "arabic_name": "سكوبيي",
+    "country_alpha2_code": "MK"
+  },
+  {
+    "english_name": "Bitola",
+    "arabic_name": "بيتولا",
+    "country_alpha2_code": "MK"
+  },
+  {
+    "english_name": "Kumanovo",
+    "arabic_name": "كومانوفو",
+    "country_alpha2_code": "MK"
+  },
+  {
+    "english_name": "Saipan",
+    "arabic_name": "سايبان",
+    "country_alpha2_code": "MP"
+  },
+  {
+    "english_name": "Garapan",
+    "arabic_name": "غارابان",
+    "country_alpha2_code": "MP"
+  },
+  {
+    "english_name": "San Jose",
+    "arabic_name": "سان خوسيه",
+    "country_alpha2_code": "MP"
+  },
+  {
+    "english_name": "Oslo",
+    "arabic_name": "أوسلو",
+    "country_alpha2_code": "NO"
+  },
+  {
+    "english_name": "Bergen",
+    "arabic_name": "بيرغن",
+    "country_alpha2_code": "NO"
+  },
+  {
+    "english_name": "Trondheim",
+    "arabic_name": "تروندهايم",
+    "country_alpha2_code": "NO"
+  },
+  {
+    "english_name": "Muscat",
+    "arabic_name": "مسقط",
+    "country_alpha2_code": "OM"
+  },
+  {
+    "english_name": "Salalah",
+    "arabic_name": "صلالة",
+    "country_alpha2_code": "OM"
+  },
+  {
+    "english_name": "Sohar",
+    "arabic_name": "صحار",
+    "country_alpha2_code": "OM"
+  },
+  {
+    "english_name": "Karachi",
+    "arabic_name": "كراتشي",
+    "country_alpha2_code": "PK"
+  },
+  {
+    "english_name": "Lahore",
+    "arabic_name": "لاهور",
+    "country_alpha2_code": "PK"
+  },
+  {
+    "english_name": "Islamabad",
+    "arabic_name": "إسلام آباد",
+    "country_alpha2_code": "PK"
+  },
+  {
+    "english_name": "Ngerulmud",
+    "arabic_name": "نغيرولمود",
+    "country_alpha2_code": "PW"
+  },
+  {
+    "english_name": "Koror",
+    "arabic_name": "كورور",
+    "country_alpha2_code": "PW"
+  },
+  {
+    "english_name": "Melekeok",
+    "arabic_name": "ميليكيوك",
+    "country_alpha2_code": "PW"
+  },
+  {
+    "english_name": "Gaza",
+    "arabic_name": "غزة",
+    "country_alpha2_code": "PS"
+  },
+  {
+    "english_name": "Ramallah",
+    "arabic_name": "رام الله",
+    "country_alpha2_code": "PS"
+  },
+  {
+    "english_name": "Hebron",
+    "arabic_name": "الخليل",
+    "country_alpha2_code": "PS"
+  },
+  {
+    "english_name": "Panama City",
+    "arabic_name": "مدينة بنما",
+    "country_alpha2_code": "PA"
+  },
+  {
+    "english_name": "San Miguelito",
+    "arabic_name": "سان ميغيليتو",
+    "country_alpha2_code": "PA"
+  },
+  {
+    "english_name": "Colón",
+    "arabic_name": "كولون",
+    "country_alpha2_code": "PA"
+  },
+  {
+    "english_name": "Port Moresby",
+    "arabic_name": "بورت مورسبي",
+    "country_alpha2_code": "PG"
+  },
+  {
+    "english_name": "Lae",
+    "arabic_name": "لاي",
+    "country_alpha2_code": "PG"
+  },
+  {
+    "english_name": "Mount Hagen",
+    "arabic_name": "ماونت هاغن",
+    "country_alpha2_code": "PG"
+  },
+  {
+    "english_name": "Asunción",
+    "arabic_name": "أسونسيون",
+    "country_alpha2_code": "PY"
+  },
+  {
+    "english_name": "Ciudad del Este",
+    "arabic_name": "سيوداد ديل إيستي",
+    "country_alpha2_code": "PY"
+  },
+  {
+    "english_name": "San Lorenzo",
+    "arabic_name": "سان لورينزو",
+    "country_alpha2_code": "PY"
+  },
+  {
+    "english_name": "Lima",
+    "arabic_name": "ليما",
+    "country_alpha2_code": "PE"
+  },
+  {
+    "english_name": "Arequipa",
+    "arabic_name": "أريكيبا",
+    "country_alpha2_code": "PE"
+  },
+  {
+    "english_name": "Trujillo",
+    "arabic_name": "تروخيو",
+    "country_alpha2_code": "PE"
+  },
+  {
+    "english_name": "Manila",
+    "arabic_name": "مانيلا",
+    "country_alpha2_code": "PH"
+  },
+  {
+    "english_name": "Quezon City",
+    "arabic_name": "مدينة كيزون",
+    "country_alpha2_code": "PH"
+  },
+  {
+    "english_name": "Davao City",
+    "arabic_name": "مدينة دافاو",
+    "country_alpha2_code": "PH"
+  },
+  {
+    "english_name": "Adamstown",
+    "arabic_name": "آدمستاون",
+    "country_alpha2_code": "PN"
+  },
+  {
+    "english_name": "Aute Valley",
+    "arabic_name": "وادي أوت",
+    "country_alpha2_code": "PN"
+  },
+  {
+    "english_name": "Tedside",
+    "arabic_name": "تيدسايد",
+    "country_alpha2_code": "PN"
+  },
+  {
+    "english_name": "Warsaw",
+    "arabic_name": "وارسو",
+    "country_alpha2_code": "PL"
+  },
+  {
+    "english_name": "Kraków",
+    "arabic_name": "كراكوف",
+    "country_alpha2_code": "PL"
+  },
+  {
+    "english_name": "Łódź",
+    "arabic_name": "وودج",
+    "country_alpha2_code": "PL"
+  },
+  {
+    "english_name": "Lisbon",
+    "arabic_name": "لشبونة",
+    "country_alpha2_code": "PT"
+  },
+  {
+    "english_name": "Porto",
+    "arabic_name": "بورتو",
+    "country_alpha2_code": "PT"
+  },
+  {
+    "english_name": "Vila Nova de Gaia",
+    "arabic_name": "فيلا نوفا دي غايا",
+    "country_alpha2_code": "PT"
+  },
+  {
+    "english_name": "San Juan",
+    "arabic_name": "سان خوان",
+    "country_alpha2_code": "PR"
+  },
+  {
+    "english_name": "Bayamón",
+    "arabic_name": "بايامون",
+    "country_alpha2_code": "PR"
+  },
+  {
+    "english_name": "Carolina",
+    "arabic_name": "كارولينا",
+    "country_alpha2_code": "PR"
+  },
+  {
+    "english_name": "Doha",
+    "arabic_name": "الدوحة",
+    "country_alpha2_code": "QA"
+  },
+  {
+    "english_name": "Al Wakrah",
+    "arabic_name": "الوكرة",
+    "country_alpha2_code": "QA"
+  },
+  {
+    "english_name": "Al Khor",
+    "arabic_name": "الخور",
+    "country_alpha2_code": "QA"
+  },
+  {
+    "english_name": "Saint-Denis",
+    "arabic_name": "سان دوني",
+    "country_alpha2_code": "RE"
+  },
+  {
+    "english_name": "Saint-Paul",
+    "arabic_name": "سان بول",
+    "country_alpha2_code": "RE"
+  },
+  {
+    "english_name": "Saint-Pierre",
+    "arabic_name": "سان بيير",
+    "country_alpha2_code": "RE"
+  },
+  {
+    "english_name": "Bucharest",
+    "arabic_name": "بوخارست",
+    "country_alpha2_code": "RO"
+  },
+  {
+    "english_name": "Cluj-Napoca",
+    "arabic_name": "كلوج نابوكا",
+    "country_alpha2_code": "RO"
+  },
+  {
+    "english_name": "Timișoara",
+    "arabic_name": "تيميشوارا",
+    "country_alpha2_code": "RO"
+  },
+  {
+    "english_name": "Moscow",
+    "arabic_name": "موسكو",
+    "country_alpha2_code": "RU"
+  },
+  {
+    "english_name": "Saint Petersburg",
+    "arabic_name": "سانت بطرسبرغ",
+    "country_alpha2_code": "RU"
+  },
+  {
+    "english_name": "Novosibirsk",
+    "arabic_name": "نوفوسيبيرسك",
+    "country_alpha2_code": "RU"
+  },
+  {
+    "english_name": "Kigali",
+    "arabic_name": "كيغالي",
+    "country_alpha2_code": "RW"
+  },
+  {
+    "english_name": "Butare",
+    "arabic_name": "بوتاري",
+    "country_alpha2_code": "RW"
+  },
+  {
+    "english_name": "Gisenyi",
+    "arabic_name": "غيسيني",
+    "country_alpha2_code": "RW"
+  },
+  {
+    "english_name": "Gustavia",
+    "arabic_name": "غوستافيا",
+    "country_alpha2_code": "BL"
+  },
+  {
+    "english_name": "Saint-Jean",
+    "arabic_name": "سان جان",
+    "country_alpha2_code": "BL"
+  },
+  {
+    "english_name": "Lorient",
+    "arabic_name": "لوريان",
+    "country_alpha2_code": "BL"
+  },
+  {
+    "english_name": "Jamestown",
+    "arabic_name": "جيمس تاون",
+    "country_alpha2_code": "SH"
+  },
+  {
+    "english_name": "Half Tree Hollow",
+    "arabic_name": "هاف تري هولو",
+    "country_alpha2_code": "SH"
+  },
+  {
+    "english_name": "Georgetown",
+    "arabic_name": "جورج تاون",
+    "country_alpha2_code": "SH"
+  },
+  {
+    "english_name": "Basseterre",
+    "arabic_name": "باستير",
+    "country_alpha2_code": "KN"
+  },
+  {
+    "english_name": "Charlestown",
+    "arabic_name": "تشارلزتاون",
+    "country_alpha2_code": "KN"
+  },
+  {
+    "english_name": "Sandy Point Town",
+    "arabic_name": "ساندي بوينت تاون",
+    "country_alpha2_code": "KN"
+  },
+  {
+    "english_name": "Castries",
+    "arabic_name": "كاستريز",
+    "country_alpha2_code": "LC"
+  },
+  {
+    "english_name": "Vieux Fort",
+    "arabic_name": "فيو فورت",
+    "country_alpha2_code": "LC"
+  },
+  {
+    "english_name": "Soufrière",
+    "arabic_name": "سوفرير",
+    "country_alpha2_code": "LC"
+  },
+  {
+    "english_name": "Marigot",
+    "arabic_name": "ماريغوت",
+    "country_alpha2_code": "MF"
+  },
+  {
+    "english_name": "Grand Case",
+    "arabic_name": "غراند كاس",
+    "country_alpha2_code": "MF"
+  },
+  {
+    "english_name": "Quartier d'Orléans",
+    "arabic_name": "كارتييه دورليان",
+    "country_alpha2_code": "MF"
+  },
+  {
+    "english_name": "Saint-Pierre",
+    "arabic_name": "سان بيير",
+    "country_alpha2_code": "PM"
+  },
+  {
+    "english_name": "Miquelon",
+    "arabic_name": "ميكلون",
+    "country_alpha2_code": "PM"
+  },
+  {
+    "english_name": "L'Anse-à-Pierre",
+    "arabic_name": "لانس أ بيير",
+    "country_alpha2_code": "PM"
+  },
+  {
+    "english_name": "Kingstown",
+    "arabic_name": "كينغستاون",
+    "country_alpha2_code": "VC"
+  },
+  {
+    "english_name": "Byera Village",
+    "arabic_name": "قرية بيرا",
+    "country_alpha2_code": "VC"
+  },
+  {
+    "english_name": "Georgetown",
+    "arabic_name": "جورج تاون",
+    "country_alpha2_code": "VC"
+  },
+  {
+    "english_name": "Apia",
+    "arabic_name": "أبيا",
+    "country_alpha2_code": "WS"
+  },
+  {
+    "english_name": "Vaitele",
+    "arabic_name": "فايتيلي",
+    "country_alpha2_code": "WS"
+  },
+  {
+    "english_name": "Faleula",
+    "arabic_name": "فاليولا",
+    "country_alpha2_code": "WS"
+  },
+  {
+    "english_name": "San Marino",
+    "arabic_name": "سان مارينو",
+    "country_alpha2_code": "SM"
+  },
+  {
+    "english_name": "Serravalle",
+    "arabic_name": "سيرافالي",
+    "country_alpha2_code": "SM"
+  },
+  {
+    "english_name": "Borgo Maggiore",
+    "arabic_name": "بورغو ماجوري",
+    "country_alpha2_code": "SM"
+  },
+  {
+    "english_name": "São Tomé",
+    "arabic_name": "ساو تومي",
+    "country_alpha2_code": "ST"
+  },
+  {
+    "english_name": "Santo Amaro",
+    "arabic_name": "سانتو أمارو",
+    "country_alpha2_code": "ST"
+  },
+  {
+    "english_name": "Neves",
+    "arabic_name": "نيفيس",
+    "country_alpha2_code": "ST"
+  },
+  {
+    "english_name": "Riyadh",
+    "arabic_name": "الرياض",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Jeddah",
+    "arabic_name": "جدة",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Mecca",
+    "arabic_name": "مكة المكرمة",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Medina",
+    "arabic_name": "المدينة المنورة",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Dammam",
+    "arabic_name": "الدمام",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Taif",
+    "arabic_name": "الطائف",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Tabuk",
+    "arabic_name": "تبوك",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Buraidah",
+    "arabic_name": "بريدة",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Khamis Mushait",
+    "arabic_name": "خميس مشيط",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Abha",
+    "arabic_name": "أبها",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Al Khobar",
+    "arabic_name": "الخبر",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Najran",
+    "arabic_name": "نجران",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Jazan",
+    "arabic_name": "جازان",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Yanbu",
+    "arabic_name": "ينبع",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Al Hasa",
+    "arabic_name": "الأحساء",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Hail",
+    "arabic_name": "حائل",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Al Qatif",
+    "arabic_name": "القطيف",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Jubail",
+    "arabic_name": "الجبيل",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Al Kharj",
+    "arabic_name": "الخرج",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Arar",
+    "arabic_name": "عرعر",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Sakaka",
+    "arabic_name": "سكاكا",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Dhahran",
+    "arabic_name": "الظهران",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Bisha",
+    "arabic_name": "بيشة",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Unaizah",
+    "arabic_name": "عنيزة",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Al Baha",
+    "arabic_name": "الباحة",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Ar Rass",
+    "arabic_name": "الرس",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Al Majma'ah",
+    "arabic_name": "المجمعة",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Wadi ad-Dawasir",
+    "arabic_name": "وادي الدواسر",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Rabigh",
+    "arabic_name": "رابغ",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Qunfudhah",
+    "arabic_name": "القنفذة",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Dawadmi",
+    "arabic_name": "الدوادمي",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Afif",
+    "arabic_name": "عفيف",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Sharurah",
+    "arabic_name": "شرورة",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Safwa",
+    "arabic_name": "صفوى",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Tarut",
+    "arabic_name": "تاروت",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Al Lith",
+    "arabic_name": "الليث",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Turaif",
+    "arabic_name": "طريف",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Rafha",
+    "arabic_name": "رفحاء",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Buqayq",
+    "arabic_name": "بقيق",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Ad Diriyah",
+    "arabic_name": "الدرعية",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Shaqra",
+    "arabic_name": "شقراء",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Al Zulfi",
+    "arabic_name": "الزلفي",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Al Qurayyat",
+    "arabic_name": "القريات",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Duba",
+    "arabic_name": "ضبا",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Al Wajh",
+    "arabic_name": "الوجه",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Umluj",
+    "arabic_name": "أملج",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Badr",
+    "arabic_name": "بدر",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Al Ula",
+    "arabic_name": "العلا",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Khaybar",
+    "arabic_name": "خيبر",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Mahd adh Dhahab",
+    "arabic_name": "مهد الذهب",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Al Hanakiyah",
+    "arabic_name": "الحناكية",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Samtah",
+    "arabic_name": "صامطة",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Abu Arish",
+    "arabic_name": "أبو عريش",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Sabya",
+    "arabic_name": "صبيا",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Al Darb",
+    "arabic_name": "الدرب",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Farasan",
+    "arabic_name": "فرسان",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Muhayil",
+    "arabic_name": "محايل",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Sarat Abidah",
+    "arabic_name": "سراة عبيدة",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Al Namas",
+    "arabic_name": "النماص",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Tanomah",
+    "arabic_name": "تنومة",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Baljurashi",
+    "arabic_name": "بلجرشي",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Al Mandaq",
+    "arabic_name": "المندق",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Al Aqiq",
+    "arabic_name": "العقيق",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Thuwal",
+    "arabic_name": "ثول",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "King Abdullah Economic City",
+    "arabic_name": "مدينة الملك عبدالله الاقتصادية",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "NEOM",
+    "arabic_name": "نيوم",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Ras Tanura",
+    "arabic_name": "رأس تنورة",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Khafji",
+    "arabic_name": "الخفجي",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Al Hofuf",
+    "arabic_name": "الهفوف",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Al Mubarraz",
+    "arabic_name": "المبرز",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Haql",
+    "arabic_name": "حقل",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Tayma",
+    "arabic_name": "تيماء",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Muzahmiyya",
+    "arabic_name": "المزاحمية",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Hotat Bani Tamim",
+    "arabic_name": "حوطة بني تميم",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Layla",
+    "arabic_name": "ليلى",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "As Sulayyil",
+    "arabic_name": "السليل",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Rijal Almaa",
+    "arabic_name": "رجال ألمع",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Bareq",
+    "arabic_name": "بارق",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Ahad al Masarihah",
+    "arabic_name": "أحد المسارحة",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Baysh",
+    "arabic_name": "بيش",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Harub",
+    "arabic_name": "الحرث",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Domat Al Jandal",
+    "arabic_name": "دومة الجندل",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Tabarjal",
+    "arabic_name": "طبرجل",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Al Mithnab",
+    "arabic_name": "المذنب",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Al Bukayriyah",
+    "arabic_name": "البكيرية",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Riyadh Al Khabra",
+    "arabic_name": "رياض الخبراء",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Al Badai",
+    "arabic_name": "البدائع",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Ash Shimasiyah",
+    "arabic_name": "الشماسية",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Uyun Al Jiwa",
+    "arabic_name": "عيون الجواء",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Al Ghat",
+    "arabic_name": "الغاط",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Hafar Al Batin",
+    "arabic_name": "حفر الباطن",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Al Khurma",
+    "arabic_name": "الخرمة",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Ranyah",
+    "arabic_name": "رنية",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Turubah",
+    "arabic_name": "تربة",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Muwayh",
+    "arabic_name": "المويه",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Al Jumum",
+    "arabic_name": "الجموم",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Al Kamil",
+    "arabic_name": "الكامل",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Khulais",
+    "arabic_name": "خليص",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Addayer",
+    "arabic_name": "الداير",
+    "country_alpha2_code": "SA"
+  },
+  {
+    "english_name": "Dakar",
+    "arabic_name": "داكار",
+    "country_alpha2_code": "SN"
+  },
+  {
+    "english_name": "Pikine",
+    "arabic_name": "بيكين",
+    "country_alpha2_code": "SN"
+  },
+  {
+    "english_name": "Touba",
+    "arabic_name": "طوبا",
+    "country_alpha2_code": "SN"
+  },
+  {
+    "english_name": "Belgrade",
+    "arabic_name": "بلغراد",
+    "country_alpha2_code": "RS"
+  },
+  {
+    "english_name": "Novi Sad",
+    "arabic_name": "نوفي ساد",
+    "country_alpha2_code": "RS"
+  },
+  {
+    "english_name": "Niš",
+    "arabic_name": "نيش",
+    "country_alpha2_code": "RS"
+  },
+  {
+    "english_name": "Victoria",
+    "arabic_name": "فيكتوريا",
+    "country_alpha2_code": "SC"
+  },
+  {
+    "english_name": "Anse Boileau",
+    "arabic_name": "أنسي بوالو",
+    "country_alpha2_code": "SC"
+  },
+  {
+    "english_name": "Beau Vallon",
+    "arabic_name": "بو فالون",
+    "country_alpha2_code": "SC"
+  },
+  {
+    "english_name": "Freetown",
+    "arabic_name": "فريتاون",
+    "country_alpha2_code": "SL"
+  },
+  {
+    "english_name": "Bo",
+    "arabic_name": "بو",
+    "country_alpha2_code": "SL"
+  },
+  {
+    "english_name": "Kenema",
+    "arabic_name": "كينيما",
+    "country_alpha2_code": "SL"
+  },
+  {
+    "english_name": "Singapore",
+    "arabic_name": "سنغافورة",
+    "country_alpha2_code": "SG"
+  },
+  {
+    "english_name": "Jurong East",
+    "arabic_name": "جورونغ إيست",
+    "country_alpha2_code": "SG"
+  },
+  {
+    "english_name": "Woodlands",
+    "arabic_name": "وودلاندز",
+    "country_alpha2_code": "SG"
+  },
+  {
+    "english_name": "Philipsburg",
+    "arabic_name": "فيليبسبورغ",
+    "country_alpha2_code": "SX"
+  },
+  {
+    "english_name": "Lower Prince's Quarter",
+    "arabic_name": "حي الأمير السفلي",
+    "country_alpha2_code": "SX"
+  },
+  {
+    "english_name": "Cul de Sac",
+    "arabic_name": "كول دي ساك",
+    "country_alpha2_code": "SX"
+  },
+  {
+    "english_name": "Bratislava",
+    "arabic_name": "براتيسلافا",
+    "country_alpha2_code": "SK"
+  },
+  {
+    "english_name": "Košice",
+    "arabic_name": "كوشيتسه",
+    "country_alpha2_code": "SK"
+  },
+  {
+    "english_name": "Prešov",
+    "arabic_name": "بريشوف",
+    "country_alpha2_code": "SK"
+  },
+  {
+    "english_name": "Ljubljana",
+    "arabic_name": "ليوبليانا",
+    "country_alpha2_code": "SI"
+  },
+  {
+    "english_name": "Maribor",
+    "arabic_name": "ماريبور",
+    "country_alpha2_code": "SI"
+  },
+  {
+    "english_name": "Celje",
+    "arabic_name": "تسيلي",
+    "country_alpha2_code": "SI"
+  },
+  {
+    "english_name": "Honiara",
+    "arabic_name": "هونيارا",
+    "country_alpha2_code": "SB"
+  },
+  {
+    "english_name": "Gizo",
+    "arabic_name": "غيزو",
+    "country_alpha2_code": "SB"
+  },
+  {
+    "english_name": "Auki",
+    "arabic_name": "أوكي",
+    "country_alpha2_code": "SB"
+  },
+  {
+    "english_name": "Mogadishu",
+    "arabic_name": "مقديشو",
+    "country_alpha2_code": "SO"
+  },
+  {
+    "english_name": "Hargeisa",
+    "arabic_name": "هرجيسا",
+    "country_alpha2_code": "SO"
+  },
+  {
+    "english_name": "Kismayo",
+    "arabic_name": "كيسمايو",
+    "country_alpha2_code": "SO"
+  },
+  {
+    "english_name": "Johannesburg",
+    "arabic_name": "جوهانسبرغ",
+    "country_alpha2_code": "ZA"
+  },
+  {
+    "english_name": "Cape Town",
+    "arabic_name": "كيب تاون",
+    "country_alpha2_code": "ZA"
+  },
+  {
+    "english_name": "Durban",
+    "arabic_name": "ديربان",
+    "country_alpha2_code": "ZA"
+  },
+  {
+    "english_name": "Grytviken",
+    "arabic_name": "غريتفيكن",
+    "country_alpha2_code": "GS"
+  },
+  {
+    "english_name": "King Edward Point",
+    "arabic_name": "كينغ إدوارد بوينت",
+    "country_alpha2_code": "GS"
+  },
+  {
+    "english_name": "Stromness",
+    "arabic_name": "سترومنيس",
+    "country_alpha2_code": "GS"
+  },
+  {
+    "english_name": "Seoul",
+    "arabic_name": "سيول",
+    "country_alpha2_code": "KR"
+  },
+  {
+    "english_name": "Busan",
+    "arabic_name": "بوسان",
+    "country_alpha2_code": "KR"
+  },
+  {
+    "english_name": "Incheon",
+    "arabic_name": "إنتشون",
+    "country_alpha2_code": "KR"
+  },
+  {
+    "english_name": "Juba",
+    "arabic_name": "جوبا",
+    "country_alpha2_code": "SS"
+  },
+  {
+    "english_name": "Malakal",
+    "arabic_name": "ملكال",
+    "country_alpha2_code": "SS"
+  },
+  {
+    "english_name": "Wau",
+    "arabic_name": "واو",
+    "country_alpha2_code": "SS"
+  },
+  {
+    "english_name": "Madrid",
+    "arabic_name": "مدريد",
+    "country_alpha2_code": "ES"
+  },
+  {
+    "english_name": "Barcelona",
+    "arabic_name": "برشلونة",
+    "country_alpha2_code": "ES"
+  },
+  {
+    "english_name": "Valencia",
+    "arabic_name": "فالنسيا",
+    "country_alpha2_code": "ES"
+  },
+  {
+    "english_name": "Colombo",
+    "arabic_name": "كولومبو",
+    "country_alpha2_code": "LK"
+  },
+  {
+    "english_name": "Kandy",
+    "arabic_name": "كاندي",
+    "country_alpha2_code": "LK"
+  },
+  {
+    "english_name": "Galle",
+    "arabic_name": "غالي",
+    "country_alpha2_code": "LK"
+  },
+  {
+    "english_name": "Khartoum",
+    "arabic_name": "الخرطوم",
+    "country_alpha2_code": "SD"
+  },
+  {
+    "english_name": "Omdurman",
+    "arabic_name": "أم درمان",
+    "country_alpha2_code": "SD"
+  },
+  {
+    "english_name": "Port Sudan",
+    "arabic_name": "بورتسودان",
+    "country_alpha2_code": "SD"
+  },
+  {
+    "english_name": "Paramaribo",
+    "arabic_name": "باراماريبو",
+    "country_alpha2_code": "SR"
+  },
+  {
+    "english_name": "Lelydorp",
+    "arabic_name": "ليليدورب",
+    "country_alpha2_code": "SR"
+  },
+  {
+    "english_name": "Nieuw Nickerie",
+    "arabic_name": "نيو نيكيري",
+    "country_alpha2_code": "SR"
+  },
+  {
+    "english_name": "Longyearbyen",
+    "arabic_name": "لونغياربين",
+    "country_alpha2_code": "SJ"
+  },
+  {
+    "english_name": "Barentsburg",
+    "arabic_name": "بارينتسبورغ",
+    "country_alpha2_code": "SJ"
+  },
+  {
+    "english_name": "Ny-Ålesund",
+    "arabic_name": "ني أوليسوند",
+    "country_alpha2_code": "SJ"
+  },
+  {
+    "english_name": "Stockholm",
+    "arabic_name": "ستوكهولم",
+    "country_alpha2_code": "SE"
+  },
+  {
+    "english_name": "Gothenburg",
+    "arabic_name": "غوتنبرغ",
+    "country_alpha2_code": "SE"
+  },
+  {
+    "english_name": "Malmö",
+    "arabic_name": "مالمو",
+    "country_alpha2_code": "SE"
+  },
+  {
+    "english_name": "Zurich",
+    "arabic_name": "زيورخ",
+    "country_alpha2_code": "CH"
+  },
+  {
+    "english_name": "Geneva",
+    "arabic_name": "جنيف",
+    "country_alpha2_code": "CH"
+  },
+  {
+    "english_name": "Basel",
+    "arabic_name": "بازل",
+    "country_alpha2_code": "CH"
+  },
+  {
+    "english_name": "Damascus",
+    "arabic_name": "دمشق",
+    "country_alpha2_code": "SY"
+  },
+  {
+    "english_name": "Aleppo",
+    "arabic_name": "حلب",
+    "country_alpha2_code": "SY"
+  },
+  {
+    "english_name": "Homs",
+    "arabic_name": "حمص",
+    "country_alpha2_code": "SY"
+  },
+  {
+    "english_name": "Taipei",
+    "arabic_name": "تايبيه",
+    "country_alpha2_code": "TW"
+  },
+  {
+    "english_name": "Kaohsiung",
+    "arabic_name": "كاوشيونغ",
+    "country_alpha2_code": "TW"
+  },
+  {
+    "english_name": "Taichung",
+    "arabic_name": "تايتشونغ",
+    "country_alpha2_code": "TW"
+  },
+  {
+    "english_name": "Dushanbe",
+    "arabic_name": "دوشانبه",
+    "country_alpha2_code": "TJ"
+  },
+  {
+    "english_name": "Khujand",
+    "arabic_name": "خوجند",
+    "country_alpha2_code": "TJ"
+  },
+  {
+    "english_name": "Kulob",
+    "arabic_name": "كولوب",
+    "country_alpha2_code": "TJ"
+  },
+  {
+    "english_name": "Dar es Salaam",
+    "arabic_name": "دار السلام",
+    "country_alpha2_code": "TZ"
+  },
+  {
+    "english_name": "Dodoma",
+    "arabic_name": "دودوما",
+    "country_alpha2_code": "TZ"
+  },
+  {
+    "english_name": "Mwanza",
+    "arabic_name": "موانزا",
+    "country_alpha2_code": "TZ"
+  },
+  {
+    "english_name": "Bangkok",
+    "arabic_name": "بانكوك",
+    "country_alpha2_code": "TH"
+  },
+  {
+    "english_name": "Chiang Mai",
+    "arabic_name": "شيانغ ماي",
+    "country_alpha2_code": "TH"
+  },
+  {
+    "english_name": "Pattaya",
+    "arabic_name": "باتايا",
+    "country_alpha2_code": "TH"
+  },
+  {
+    "english_name": "Dili",
+    "arabic_name": "ديلي",
+    "country_alpha2_code": "TL"
+  },
+  {
+    "english_name": "Baucau",
+    "arabic_name": "باوكاو",
+    "country_alpha2_code": "TL"
+  },
+  {
+    "english_name": "Maliana",
+    "arabic_name": "ماليانا",
+    "country_alpha2_code": "TL"
+  },
+  {
+    "english_name": "Lomé",
+    "arabic_name": "لومي",
+    "country_alpha2_code": "TG"
+  },
+  {
+    "english_name": "Sokodé",
+    "arabic_name": "سوكودي",
+    "country_alpha2_code": "TG"
+  },
+  {
+    "english_name": "Kara",
+    "arabic_name": "كارا",
+    "country_alpha2_code": "TG"
+  },
+  {
+    "english_name": "Atafu",
+    "arabic_name": "أتافو",
+    "country_alpha2_code": "TK"
+  },
+  {
+    "english_name": "Nukunonu",
+    "arabic_name": "نوكونونو",
+    "country_alpha2_code": "TK"
+  },
+  {
+    "english_name": "Fakaofo",
+    "arabic_name": "فاكاوفو",
+    "country_alpha2_code": "TK"
+  },
+  {
+    "english_name": "Nukuʻalofa",
+    "arabic_name": "نوكوألوفا",
+    "country_alpha2_code": "TO"
+  },
+  {
+    "english_name": "Neiafu",
+    "arabic_name": "نيافو",
+    "country_alpha2_code": "TO"
+  },
+  {
+    "english_name": "Haveluloto",
+    "arabic_name": "هافيلولوتو",
+    "country_alpha2_code": "TO"
+  },
+  {
+    "english_name": "Port of Spain",
+    "arabic_name": "بورت أوف سبين",
+    "country_alpha2_code": "TT"
+  },
+  {
+    "english_name": "Chaguanas",
+    "arabic_name": "تشاغواناس",
+    "country_alpha2_code": "TT"
+  },
+  {
+    "english_name": "San Fernando",
+    "arabic_name": "سان فرناندو",
+    "country_alpha2_code": "TT"
+  },
+  {
+    "english_name": "Tunis",
+    "arabic_name": "تونس",
+    "country_alpha2_code": "TN"
+  },
+  {
+    "english_name": "Sfax",
+    "arabic_name": "صفاقس",
+    "country_alpha2_code": "TN"
+  },
+  {
+    "english_name": "Sousse",
+    "arabic_name": "سوسة",
+    "country_alpha2_code": "TN"
+  },
+  {
+    "english_name": "Istanbul",
+    "arabic_name": "إسطنبول",
+    "country_alpha2_code": "TR"
+  },
+  {
+    "english_name": "Ankara",
+    "arabic_name": "أنقرة",
+    "country_alpha2_code": "TR"
+  },
+  {
+    "english_name": "Izmir",
+    "arabic_name": "إزمير",
+    "country_alpha2_code": "TR"
+  },
+  {
+    "english_name": "Ashgabat",
+    "arabic_name": "عشق آباد",
+    "country_alpha2_code": "TM"
+  },
+  {
+    "english_name": "Turkmenabat",
+    "arabic_name": "تركمان آباد",
+    "country_alpha2_code": "TM"
+  },
+  {
+    "english_name": "Daşoguz",
+    "arabic_name": "داشوغوز",
+    "country_alpha2_code": "TM"
+  },
+  {
+    "english_name": "Cockburn Town",
+    "arabic_name": "كوكبيرن تاون",
+    "country_alpha2_code": "TC"
+  },
+  {
+    "english_name": "Providenciales",
+    "arabic_name": "بروفيدنسياليس",
+    "country_alpha2_code": "TC"
+  },
+  {
+    "english_name": "Grand Turk",
+    "arabic_name": "غراند تورك",
+    "country_alpha2_code": "TC"
+  },
+  {
+    "english_name": "Funafuti",
+    "arabic_name": "فونافوتي",
+    "country_alpha2_code": "TV"
+  },
+  {
+    "english_name": "Vaiaku",
+    "arabic_name": "فاياكو",
+    "country_alpha2_code": "TV"
+  },
+  {
+    "english_name": "Asau",
+    "arabic_name": "أساو",
+    "country_alpha2_code": "TV"
+  },
+  {
+    "english_name": "Wake Island",
+    "arabic_name": "جزيرة ويك",
+    "country_alpha2_code": "UM"
+  },
+  {
+    "english_name": "Midway Atoll",
+    "arabic_name": "جزيرة ميدواي",
+    "country_alpha2_code": "UM"
+  },
+  {
+    "english_name": "Johnston Atoll",
+    "arabic_name": "جزيرة جونستون",
+    "country_alpha2_code": "UM"
+  },
+  {
+    "english_name": "Charlotte Amalie",
+    "arabic_name": "شارلوت أمالي",
+    "country_alpha2_code": "VI"
+  },
+  {
+    "english_name": "Christiansted",
+    "arabic_name": "كريستيانستد",
+    "country_alpha2_code": "VI"
+  },
+  {
+    "english_name": "Frederiksted",
+    "arabic_name": "فريدريكستد",
+    "country_alpha2_code": "VI"
+  },
+  {
+    "english_name": "Kampala",
+    "arabic_name": "كمبالا",
+    "country_alpha2_code": "UG"
+  },
+  {
+    "english_name": "Gulu",
+    "arabic_name": "غولو",
+    "country_alpha2_code": "UG"
+  },
+  {
+    "english_name": "Lira",
+    "arabic_name": "ليرا",
+    "country_alpha2_code": "UG"
+  },
+  {
+    "english_name": "Kyiv",
+    "arabic_name": "كييف",
+    "country_alpha2_code": "UA"
+  },
+  {
+    "english_name": "Kharkiv",
+    "arabic_name": "خاركيف",
+    "country_alpha2_code": "UA"
+  },
+  {
+    "english_name": "Odessa",
+    "arabic_name": "أوديسا",
+    "country_alpha2_code": "UA"
+  },
+  {
+    "english_name": "Dubai",
+    "arabic_name": "دبي",
+    "country_alpha2_code": "AE"
+  },
+  {
+    "english_name": "Abu Dhabi",
+    "arabic_name": "أبوظبي",
+    "country_alpha2_code": "AE"
+  },
+  {
+    "english_name": "Sharjah",
+    "arabic_name": "الشارقة",
+    "country_alpha2_code": "AE"
+  },
+  {
+    "english_name": "London",
+    "arabic_name": "لندن",
+    "country_alpha2_code": "GB"
+  },
+  {
+    "english_name": "Birmingham",
+    "arabic_name": "برمنغهام",
+    "country_alpha2_code": "GB"
+  },
+  {
+    "english_name": "Manchester",
+    "arabic_name": "مانشستر",
+    "country_alpha2_code": "GB"
+  },
+  {
+    "english_name": "New York",
+    "arabic_name": "نيويورك",
+    "country_alpha2_code": "US"
+  },
+  {
+    "english_name": "Los Angeles",
+    "arabic_name": "لوس أنجلوس",
+    "country_alpha2_code": "US"
+  },
+  {
+    "english_name": "Chicago",
+    "arabic_name": "شيكاغو",
+    "country_alpha2_code": "US"
+  },
+  {
+    "english_name": "Montevideo",
+    "arabic_name": "مونتيفيديو",
+    "country_alpha2_code": "UY"
+  },
+  {
+    "english_name": "Salto",
+    "arabic_name": "سالتو",
+    "country_alpha2_code": "UY"
+  },
+  {
+    "english_name": "Ciudad de la Costa",
+    "arabic_name": "سيوداد دي لا كوستا",
+    "country_alpha2_code": "UY"
+  },
+  {
+    "english_name": "Tashkent",
+    "arabic_name": "طشقند",
+    "country_alpha2_code": "UZ"
+  },
+  {
+    "english_name": "Samarkand",
+    "arabic_name": "سمرقند",
+    "country_alpha2_code": "UZ"
+  },
+  {
+    "english_name": "Bukhara",
+    "arabic_name": "بخارى",
+    "country_alpha2_code": "UZ"
+  },
+  {
+    "english_name": "Port Vila",
+    "arabic_name": "بورت فيلا",
+    "country_alpha2_code": "VU"
+  },
+  {
+    "english_name": "Luganville",
+    "arabic_name": "لوغانفيل",
+    "country_alpha2_code": "VU"
+  },
+  {
+    "english_name": "Norsup",
+    "arabic_name": "نورسوب",
+    "country_alpha2_code": "VU"
+  },
+  {
+    "english_name": "Vatican City",
+    "arabic_name": "مدينة الفاتيكان",
+    "country_alpha2_code": "VA"
+  },
+  {
+    "english_name": "Apostolic Palace",
+    "arabic_name": "القصر الرسولي",
+    "country_alpha2_code": "VA"
+  },
+  {
+    "english_name": "St. Peter's Square",
+    "arabic_name": "ساحة القديس بطرس",
+    "country_alpha2_code": "VA"
+  },
+  {
+    "english_name": "Caracas",
+    "arabic_name": "كاراكاس",
+    "country_alpha2_code": "VE"
+  },
+  {
+    "english_name": "Maracaibo",
+    "arabic_name": "ماراكايبو",
+    "country_alpha2_code": "VE"
+  },
+  {
+    "english_name": "Valencia",
+    "arabic_name": "فالنسيا",
+    "country_alpha2_code": "VE"
+  },
+  {
+    "english_name": "Ho Chi Minh City",
+    "arabic_name": "مدينة هو تشي منه",
+    "country_alpha2_code": "VN"
+  },
+  {
+    "english_name": "Hanoi",
+    "arabic_name": "هانوي",
+    "country_alpha2_code": "VN"
+  },
+  {
+    "english_name": "Da Nang",
+    "arabic_name": "دا نانغ",
+    "country_alpha2_code": "VN"
+  },
+  {
+    "english_name": "Mata-Utu",
+    "arabic_name": "ماتا أوتو",
+    "country_alpha2_code": "WF"
+  },
+  {
+    "english_name": "Leava",
+    "arabic_name": "ليفا",
+    "country_alpha2_code": "WF"
+  },
+  {
+    "english_name": "Alo",
+    "arabic_name": "ألو",
+    "country_alpha2_code": "WF"
+  },
+  {
+    "english_name": "Laayoune",
+    "arabic_name": "العيون",
+    "country_alpha2_code": "EH"
+  },
+  {
+    "english_name": "Dakhla",
+    "arabic_name": "الداخلة",
+    "country_alpha2_code": "EH"
+  },
+  {
+    "english_name": "Smara",
+    "arabic_name": "السمارة",
+    "country_alpha2_code": "EH"
+  },
+  {
+    "english_name": "Sanaa",
+    "arabic_name": "صنعاء",
+    "country_alpha2_code": "YE"
+  },
+  {
+    "english_name": "Aden",
+    "arabic_name": "عدن",
+    "country_alpha2_code": "YE"
+  },
+  {
+    "english_name": "Taiz",
+    "arabic_name": "تعز",
+    "country_alpha2_code": "YE"
+  },
+  {
+    "english_name": "Lusaka",
+    "arabic_name": "لوساكا",
+    "country_alpha2_code": "ZM"
+  },
+  {
+    "english_name": "Kitwe",
+    "arabic_name": "كيتوي",
+    "country_alpha2_code": "ZM"
+  },
+  {
+    "english_name": "Ndola",
+    "arabic_name": "ندولا",
+    "country_alpha2_code": "ZM"
+  },
+  {
+    "english_name": "Harare",
+    "arabic_name": "هراري",
+    "country_alpha2_code": "ZW"
+  },
+  {
+    "english_name": "Bulawayo",
+    "arabic_name": "بولاوايو",
+    "country_alpha2_code": "ZW"
+  },
+  {
+    "english_name": "Chitungwiza",
+    "arabic_name": "شيتونغويزا",
+    "country_alpha2_code": "ZW"
+  }
+]

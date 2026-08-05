@@ -1,0 +1,32 @@
+[
+  {
+    "nameAr": "التنظيف",
+    "nameEn": "Cleaning",
+    "descriptionAr": "خدمات التنظيف",
+    "descriptionEn": "Cleaning Services"
+  },
+  {
+    "nameAr": "السائق",
+    "nameEn": "Driver",
+    "descriptionAr": "خدمات السائقين",
+    "descriptionEn": "Driving Services"
+  },
+  {
+    "nameAr": "رعاية كبار السن",
+    "nameEn": "Elder Care",
+    "descriptionAr": "خدمات رعاية كبار السن",
+    "descriptionEn": "Elder Care Services"
+  },
+  {
+    "nameAr": "المربية",
+    "nameEn": "Nanny",
+    "descriptionAr": "خدمات المربية",
+    "descriptionEn": "Nanny Services"
+  },
+  {
+    "nameAr": "العاملة المنزلية",
+    "nameEn": "Housemaid",
+    "descriptionAr": "خدمات العاملة المنزلية",
+    "descriptionEn": "Housemaid Services"
+  }
+]

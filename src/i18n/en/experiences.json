@@ -1,0 +1,28 @@
+{
+  "getAll": {
+    "success": "Experiences retrieved successfully."
+  },
+  "create": {
+    "success": "Experience range created successfully."
+  },
+  "update": {
+    "success": "Experience range updated successfully.",
+    "bulkActivate": {
+      "success": "Experiences activated successfully."
+    },
+    "bulkDeactivate": {
+      "success": "Experiences deactivated successfully."
+    }
+  },
+  "activate": {
+    "success": "Experience range activated successfully."
+  },
+  "deactivate": {
+    "success": "Experience range deactivated successfully."
+  },
+  "notFound": "Experience range not found.",
+  "errors": {
+    "overlap": "Experience range overlaps with an existing range.",
+    "invalidRange": "Maximum years must be greater than minimum years."
+  }
+}

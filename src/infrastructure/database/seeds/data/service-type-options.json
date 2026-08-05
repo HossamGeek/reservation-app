@@ -1,0 +1,12 @@
+[
+  {
+    "nameAr": "زيارة واحدة",
+    "nameEn": "Single Visit",
+    "type": "SINGLE_VISIT"
+  },
+  {
+    "nameAr": "زيارة متعددة",
+    "nameEn": "Multi Visit",
+    "type": "MULTI_VISIT"
+  }
+]

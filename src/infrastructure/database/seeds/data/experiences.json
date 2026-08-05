@@ -1,0 +1,26 @@
+[
+  {
+    "minYears": 0,
+    "maxYears": 1
+  },
+  {
+    "minYears": 1,
+    "maxYears": 3
+  },
+  {
+    "minYears": 3,
+    "maxYears": 5
+  },
+  {
+    "minYears": 5,
+    "maxYears": 10
+  },
+  {
+    "minYears": 10,
+    "maxYears": 15
+  },
+  {
+    "minYears": 15,
+    "maxYears": null
+  }
+]

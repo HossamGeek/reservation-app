@@ -1,0 +1,20 @@
+{
+  "create": {
+    "success": "Service type option created successfully"
+  },
+  "activate": {
+    "success": "Service type  option activated successfully"
+  },
+  "deactivate": {
+    "success": "Service type option deactivated successfully"
+  },
+  "getOne": {},
+  "update": {},
+  "remove": {},
+  "errors": {
+    "notFound": "Service type option not found",
+    "duplicateName": "Service type option with the same name already exists within the same service type",
+    "logoAlreadyUsed": "Logo is already used.",
+    "logoNotFound": "Logo not found."
+  }
+}
