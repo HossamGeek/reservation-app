@@ -36,6 +36,7 @@ import { CategoryModule } from './modules/category/category.module';
 import { DayModule } from './modules/day/day.module';
 import { ShiftModule } from './modules/shifts/shift.module';
 import { ServiceModule } from './modules/service/service.module';
+import { ReservationsModule } from './modules/reservations/reservations.module';
 
 @Module({
   imports: [
@@ -122,6 +123,7 @@ import { ServiceModule } from './modules/service/service.module';
     DayModule,
     ShiftModule,
     ServiceModule,
+    ReservationsModule,
   ],
   controllers: [AppController],
   providers: [
