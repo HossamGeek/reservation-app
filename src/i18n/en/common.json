@@ -14,5 +14,9 @@
     "UnsupportedMediaType": "Unsupported Media Type",
     "UnprocessableEntity": "Unprocessable Entity",
     "TooManyRequests": "Too Many Requests"
+  },
+  "validation": {
+    "bigIntId": "{property} must be a valid positive BIGINT identifier.",
+    "notPastDate": "{property} must not be before today"
   }
 }

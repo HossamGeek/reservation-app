@@ -14,5 +14,9 @@
     "UnsupportedMediaType": "نوع الوسائط غير مدعوم",
     "UnprocessableEntity": "كيان غير قابل للمعالجة",
     "TooManyRequests": "طلبات كثيرة جداً"
+  },
+  "validation": {
+    "bigIntId": "{property} يجب أن يكون معرّف BIGINT موجباً صالحاً.",
+    "notPastDate": "{property} يجب ألا يكون قبل اليوم"
   }
 }

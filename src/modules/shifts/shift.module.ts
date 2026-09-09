@@ -8,5 +8,6 @@ import { ProviderModule } from '../provider/provider.module';
   imports: [TypeOrmModule.forFeature([ShiftEntity]), ProviderModule],
   controllers: [ShiftController],
   providers: [ShiftService],
+  exports: [ShiftService],
 })
 export class ShiftModule {}

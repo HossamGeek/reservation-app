@@ -7,8 +7,10 @@ import { ShiftEntity } from 'src/modules/shifts/entities/shift.entity';
 import { WorkerEntity } from 'src/modules/user/entities/worker.entity';
 import { Column, Entity, Index, JoinColumn, ManyToOne } from 'typeorm';
 
-@Index('IDX_RESERVATIONS_PROVIDER_DATE', ['providerId', 'date', 'status'])
-@Index('IDX_RESERVATIONS_CLIENT', ['clientId', 'status'])
+@Index('UQ_RESERVATIONS_SHIFT_DATE_ACTIVE', ['shiftId', 'date'], {
+  unique: true,
+  where: '"status" <> \'Cancelled\'',
+})
 @Entity('reservations')
 export class ReservationEntity extends AbstractEntityWithDeletedAt {
   @Column({ type: 'bigint', nullable: true })
@@ -68,6 +70,7 @@ export class ReservationEntity extends AbstractEntityWithDeletedAt {
     type: 'enum',
     enum: ReservationStatusEnum,
     enumName: 'reservations_status_enum',
+    default: ReservationStatusEnum.Pending,
   })
   status: ReservationStatusEnum;
 

@@ -3,6 +3,7 @@ import {
   ValidationArguments,
   ValidationOptions,
 } from 'class-validator';
+import { I18nContext } from 'nestjs-i18n';
 
 const MAX_SIGNED_BIGINT = BigInt('9223372036854775807');
 export function IsBigIntId(validationOptions?: ValidationOptions) {
@@ -25,7 +26,11 @@ export function IsBigIntId(validationOptions?: ValidationOptions) {
           }
         },
         defaultMessage(args: ValidationArguments): string {
-          return `${args.property} must be a valid positive BIGINT identifier.`;
+          return (
+            I18nContext.current()?.t('common.validation.bigIntId', {
+              args: { property: args.property },
+            }) ?? `${args.property} must be a valid positive BIGINT identifier.`
+          );
         },
       },
     });
