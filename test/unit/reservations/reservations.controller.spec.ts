@@ -7,12 +7,14 @@ import { ILoginUser } from 'src/libs/interfaces/user-request.interface';
 import { CreateReservationDto } from 'src/modules/reservations/dto/request/create-reservation.dto';
 import { ReservationsController } from 'src/modules/reservations/reservations.controller';
 import { ReservationsService } from 'src/modules/reservations/reservations.service';
+import { ProviderAdminEntity } from 'src/modules/user/entities/provider-admin.entity';
 
 describe('ReservationsController', () => {
   let controller: ReservationsController;
 
   const mockReservationsService = {
     create: jest.fn(),
+    findProviderReservations: jest.fn(),
   };
 
   const mockI18n = {
@@ -67,6 +69,42 @@ describe('ReservationsController', () => {
       expect(mockReservationsService.create).toHaveBeenCalledWith(dto, user);
       expect(result).toEqual(
         ApiResponse.successResponse('reservations.create.success', {}, 201),
+      );
+    });
+  });
+
+  describe('findAll', () => {
+    it('should forward query and authenticated user to the service and wrap the paginated result', async () => {
+      const query = { path: '/reservations', page: 1, limit: 20 };
+
+      const user: ILoginUser = {
+        id: 'user-3',
+        phoneNumber: '+966500000002',
+        type: UserTypeEnum.PROVIDER,
+        status: UserStatusEnum.ACTIVE,
+        providerAdmin: {
+          providerId: '7',
+        } as ProviderAdminEntity,
+        role: null,
+      };
+
+      const data = {
+        data: [],
+        meta: { totalItems: 0 },
+        links: {},
+      };
+
+      mockReservationsService.findProviderReservations.mockResolvedValue(data);
+
+      const result = await controller.findAll(query, user);
+
+      expect(
+        mockReservationsService.findProviderReservations,
+      ).toHaveBeenCalledWith(query, user);
+      expect(result).toEqual(
+        ApiResponse.successResponse('reservations.getAll.success', {
+          reservations: data,
+        }),
       );
     });
   });

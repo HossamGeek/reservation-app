@@ -6,26 +6,49 @@ import {
 } from '@nestjs/common';
 import { Test, TestingModule } from '@nestjs/testing';
 import { getRepositoryToken } from '@nestjs/typeorm';
+import * as nestjsPaginate from 'nestjs-paginate';
 import { I18nService } from 'nestjs-i18n';
 import { ReservationStatusEnum } from 'src/libs/enums/reservation-status.enum';
 import { UserStatusEnum } from 'src/libs/enums/user-status.enum';
 import { UserTypeEnum } from 'src/libs/enums/user-type.enum';
 import { ILoginUser } from 'src/libs/interfaces/user-request.interface';
+import { ReservationTranslationMapper } from 'src/libs/mappers/reservation-translation.mapper';
 import { POSTGRES_UNIQUE_VIOLATION_CODE } from 'src/libs/utils/postgres-error';
 import { CreateReservationDto } from 'src/modules/reservations/dto/request/create-reservation.dto';
 import { ReservationEntity } from 'src/modules/reservations/entities/reservation.entity';
 import { ReservationsService } from 'src/modules/reservations/reservations.service';
 import { ServiceService } from 'src/modules/service/service.service';
 import { ShiftService } from 'src/modules/shifts/shift.service';
+import { ProviderAdminEntity } from 'src/modules/user/entities/provider-admin.entity';
 import { Not } from 'typeorm';
+
+jest.mock('src/libs/mappers/reservation-translation.mapper', () => ({
+  ReservationTranslationMapper: {
+    toResponses: jest.fn(),
+  },
+}));
+
+jest.mock('nestjs-paginate', () => {
+  const actual = jest.requireActual('nestjs-paginate');
+  return {
+    ...actual,
+    paginate: jest.fn(),
+  };
+});
 
 describe('ReservationsService', () => {
   let service: ReservationsService;
+
+  const mockQueryBuilder = {
+    where: jest.fn().mockReturnThis(),
+    leftJoinAndSelect: jest.fn().mockReturnThis(),
+  };
 
   const mockReservationRepository = {
     create: jest.fn(),
     save: jest.fn(),
     findOne: jest.fn(),
+    createQueryBuilder: jest.fn(() => mockQueryBuilder),
   };
 
   const mockI18n = {
@@ -57,12 +80,25 @@ describe('ReservationsService', () => {
     role: null,
   };
 
+  const providerUser: ILoginUser = {
+    id: 'user-3',
+    phoneNumber: '+966500000002',
+    type: UserTypeEnum.PROVIDER,
+    status: UserStatusEnum.ACTIVE,
+    providerAdmin: {
+      providerId: '7',
+    } as ProviderAdminEntity,
+    role: null,
+  };
+
   const validDto: CreateReservationDto = {
     serviceId: '10',
     shiftId: '20',
     date: '2026-09-10',
     notes: 'Please prepare the service in advance and confirm the booking details.',
   };
+
+  const paginateMock = nestjsPaginate.paginate as jest.Mock;
 
   beforeEach(async () => {
     const module: TestingModule = await Test.createTestingModule({
@@ -318,6 +354,160 @@ describe('ReservationsService', () => {
       await expect(service.create(validDto, clientUser)).rejects.toThrow(
         unexpectedError,
       );
+    });
+  });
+
+  describe('findProviderReservations', () => {
+    const reservationEntity = {
+      id: '1',
+      clientId: '42',
+      providerId: '7',
+      serviceId: '10',
+      shiftId: '20',
+      date: '2026-09-10',
+      status: ReservationStatusEnum.Pending,
+    } as ReservationEntity;
+
+    beforeEach(() => {
+      paginateMock.mockResolvedValue({
+        data: [reservationEntity],
+        meta: { totalItems: 1 },
+        links: {},
+      });
+      (ReservationTranslationMapper.toResponses as jest.Mock).mockReturnValue([
+        { id: '1' },
+      ]);
+    });
+
+    it('should scope the query to the authenticated provider id and return the mapped paginated result', async () => {
+      const query = { path: '/reservations', page: 1, limit: 20 };
+
+      const result = await service.findProviderReservations(query, providerUser);
+
+      expect(mockReservationRepository.createQueryBuilder).toHaveBeenCalledWith(
+        'reservation',
+      );
+      expect(mockQueryBuilder.where).toHaveBeenCalledWith(
+        'reservation.providerId = :providerId',
+        { providerId: '7' },
+      );
+      expect(mockQueryBuilder.leftJoinAndSelect).toHaveBeenCalledWith(
+        'reservation.client',
+        'client',
+      );
+      expect(mockQueryBuilder.leftJoinAndSelect).toHaveBeenCalledWith(
+        'client.user',
+        'clientUser',
+      );
+      expect(mockQueryBuilder.leftJoinAndSelect).toHaveBeenCalledWith(
+        'reservation.service',
+        'service',
+      );
+      expect(mockQueryBuilder.leftJoinAndSelect).toHaveBeenCalledWith(
+        'reservation.shift',
+        'shift',
+      );
+      expect(paginateMock).toHaveBeenCalledWith(
+        query,
+        mockQueryBuilder,
+        expect.objectContaining({
+          filterableColumns: expect.objectContaining({
+            status: true,
+            date: true,
+            serviceId: true,
+          }),
+          defaultSortBy: [
+            ['date', 'DESC'],
+            ['id', 'DESC'],
+          ],
+          defaultLimit: 20,
+          maxLimit: 100,
+        }),
+      );
+      expect(ReservationTranslationMapper.toResponses).toHaveBeenCalledWith([
+        reservationEntity,
+      ]);
+      expect(result).toEqual({
+        data: [{ id: '1' }],
+        meta: { totalItems: 1 },
+        links: {},
+      });
+    });
+
+    it('should return an empty paginated result when the provider has no reservations', async () => {
+      paginateMock.mockResolvedValue({
+        data: [],
+        meta: { totalItems: 0 },
+        links: {},
+      });
+      (ReservationTranslationMapper.toResponses as jest.Mock).mockReturnValue(
+        [],
+      );
+
+      const result = await service.findProviderReservations(
+        { path: '/reservations' },
+        providerUser,
+      );
+
+      expect(result.data).toEqual([]);
+      expect(result.meta).toEqual({ totalItems: 0 });
+    });
+
+    it('should pass filters through untouched from PaginateQuery', async () => {
+      const query = {
+        path: '/reservations',
+        filter: {
+          status: '$eq:Pending',
+          date: '$eq:2026-09-10',
+          serviceId: '$eq:10',
+        },
+      };
+
+      paginateMock.mockResolvedValue({ data: [], meta: {}, links: {} });
+
+      await service.findProviderReservations(query, providerUser);
+
+      expect(paginateMock).toHaveBeenCalledWith(
+        query,
+        mockQueryBuilder,
+        expect.objectContaining({
+          filterableColumns: expect.objectContaining({
+            status: true,
+            date: true,
+            serviceId: true,
+          }),
+        }),
+      );
+    });
+
+    it('should throw ForbiddenException when the authenticated user is not a provider', async () => {
+      await expect(
+        service.findProviderReservations(
+          { path: '/reservations' },
+          { ...providerUser, type: UserTypeEnum.ADMIN },
+        ),
+      ).rejects.toThrow(
+        new ForbiddenException(
+          'reservations.errors.providerAssociationRequired',
+        ),
+      );
+
+      expect(mockReservationRepository.createQueryBuilder).not.toHaveBeenCalled();
+    });
+
+    it('should throw ForbiddenException when the provider association is missing', async () => {
+      await expect(
+        service.findProviderReservations(
+          { path: '/reservations' },
+          { ...providerUser, providerAdmin: null },
+        ),
+      ).rejects.toThrow(
+        new ForbiddenException(
+          'reservations.errors.providerAssociationRequired',
+        ),
+      );
+
+      expect(mockReservationRepository.createQueryBuilder).not.toHaveBeenCalled();
     });
   });
 });

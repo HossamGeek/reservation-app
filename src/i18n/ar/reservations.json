@@ -1,9 +1,13 @@
 {
+  "getAll": {
+    "success": "تم استرجاع الحجوزات بنجاح."
+  },
   "create": {
     "success": "تم إنشاء الحجز بنجاح."
   },
   "errors": {
     "clientAssociationRequired": "المستخدم المصادق عليه غير مرتبط بعميل.",
+    "providerAssociationRequired": "المستخدم المصادق عليه غير مرتبط بمزود خدمة.",
     "serviceNotFound": "الخدمة غير موجودة أو غير متاحة.",
     "shiftNotFound": "مناوبة العمل غير موجودة.",
     "shiftInactive": "مناوبة العمل غير متاحة.",
