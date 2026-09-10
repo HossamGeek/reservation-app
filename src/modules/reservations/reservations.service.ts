@@ -99,8 +99,43 @@ export class ReservationsService extends BaseEntityService<ReservationEntity> {
     }
   }
 
+  async confirm(id: string, user: ILoginUser): Promise<void> {
+    const providerId = this.getAuthenticatedProviderId(user);
+
+    const reservation = await this.findOneBy({
+      where: { id, providerId },
+    });
+
+    if (!reservation) {
+      throw new NotFoundException(this.i18n.t('reservations.errors.notFound'));
+    }
+
+    if (reservation.status !== ReservationStatusEnum.Pending) {
+      throw new ConflictException(
+        this.i18n.t('reservations.errors.invalidState'),
+      );
+    }
+
+    const result = await this.repository.update(
+      {
+        id,
+        providerId,
+        status: ReservationStatusEnum.Pending,
+      },
+      {
+        status: ReservationStatusEnum.Confirmed,
+      },
+    );
+
+    if (result.affected !== 1) {
+      throw new ConflictException(
+        this.i18n.t('reservations.errors.invalidState'),
+      );
+    }
+  }
+
   protected getNotFoundMessage(): string {
-    return this.i18n.t('reservations.errors.serviceNotFound');
+    return this.i18n.t('reservations.errors.notFound');
   }
 
   private getAuthenticatedClientId(user: ILoginUser): string {
@@ -111,5 +146,21 @@ export class ReservationsService extends BaseEntityService<ReservationEntity> {
     }
 
     return user.client.id;
+  }
+
+  private getAuthenticatedProviderId(user: ILoginUser): string {
+    if (user.type !== UserTypeEnum.PROVIDER) {
+      throw new ForbiddenException(
+        this.i18n.t('reservations.errors.providerAssociationRequired'),
+      );
+    }
+
+    if (!user.providerAdmin?.providerId) {
+      throw new ForbiddenException(
+        this.i18n.t('reservations.errors.providerAssociationRequired'),
+      );
+    }
+
+    return user.providerAdmin.providerId;
   }
 }

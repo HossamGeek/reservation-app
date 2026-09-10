@@ -26,6 +26,7 @@ describe('ReservationsService', () => {
     create: jest.fn(),
     save: jest.fn(),
     findOne: jest.fn(),
+    update: jest.fn(),
   };
 
   const mockI18n = {
@@ -54,6 +55,15 @@ describe('ReservationsService', () => {
     phoneNumber: '+966500000001',
     type: UserTypeEnum.ADMIN,
     status: UserStatusEnum.ACTIVE,
+    role: null,
+  };
+
+  const providerUser: ILoginUser = {
+    id: 'user-3',
+    phoneNumber: '+966500000002',
+    type: UserTypeEnum.PROVIDER,
+    status: UserStatusEnum.ACTIVE,
+    providerAdmin: { providerId: '7' } as ILoginUser['providerAdmin'],
     role: null,
   };
 
@@ -317,6 +327,132 @@ describe('ReservationsService', () => {
 
       await expect(service.create(validDto, clientUser)).rejects.toThrow(
         unexpectedError,
+      );
+    });
+  });
+
+  describe('confirm', () => {
+    const createPendingReservation = (): ReservationEntity =>
+      Object.assign(new ReservationEntity(), {
+        id: '1',
+        clientId: '42',
+        providerId: '7',
+        serviceId: '10',
+        shiftId: '20',
+        date: '2026-09-10',
+        status: ReservationStatusEnum.Pending,
+        notes: null,
+      });
+
+    const reservationWithStatus = (
+      status: ReservationStatusEnum,
+    ): ReservationEntity =>
+      Object.assign(new ReservationEntity(), createPendingReservation(), {
+        status,
+      });
+
+    it('should confirm a pending reservation with a provider-scoped conditional update', async () => {
+      mockReservationRepository.findOne.mockResolvedValue(
+        createPendingReservation(),
+      );
+      mockReservationRepository.update.mockResolvedValue({ affected: 1 });
+
+      const result = await service.confirm('1', providerUser);
+
+      expect(mockReservationRepository.findOne).toHaveBeenCalledWith({
+        where: { id: '1', providerId: '7' },
+      });
+      expect(mockReservationRepository.update).toHaveBeenCalledWith(
+        {
+          id: '1',
+          providerId: '7',
+          status: ReservationStatusEnum.Pending,
+        },
+        { status: ReservationStatusEnum.Confirmed },
+      );
+      expect(result).toBeUndefined();
+    });
+
+    it('should throw ForbiddenException when user is not a provider', async () => {
+      await expect(service.confirm('1', clientUser)).rejects.toThrow(
+        new ForbiddenException(
+          'reservations.errors.providerAssociationRequired',
+        ),
+      );
+
+      expect(mockReservationRepository.findOne).not.toHaveBeenCalled();
+      expect(mockReservationRepository.update).not.toHaveBeenCalled();
+    });
+
+    it('should throw ForbiddenException when provider association is missing', async () => {
+      await expect(
+        service.confirm('1', { ...providerUser, providerAdmin: null }),
+      ).rejects.toThrow(
+        new ForbiddenException(
+          'reservations.errors.providerAssociationRequired',
+        ),
+      );
+
+      expect(mockReservationRepository.findOne).not.toHaveBeenCalled();
+      expect(mockReservationRepository.update).not.toHaveBeenCalled();
+    });
+
+    it('should throw NotFoundException when reservation is missing', async () => {
+      mockReservationRepository.findOne.mockResolvedValue(null);
+
+      await expect(service.confirm('1', providerUser)).rejects.toThrow(
+        new NotFoundException('reservations.errors.notFound'),
+      );
+
+      expect(mockReservationRepository.update).not.toHaveBeenCalled();
+    });
+
+    it('should throw NotFoundException without updating when reservation belongs to another provider', async () => {
+      mockReservationRepository.findOne.mockResolvedValue(null);
+
+      await expect(service.confirm('1', providerUser)).rejects.toThrow(
+        new NotFoundException('reservations.errors.notFound'),
+      );
+
+      expect(mockReservationRepository.findOne).toHaveBeenCalledWith({
+        where: { id: '1', providerId: '7' },
+      });
+      expect(mockReservationRepository.update).not.toHaveBeenCalled();
+    });
+
+    it.each([
+      ReservationStatusEnum.Confirmed,
+      ReservationStatusEnum.Cancelled,
+      ReservationStatusEnum.Completed,
+    ])('should reject a %s reservation without updating', async (status) => {
+      mockReservationRepository.findOne.mockResolvedValue(
+        reservationWithStatus(status),
+      );
+
+      await expect(service.confirm('1', providerUser)).rejects.toThrow(
+        new ConflictException('reservations.errors.invalidState'),
+      );
+
+      expect(mockReservationRepository.update).not.toHaveBeenCalled();
+    });
+
+    it('should throw ConflictException when the conditional update affects 0 rows', async () => {
+      mockReservationRepository.findOne.mockResolvedValue(
+        createPendingReservation(),
+      );
+      mockReservationRepository.update.mockResolvedValue({ affected: 0 });
+
+      await expect(service.confirm('1', providerUser)).rejects.toThrow(
+        new ConflictException('reservations.errors.invalidState'),
+      );
+
+      expect(mockReservationRepository.update).toHaveBeenCalledWith(
+        {
+          id: '1',
+          providerId: '7',
+          status: ReservationStatusEnum.Pending,
+        },
+        { status: ReservationStatusEnum.Confirmed },
       );
     });
   });
