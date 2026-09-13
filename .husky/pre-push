@@ -9,5 +9,3 @@ fi
 if [ -n "$CHANGED_TESTS" ]; then
   npm test -- --runInBand
 fi
-
-# npm test -- --runInBand --changedSince=origin/main

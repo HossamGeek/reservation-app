@@ -1,9 +1,13 @@
 {
+  "getAll": {
+    "success": "Reservations retrieved successfully."
+  },
   "create": {
     "success": "Reservation created successfully."
   },
   "errors": {
     "clientAssociationRequired": "Authenticated user is not associated with a client.",
+    "providerAssociationRequired": "Authenticated user is not associated with a provider.",
     "serviceNotFound": "Service not found or unavailable.",
     "shiftNotFound": "Shift not found.",
     "shiftInactive": "Shift is not available.",
