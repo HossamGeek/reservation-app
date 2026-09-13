@@ -103,6 +103,9 @@ export const PERMISSION_INCLUDES_DEPENDENCIES: DependenciesPermission = {
     [ActionsEnum.detailedView]: [],
     [ActionsEnum.update]: [],
   },
+  [CategoriesEnum.reservations]: {
+    [ActionsEnum.update]: [],
+  },
 };
 
 export const systemPermission: Permissions = Object.keys(

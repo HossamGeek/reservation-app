@@ -1,5 +1,10 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { I18nService } from 'nestjs-i18n';
+import {
+  ACTION_KEY,
+  ENTITY_TYPE_KEY,
+} from 'src/libs/decorators/entity-action.decorator';
+import { ActionsEnum, CategoriesEnum } from 'src/libs/enums/permission.enum';
 import { UserStatusEnum } from 'src/libs/enums/user-status.enum';
 import { UserTypeEnum } from 'src/libs/enums/user-type.enum';
 import { ApiResponse } from 'src/libs/errors/api-response';
@@ -7,13 +12,13 @@ import { ILoginUser } from 'src/libs/interfaces/user-request.interface';
 import { CreateReservationDto } from 'src/modules/reservations/dto/request/create-reservation.dto';
 import { ReservationsController } from 'src/modules/reservations/reservations.controller';
 import { ReservationsService } from 'src/modules/reservations/reservations.service';
-import { ProviderAdminEntity } from 'src/modules/user/entities/provider-admin.entity';
 
 describe('ReservationsController', () => {
   let controller: ReservationsController;
 
   const mockReservationsService = {
     create: jest.fn(),
+    confirm: jest.fn(),
     findProviderReservations: jest.fn(),
   };
 
@@ -73,6 +78,37 @@ describe('ReservationsController', () => {
     });
   });
 
+  describe('confirm', () => {
+    it('should require reservations.update permission metadata', () => {
+      expect(Reflect.getMetadata(ACTION_KEY, controller.confirm)).toEqual([
+        ActionsEnum.update,
+      ]);
+      expect(Reflect.getMetadata(ENTITY_TYPE_KEY, controller.confirm)).toEqual([
+        CategoriesEnum.reservations,
+      ]);
+    });
+
+    it('should forward id and authenticated user and return an ApiResponse with empty data', async () => {
+      const user: ILoginUser = {
+        id: 'user-3',
+        phoneNumber: '+966500000002',
+        type: UserTypeEnum.PROVIDER,
+        status: UserStatusEnum.ACTIVE,
+        providerAdmin: { providerId: '7' } as ILoginUser['providerAdmin'],
+        role: null,
+      };
+
+      mockReservationsService.confirm.mockResolvedValue(undefined);
+
+      const result = await controller.confirm({ id: '1' }, user);
+
+      expect(mockReservationsService.confirm).toHaveBeenCalledWith('1', user);
+      expect(result).toEqual(
+        ApiResponse.successResponse('reservations.confirm.success', {}, 200),
+      );
+    });
+  });
+
   describe('findAll', () => {
     it('should forward query and authenticated user to the service and wrap the paginated result', async () => {
       const query = { path: '/reservations', page: 1, limit: 20 };
@@ -82,9 +118,7 @@ describe('ReservationsController', () => {
         phoneNumber: '+966500000002',
         type: UserTypeEnum.PROVIDER,
         status: UserStatusEnum.ACTIVE,
-        providerAdmin: {
-          providerId: '7',
-        } as ProviderAdminEntity,
+        providerAdmin: { providerId: '7' } as ILoginUser['providerAdmin'],
         role: null,
       };
 
