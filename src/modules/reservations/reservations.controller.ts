@@ -1,4 +1,4 @@
-import { Body, Controller, Param, Patch, Post } from '@nestjs/common';
+import { Body, Controller, Param, Patch, Post, Get } from '@nestjs/common';
 import {
   ApiBadRequestResponse,
   ApiBearerAuth,
@@ -12,12 +12,14 @@ import {
   ApiUnauthorizedResponse,
 } from '@nestjs/swagger';
 import { I18nService } from 'nestjs-i18n';
+import { ApiPaginationQuery, Paginate, PaginateQuery } from 'nestjs-paginate';
 import { CurrentUser } from 'src/libs/decorators/current-user.decorator';
 import { Can } from 'src/libs/decorators/entity-action.decorator';
 import { BigIntIdParamDto } from 'src/libs/dto/bigint-id-param.dto';
 import { ActionsEnum, CategoriesEnum } from 'src/libs/enums/permission.enum';
 import { ApiResponse } from 'src/libs/errors/api-response';
 import { ILoginUser } from 'src/libs/interfaces/user-request.interface';
+import { getProviderReservationsPaginationConfig } from 'src/libs/pagination/provider-reservations.pagination';
 import { CreateReservationDto } from './dto/request/create-reservation.dto';
 import { ReservationsService } from './reservations.service';
 
@@ -31,6 +33,29 @@ export class ReservationsController {
     private readonly reservationsService: ReservationsService,
     private readonly i18n: I18nService,
   ) {}
+
+  @Get()
+  @Can(CategoriesEnum.reservations, ActionsEnum.listView)
+  @ApiOperation({
+    summary: 'Get authenticated provider reservations (paginated)',
+  })
+  @ApiPaginationQuery(getProviderReservationsPaginationConfig)
+  @ApiOkResponse({ description: 'Reservations retrieved successfully' })
+  @ApiBadRequestResponse({
+    description: 'Invalid pagination, search, filter, or sorting parameters',
+  })
+  async findAll(
+    @Paginate() query: PaginateQuery,
+    @CurrentUser() user: ILoginUser,
+  ): Promise<ApiResponse> {
+    const reservations =
+      await this.reservationsService.findProviderReservations(query, user);
+
+    return ApiResponse.successResponse(
+      this.i18n.t('reservations.getAll.success'),
+      { reservations },
+    );
+  }
 
   @Post()
   @ApiOperation({

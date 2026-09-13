@@ -152,6 +152,7 @@ export const PERMISSION_INCLUDES_DEPENDENCIES: DependenciesPermission = {
   },
   [CategoriesEnum.reservations]: {
     [ActionsEnum.update]: [],
+    [ActionsEnum.listView]: [],
   },
 };
 

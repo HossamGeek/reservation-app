@@ -1,4 +1,7 @@
 {
+  "getAll": {
+    "success": "Reservations retrieved successfully."
+  },
   "create": {
     "success": "Reservation created successfully."
   },

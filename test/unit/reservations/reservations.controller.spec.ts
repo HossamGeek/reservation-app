@@ -19,6 +19,7 @@ describe('ReservationsController', () => {
   const mockReservationsService = {
     create: jest.fn(),
     confirm: jest.fn(),
+    findProviderReservations: jest.fn(),
   };
 
   const mockI18n = {
@@ -104,6 +105,40 @@ describe('ReservationsController', () => {
       expect(mockReservationsService.confirm).toHaveBeenCalledWith('1', user);
       expect(result).toEqual(
         ApiResponse.successResponse('reservations.confirm.success', {}, 200),
+      );
+    });
+  });
+
+  describe('findAll', () => {
+    it('should forward query and authenticated user to the service and wrap the paginated result', async () => {
+      const query = { path: '/reservations', page: 1, limit: 20 };
+
+      const user: ILoginUser = {
+        id: 'user-3',
+        phoneNumber: '+966500000002',
+        type: UserTypeEnum.PROVIDER,
+        status: UserStatusEnum.ACTIVE,
+        providerAdmin: { providerId: '7' } as ILoginUser['providerAdmin'],
+        role: null,
+      };
+
+      const data = {
+        data: [],
+        meta: { totalItems: 0 },
+        links: {},
+      };
+
+      mockReservationsService.findProviderReservations.mockResolvedValue(data);
+
+      const result = await controller.findAll(query, user);
+
+      expect(
+        mockReservationsService.findProviderReservations,
+      ).toHaveBeenCalledWith(query, user);
+      expect(result).toEqual(
+        ApiResponse.successResponse('reservations.getAll.success', {
+          reservations: data,
+        }),
       );
     });
   });
