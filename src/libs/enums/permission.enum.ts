@@ -17,6 +17,7 @@ export enum CategoriesEnum {
   serviceTypeOptions = 'serviceTypeOptions',
   shifts = 'shifts',
   branches = 'branches',
+  reservations = 'reservations',
 }
 
 export enum ActionsEnum {
@@ -148,6 +149,10 @@ export const PERMISSION_INCLUDES_DEPENDENCIES: DependenciesPermission = {
     [ActionsEnum.listView]: [],
     [ActionsEnum.detailedView]: [],
     [ActionsEnum.update]: [],
+  },
+  [CategoriesEnum.reservations]: {
+    [ActionsEnum.update]: [],
+    [ActionsEnum.listView]: [],
   },
 };
 
