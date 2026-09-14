@@ -25,7 +25,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           ai_provider: gemini
           ai_api_key: ${{ secrets.OPENAI_API_KEY }}
-          ai_model: gemini-2.5-flash
+          ai_model: gemini-3.6-flash
 
 
           review_criteria: |
