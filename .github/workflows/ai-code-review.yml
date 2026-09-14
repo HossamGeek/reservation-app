@@ -13,6 +13,11 @@ jobs:
       pull-requests: write
 
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
       - name: AI PR Review
         uses: Spyced-Concepts/ReviewSentry@v0.3.3-beta
         with:
