@@ -94,6 +94,10 @@ export class ReservationsController {
     @CurrentUser() user: ILoginUser,
   ): Promise<ApiResponse> {
     await this.reservationsService.confirm(params.id, user);
+    console.log("🚀 ~ ReservationsController ~ confirm ~ params.id:", params.id)
+    console.log("🚀 ~ ReservationsController ~ confirm ~ params.id:", params.id)
+    console.log("🚀 ~ ReservationsController ~ confirm ~ params.id:", params.id)
+    console.log("🚀 ~ ReservationsController ~ confirm ~ params.id:", params.id)
 
     return ApiResponse.successResponse(
       this.i18n.t('reservations.confirm.success'),
