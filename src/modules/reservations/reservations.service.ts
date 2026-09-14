@@ -15,10 +15,12 @@ import { ILoginUser } from 'src/libs/interfaces/user-request.interface';
 import { isPostgresUniqueViolation } from 'src/libs/utils/postgres-error';
 import { ReservationTranslationMapper } from 'src/libs/mappers/reservation-translation.mapper';
 import { getProviderReservationsPaginationConfig } from 'src/libs/pagination/provider-reservations.pagination';
+import { ProviderService } from 'src/modules/provider/provider.service';
 import { ServiceService } from 'src/modules/service/service.service';
 import { ShiftService } from 'src/modules/shifts/shift.service';
-import { Not, Repository } from 'typeorm';
+import { Repository } from 'typeorm';
 import { CreateReservationDto } from './dto/request/create-reservation.dto';
+import { RejectReservationDto } from './dto/request/reject-reservation.dto';
 import { ReservationResponseDto } from './dto/response/reservation-response.dto';
 import { ReservationEntity } from './entities/reservation.entity';
 
@@ -30,6 +32,7 @@ export class ReservationsService extends BaseEntityService<ReservationEntity> {
     i18n: I18nService,
     private readonly serviceService: ServiceService,
     private readonly shiftService: ShiftService,
+    private readonly providerService: ProviderService,
   ) {
     super(repository, i18n);
   }
@@ -39,6 +42,16 @@ export class ReservationsService extends BaseEntityService<ReservationEntity> {
     user: ILoginUser,
   ): Promise<void> {
     const clientId = this.getAuthenticatedClientId(user);
+
+    const provider = await this.providerService.findOneBy({
+      where: { id: createReservationDto.providerId },
+    });
+
+    if (!provider) {
+      throw new NotFoundException(
+        this.i18n.t('reservations.errors.providerNotFound'),
+      );
+    }
 
     const service = await this.serviceService.findOneBy({
       where: { id: createReservationDto.serviceId, isActive: true },
@@ -51,7 +64,10 @@ export class ReservationsService extends BaseEntityService<ReservationEntity> {
     }
 
     const shift = await this.shiftService.findOneBy({
-      where: { id: createReservationDto.shiftId },
+      where: {
+        id: createReservationDto.shiftId,
+        providerId: createReservationDto.providerId,
+      },
     });
 
     if (!shift) {
@@ -66,25 +82,11 @@ export class ReservationsService extends BaseEntityService<ReservationEntity> {
       );
     }
 
-    const existingReservation = await this.findOneBy({
-      where: {
-        shiftId: createReservationDto.shiftId,
-        date: createReservationDto.date,
-        status: Not(ReservationStatusEnum.Cancelled),
-      },
-    });
-
-    if (existingReservation) {
-      throw new ConflictException(
-        this.i18n.t('reservations.errors.conflict'),
-      );
-    }
-
     const reservation = this.repository.create({
       clientId,
       serviceId: createReservationDto.serviceId,
       shiftId: createReservationDto.shiftId,
-      providerId: shift.providerId,
+      providerId: createReservationDto.providerId,
       date: createReservationDto.date,
       notes: createReservationDto.notes ?? null,
       status: ReservationStatusEnum.Pending,
@@ -137,6 +139,49 @@ export class ReservationsService extends BaseEntityService<ReservationEntity> {
       );
     }
   }
+
+  async reject(
+    id: string,
+    rejectReservationDto: RejectReservationDto,
+    user: ILoginUser,
+  ): Promise<void> {
+    const providerId = this.getAuthenticatedProviderId(user);
+
+    const reservation = await this.findOneBy({
+      where: { id, providerId },
+    });
+
+    if (!reservation) {
+      throw new NotFoundException(
+        this.i18n.t('reservations.errors.reservationNotFound'),
+      );
+    }
+
+    if (reservation.status !== ReservationStatusEnum.Pending) {
+      throw new ConflictException(
+        this.i18n.t('reservations.errors.invalidStateReject'),
+      );
+    }
+
+    const result = await this.repository.update(
+      {
+        id: reservation.id,
+        providerId,
+        status: ReservationStatusEnum.Pending,
+      },
+      {
+        status: ReservationStatusEnum.Rejected,
+        cancellationReason: rejectReservationDto.reason.trim(),
+      },
+    );
+
+    if (!result.affected) {
+      throw new ConflictException(
+        this.i18n.t('reservations.errors.invalidStateReject'),
+      );
+    }
+  }
+
   async findProviderReservations(
     query: PaginateQuery,
     user: ILoginUser,

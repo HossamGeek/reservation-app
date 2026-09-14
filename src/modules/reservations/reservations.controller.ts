@@ -1,4 +1,4 @@
-import { Body, Controller, Param, Patch, Post, Get } from '@nestjs/common';
+import { Body, Controller, Get, Param, Patch, Post } from '@nestjs/common';
 import {
   ApiBadRequestResponse,
   ApiBearerAuth,
@@ -14,13 +14,12 @@ import {
 import { I18nService } from 'nestjs-i18n';
 import { ApiPaginationQuery, Paginate, PaginateQuery } from 'nestjs-paginate';
 import { CurrentUser } from 'src/libs/decorators/current-user.decorator';
-import { Can } from 'src/libs/decorators/entity-action.decorator';
 import { BigIntIdParamDto } from 'src/libs/dto/bigint-id-param.dto';
-import { ActionsEnum, CategoriesEnum } from 'src/libs/enums/permission.enum';
 import { ApiResponse } from 'src/libs/errors/api-response';
 import { ILoginUser } from 'src/libs/interfaces/user-request.interface';
 import { getProviderReservationsPaginationConfig } from 'src/libs/pagination/provider-reservations.pagination';
 import { CreateReservationDto } from './dto/request/create-reservation.dto';
+import { RejectReservationDto } from './dto/request/reject-reservation.dto';
 import { ReservationsService } from './reservations.service';
 
 @ApiTags('Reservations')
@@ -35,7 +34,6 @@ export class ReservationsController {
   ) {}
 
   @Get()
-  @Can(CategoriesEnum.reservations, ActionsEnum.listView)
   @ApiOperation({
     summary: 'Get authenticated provider reservations (paginated)',
   })
@@ -82,7 +80,6 @@ export class ReservationsController {
   }
 
   @Patch(':id/confirm')
-  @Can(CategoriesEnum.reservations, ActionsEnum.update)
   @ApiOperation({
     summary: 'Confirm a reservation (authenticated provider admin)',
   })
@@ -97,11 +94,37 @@ export class ReservationsController {
     @CurrentUser() user: ILoginUser,
   ): Promise<ApiResponse> {
     await this.reservationsService.confirm(params.id, user);
-
     return ApiResponse.successResponse(
       this.i18n.t('reservations.confirm.success'),
       {},
       200,
+    );
+  }
+
+  @Patch(':id/reject')
+  @ApiOperation({
+    summary: 'Reject a pending reservation (authenticated provider)',
+  })
+  @ApiParam({ name: 'id', type: String, example: '1' })
+  @ApiBadRequestResponse({ description: 'Validation failed' })
+  @ApiNotFoundResponse({ description: 'Reservation not found' })
+  @ApiConflictResponse({
+    description: 'Reservation is not in a rejectable state',
+  })
+  async reject(
+    @Param() params: BigIntIdParamDto,
+    @Body() rejectReservationDto: RejectReservationDto,
+    @CurrentUser() user: ILoginUser,
+  ): Promise<ApiResponse> {
+    await this.reservationsService.reject(
+      params.id,
+      rejectReservationDto,
+      user,
+    );
+
+    return ApiResponse.successResponse(
+      this.i18n.t('reservations.reject.success'),
+      {},
     );
   }
 }
