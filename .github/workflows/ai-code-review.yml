@@ -1,0 +1,114 @@
+name: AI Code Review
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      pull-requests: write
+
+    steps:
+      - name: AI PR Review
+        uses: Spyced-Concepts/ReviewSentry@v0.3.3-beta
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          ai_provider: openai
+          ai_api_key: ${{ secrets.OPENAI_API_KEY }}
+          ai_model: gpt-4o
+
+          review_criteria: |
+                Review this pull request as a senior NestJS backend engineer.
+
+                BUGS AND CORRECTNESS
+                - Detect incorrect business logic.
+                - Detect missing edge cases.
+                - Detect incorrect state transitions.
+                - Detect race conditions and concurrency bugs.
+                - Check for unsafe read-then-write patterns.
+                - Prefer atomic conditional updates when concurrent state changes are possible.
+                - Check null, undefined, and optional values.
+                - Check async/await and Promise handling.
+                - Check error handling.
+
+                NESTJS
+                - Check dependency injection usage.
+                - Check controller/service responsibility boundaries.
+                - Services should return data only.
+                - Controllers should be responsible for response messages when the project follows that pattern.
+                - Do not recommend business validation inside entities.
+                - Check guards, decorators, interceptors, filters, and pipes for incorrect usage.
+                - Detect duplicated providers or modules.
+
+                TYPEORM AND DATABASE
+                - Detect N+1 queries.
+                - Detect unnecessary database calls.
+                - Check joins and relations for performance problems.
+                - Check findOne/find/update/delete queries for incorrect conditions.
+                - Check transactional consistency.
+                - Check transaction boundaries.
+                - Check unique constraint and PostgreSQL error handling.
+                - Detect potential lost updates.
+                - Detect race conditions between SELECT and UPDATE.
+                - Check soft-delete behavior.
+                - Check indexes when new high-frequency queries are introduced.
+
+                HTTP AND API DESIGN
+                - Verify correct HTTP exception types and status codes.
+                - Use Conflict / 409 when the current resource state conflicts with the requested transition.
+                - Check DTO validation.
+                - Check authorization separately from authentication.
+                - Detect accidental exposure of sensitive response fields.
+
+                SECURITY
+                - Detect missing authentication or authorization.
+                - Detect privilege escalation.
+                - Detect IDOR vulnerabilities.
+                - Detect SQL injection or unsafe raw queries.
+                - Detect secret or credential exposure.
+                - Detect insecure logging of sensitive data.
+                - Detect insecure file or URL handling.
+                - Detect unsafe user-controlled redirects or URLs.
+
+                ARCHITECTURE
+                - Review code according to the existing project architecture.
+                - Avoid suggesting a new abstraction when an existing project pattern already solves the problem.
+                - Flag duplicated business logic.
+                - Flag unnecessary coupling.
+                - Respect module boundaries.
+                - Check ports/adapters boundaries when applicable.
+                - Check aggregate boundaries when applicable.
+                - Avoid direct Aggregate-to-Aggregate object references when an ID or event is more appropriate.
+                - Detect infrastructure concerns leaking into domain/application layers.
+
+                MAINTAINABILITY
+                - Detect duplicated code.
+                - Detect misleading names.
+                - Detect overly large methods.
+                - Detect hidden side effects.
+                - Detect unnecessary complexity.
+                - Prefer readable and maintainable code over clever abstractions.
+                - Do not complain about formatting unless it affects correctness or maintainability.
+
+                TESTING
+                - Check whether important business behavior requires tests.
+                - Prioritize service/use-case/business behavior tests.
+                - Do not request tests for trivial DTOs or simple mappers unless they contain meaningful logic.
+
+                REVIEW QUALITY
+                - Only report real, actionable findings.
+                - Do not invent theoretical issues without evidence from the diff.
+                - Avoid generic best-practice comments.
+                - Explain why each issue matters.
+                - Include a concrete recommended fix.
+                - Prioritize findings as:
+                  CRITICAL
+                  HIGH
+                  MEDIUM
+                  LOW
+
+                Pay special attention to changed code rather than unrelated legacy code.
