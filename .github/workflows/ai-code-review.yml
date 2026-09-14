@@ -13,22 +13,19 @@ jobs:
       pull-requests: write
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - name: OpenCodeReview
+        uses: alibaba/open-code-review@main
         with:
-          ref: ${{ github.head_ref }}
-          fetch-depth: 0
-      
-      - name: AI PR Review
-        uses: Spyced-Concepts/ReviewSentry@v0.3.3-beta
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          ai_provider: gemini
-          ai_api_key: ${{ secrets.OPENAI_API_KEY }}
-          ai_model: gemini-3.6-flash
+          llm_url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions
+          llm_auth_token: ${{ secrets.OPENAI_API_KEY }}
+          llm_model: gemini-3.6-flash
+          llm_use_anthropic: 'false'
 
+          sticky_summary: 'true'
+          incremental: 'true'
 
-          review_criteria: |
+          background: |
+
                 Review this pull request as a senior NestJS backend engineer.
 
                 BUGS AND CORRECTNESS
