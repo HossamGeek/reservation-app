@@ -18,7 +18,7 @@ jobs:
         with:
           llm_url: https://opencode.ai/zen/v1/chat/completions
           llm_auth_token: ${{ secrets.OPENAI_API_KEY }}
-          llm_model: deepseek-v4-flash-free
+          llm_model: opencode/big-pickle
           llm_use_anthropic: 'false'
 
           sticky_summary: 'true'
