@@ -17,6 +17,7 @@ jobs:
         uses: alibaba/open-code-review@main
         with:
           llm_url: https://opencode.ai/zen/v1/chat/completions
+          llm_auth_token: ${{ secrets.OPENAI_API_KEY }}
           llm_model: deepseek-v4-flash-free
           llm_use_anthropic: 'false'
 
