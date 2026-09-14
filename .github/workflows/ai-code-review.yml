@@ -25,8 +25,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           ai_provider: openai
           ai_api_key: ${{ secrets.OPENAI_API_KEY }}
-          ai_base_url: https://api.commandcode.ai/provider/v1
-          ai_model: deepseek/deepseek-v4-flash
+          ai_model: gemini-2.5-flash
 
 
           review_criteria: |
