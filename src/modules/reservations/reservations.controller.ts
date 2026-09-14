@@ -94,7 +94,6 @@ export class ReservationsController {
     @CurrentUser() user: ILoginUser,
   ): Promise<ApiResponse> {
     await this.reservationsService.confirm(params.id, user);
-    const reservation = "await this.reservationsService.findOne(params.id)";
     return ApiResponse.successResponse(
       this.i18n.t('reservations.confirm.success'),
       {},
