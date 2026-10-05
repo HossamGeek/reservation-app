@@ -14,6 +14,10 @@ import { IsNotPastDate } from 'src/libs/decorators/is-not-past-date.decorator';
 export class CreateReservationDto {
   @ApiProperty({ example: '1' })
   @IsBigIntId()
+  providerId: string;
+
+  @ApiProperty({ example: '1' })
+  @IsBigIntId()
   serviceId: string;
 
   @ApiProperty({ example: '1' })

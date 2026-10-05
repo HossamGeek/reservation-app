@@ -661,6 +661,45 @@ describe('AuthService', () => {
       });
     });
 
+    it('should load only the providerAdmin relation for a provider user', async () => {
+      const payload = {
+        id: 'provider-user-id',
+        slug: 'slug-abc-123',
+        type: UserTypeEnum.PROVIDER,
+      } as any;
+
+      const user = {
+        id: 'provider-user-id',
+        email: 'provider@example.com',
+        phoneNumber: '123456789',
+        type: UserTypeEnum.PROVIDER,
+        status: 'active',
+        role: { id: 'role-999' },
+        providerAdmin: { id: 'provider-admin-id', providerId: 'provider-1' },
+      };
+
+      mockUserService.findOneBy.mockResolvedValue(user);
+
+      const result = await service.validateUser(payload);
+
+      expect(mockUserService.findOneBy).toHaveBeenCalledWith({
+        where: { id: 'provider-user-id' },
+        relations: { role: true, providerAdmin: true },
+      });
+      expect(result).toEqual({
+        id: user.id,
+        email: user.email,
+        phoneNumber: user.phoneNumber,
+        type: user.type,
+        status: user.status,
+        role: user.role,
+        slug: payload.slug,
+        systemAdmin: null,
+        providerAdmin: user.providerAdmin,
+        client: null,
+      });
+    });
+
     it('should throw UnauthorizedException if user does not exist', async () => {
       const payload = {
         id: 'nonexistent-user',

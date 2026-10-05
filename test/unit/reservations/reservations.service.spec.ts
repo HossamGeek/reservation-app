@@ -15,11 +15,12 @@ import { ILoginUser } from 'src/libs/interfaces/user-request.interface';
 import { ReservationTranslationMapper } from 'src/libs/mappers/reservation-translation.mapper';
 import { POSTGRES_UNIQUE_VIOLATION_CODE } from 'src/libs/utils/postgres-error';
 import { CreateReservationDto } from 'src/modules/reservations/dto/request/create-reservation.dto';
+import { RejectReservationDto } from 'src/modules/reservations/dto/request/reject-reservation.dto';
 import { ReservationEntity } from 'src/modules/reservations/entities/reservation.entity';
 import { ReservationsService } from 'src/modules/reservations/reservations.service';
+import { ProviderService } from 'src/modules/provider/provider.service';
 import { ServiceService } from 'src/modules/service/service.service';
 import { ShiftService } from 'src/modules/shifts/shift.service';
-import { Not } from 'typeorm';
 
 jest.mock('src/libs/mappers/reservation-translation.mapper', () => ({
   ReservationTranslationMapper: {
@@ -63,6 +64,10 @@ describe('ReservationsService', () => {
     findOneBy: jest.fn(),
   };
 
+  const mockProviderService = {
+    findOneBy: jest.fn(),
+  };
+
   const clientUser: ILoginUser = {
     id: 'user-1',
     phoneNumber: '+966500000000',
@@ -90,6 +95,7 @@ describe('ReservationsService', () => {
   };
 
   const validDto: CreateReservationDto = {
+    providerId: '7',
     serviceId: '10',
     shiftId: '20',
     date: '2026-09-10',
@@ -97,6 +103,10 @@ describe('ReservationsService', () => {
   };
 
   const paginateMock = nestjsPaginate.paginate as jest.Mock;
+
+  const rejectDto: RejectReservationDto = {
+    reason: 'Provider is unavailable on the requested date.',
+  };
 
   beforeEach(async () => {
     const module: TestingModule = await Test.createTestingModule({
@@ -118,6 +128,10 @@ describe('ReservationsService', () => {
           provide: ShiftService,
           useValue: mockShiftService,
         },
+        {
+          provide: ProviderService,
+          useValue: mockProviderService,
+        },
       ],
     }).compile();
 
@@ -131,6 +145,7 @@ describe('ReservationsService', () => {
 
   describe('create', () => {
     it('should save a pending reservation and resolve without returning the entity', async () => {
+      mockProviderService.findOneBy.mockResolvedValue({ id: '7' });
       mockServiceService.findOneBy.mockResolvedValue({
         id: '10',
         isActive: true,
@@ -140,7 +155,6 @@ describe('ReservationsService', () => {
         isActive: true,
         providerId: '7',
       });
-      mockReservationRepository.findOne.mockResolvedValue(null);
 
       const createdAt = new Date('2026-09-09T10:00:00.000Z');
       const createdEntity = {
@@ -161,18 +175,14 @@ describe('ReservationsService', () => {
 
       const result = await service.create(validDto, clientUser);
 
+      expect(mockProviderService.findOneBy).toHaveBeenCalledWith({
+        where: { id: '7' },
+      });
       expect(mockServiceService.findOneBy).toHaveBeenCalledWith({
         where: { id: '10', isActive: true },
       });
       expect(mockShiftService.findOneBy).toHaveBeenCalledWith({
-        where: { id: '20' },
-      });
-      expect(mockReservationRepository.findOne).toHaveBeenCalledWith({
-        where: {
-          shiftId: '20',
-          date: '2026-09-10',
-          status: Not(ReservationStatusEnum.Cancelled),
-        },
+        where: { id: '20', providerId: '7' },
       });
       expect(mockReservationRepository.create).toHaveBeenCalledWith({
         clientId: '42',
@@ -195,6 +205,7 @@ describe('ReservationsService', () => {
         ),
       );
 
+      expect(mockProviderService.findOneBy).not.toHaveBeenCalled();
       expect(mockServiceService.findOneBy).not.toHaveBeenCalled();
       expect(mockReservationRepository.create).not.toHaveBeenCalled();
       expect(mockReservationRepository.save).not.toHaveBeenCalled();
@@ -209,11 +220,26 @@ describe('ReservationsService', () => {
         ),
       );
 
+      expect(mockProviderService.findOneBy).not.toHaveBeenCalled();
       expect(mockServiceService.findOneBy).not.toHaveBeenCalled();
       expect(mockReservationRepository.create).not.toHaveBeenCalled();
     });
 
+    it('should throw NotFoundException when provider is missing', async () => {
+      mockProviderService.findOneBy.mockResolvedValue(null);
+
+      await expect(service.create(validDto, clientUser)).rejects.toThrow(
+        new NotFoundException('reservations.errors.providerNotFound'),
+      );
+
+      expect(mockServiceService.findOneBy).not.toHaveBeenCalled();
+      expect(mockShiftService.findOneBy).not.toHaveBeenCalled();
+      expect(mockReservationRepository.create).not.toHaveBeenCalled();
+      expect(mockReservationRepository.save).not.toHaveBeenCalled();
+    });
+
     it('should throw NotFoundException when service is missing', async () => {
+      mockProviderService.findOneBy.mockResolvedValue({ id: '7' });
       mockServiceService.findOneBy.mockResolvedValue(null);
 
       await expect(service.create(validDto, clientUser)).rejects.toThrow(
@@ -226,6 +252,7 @@ describe('ReservationsService', () => {
     });
 
     it('should throw NotFoundException when service is unavailable or inactive', async () => {
+      mockProviderService.findOneBy.mockResolvedValue({ id: '7' });
       mockServiceService.findOneBy.mockResolvedValue(null);
 
       await expect(service.create(validDto, clientUser)).rejects.toThrow(
@@ -236,6 +263,7 @@ describe('ReservationsService', () => {
     });
 
     it('should throw NotFoundException when shift is missing', async () => {
+      mockProviderService.findOneBy.mockResolvedValue({ id: '7' });
       mockServiceService.findOneBy.mockResolvedValue({
         id: '10',
         isActive: true,
@@ -246,11 +274,34 @@ describe('ReservationsService', () => {
         new NotFoundException('reservations.errors.shiftNotFound'),
       );
 
+      expect(mockShiftService.findOneBy).toHaveBeenCalledWith({
+        where: { id: '20', providerId: '7' },
+      });
+      expect(mockReservationRepository.create).not.toHaveBeenCalled();
+      expect(mockReservationRepository.save).not.toHaveBeenCalled();
+    });
+
+    it('should throw NotFoundException when shift belongs to another provider', async () => {
+      mockProviderService.findOneBy.mockResolvedValue({ id: '7' });
+      mockServiceService.findOneBy.mockResolvedValue({
+        id: '10',
+        isActive: true,
+      });
+      mockShiftService.findOneBy.mockResolvedValue(null);
+
+      await expect(service.create(validDto, clientUser)).rejects.toThrow(
+        new NotFoundException('reservations.errors.shiftNotFound'),
+      );
+
+      expect(mockShiftService.findOneBy).toHaveBeenCalledWith({
+        where: { id: '20', providerId: '7' },
+      });
       expect(mockReservationRepository.create).not.toHaveBeenCalled();
       expect(mockReservationRepository.save).not.toHaveBeenCalled();
     });
 
     it('should throw BadRequestException when shift is inactive', async () => {
+      mockProviderService.findOneBy.mockResolvedValue({ id: '7' });
       mockServiceService.findOneBy.mockResolvedValue({
         id: '10',
         isActive: true,
@@ -269,30 +320,8 @@ describe('ReservationsService', () => {
       expect(mockReservationRepository.save).not.toHaveBeenCalled();
     });
 
-    it('should throw ConflictException when a non-cancelled reservation exists for the shift and date', async () => {
-      mockServiceService.findOneBy.mockResolvedValue({
-        id: '10',
-        isActive: true,
-      });
-      mockShiftService.findOneBy.mockResolvedValue({
-        id: '20',
-        isActive: true,
-        providerId: '7',
-      });
-      mockReservationRepository.findOne.mockResolvedValue({
-        id: '5',
-        status: ReservationStatusEnum.Pending,
-      });
-
-      await expect(service.create(validDto, clientUser)).rejects.toThrow(
-        new ConflictException('reservations.errors.conflict'),
-      );
-
-      expect(mockReservationRepository.create).not.toHaveBeenCalled();
-      expect(mockReservationRepository.save).not.toHaveBeenCalled();
-    });
-
     it('should throw ConflictException when save is rejected by the shift/date active unique index', async () => {
+      mockProviderService.findOneBy.mockResolvedValue({ id: '7' });
       mockServiceService.findOneBy.mockResolvedValue({
         id: '10',
         isActive: true,
@@ -302,7 +331,6 @@ describe('ReservationsService', () => {
         isActive: true,
         providerId: '7',
       });
-      mockReservationRepository.findOne.mockResolvedValue(null);
       mockReservationRepository.create.mockReturnValue({
         id: '1',
         clientId: '42',
@@ -326,6 +354,7 @@ describe('ReservationsService', () => {
     });
 
     it('should rethrow unrelated save errors untouched', async () => {
+      mockProviderService.findOneBy.mockResolvedValue({ id: '7' });
       mockServiceService.findOneBy.mockResolvedValue({
         id: '10',
         isActive: true,
@@ -335,7 +364,6 @@ describe('ReservationsService', () => {
         isActive: true,
         providerId: '7',
       });
-      mockReservationRepository.findOne.mockResolvedValue(null);
       mockReservationRepository.create.mockReturnValue({
         id: '1',
         clientId: '42',
@@ -477,6 +505,134 @@ describe('ReservationsService', () => {
           status: ReservationStatusEnum.Pending,
         },
         { status: ReservationStatusEnum.Confirmed },
+      );
+    });
+  });
+
+  describe('reject', () => {
+    it('should reject a pending reservation and persist the rejected status with the reason', async () => {
+      mockReservationRepository.findOne.mockResolvedValue({
+        id: '1',
+        providerId: '7',
+        status: ReservationStatusEnum.Pending,
+      } as ReservationEntity);
+      mockReservationRepository.update.mockResolvedValue({ affected: 1 });
+
+      const result = await service.reject('1', rejectDto, providerUser);
+
+      expect(mockReservationRepository.findOne).toHaveBeenCalledWith({
+        where: { id: '1', providerId: '7' },
+      });
+      expect(mockReservationRepository.update).toHaveBeenCalledWith(
+        {
+          id: '1',
+          providerId: '7',
+          status: ReservationStatusEnum.Pending,
+        },
+        {
+          status: ReservationStatusEnum.Rejected,
+          cancellationReason: rejectDto.reason,
+        },
+      );
+      expect(result).toBeUndefined();
+    });
+
+    it('should throw ForbiddenException when the authenticated user is not a provider', async () => {
+      await expect(service.reject('1', rejectDto, clientUser)).rejects.toThrow(
+        new ForbiddenException(
+          'reservations.errors.providerAssociationRequired',
+        ),
+      );
+
+      expect(mockReservationRepository.findOne).not.toHaveBeenCalled();
+      expect(mockReservationRepository.update).not.toHaveBeenCalled();
+    });
+
+    it('should throw ForbiddenException when the authenticated user has no provider admin', async () => {
+      const providerWithoutAssociation: ILoginUser = {
+        ...providerUser,
+        providerAdmin: null,
+      };
+
+      await expect(
+        service.reject('1', rejectDto, providerWithoutAssociation),
+      ).rejects.toThrow(
+        new ForbiddenException(
+          'reservations.errors.providerAssociationRequired',
+        ),
+      );
+
+      expect(mockReservationRepository.findOne).not.toHaveBeenCalled();
+      expect(mockReservationRepository.update).not.toHaveBeenCalled();
+    });
+
+    it('should throw NotFoundException when the reservation is missing', async () => {
+      mockReservationRepository.findOne.mockResolvedValue(null);
+
+      await expect(service.reject('1', rejectDto, providerUser)).rejects.toThrow(
+        new NotFoundException('reservations.errors.reservationNotFound'),
+      );
+
+      expect(mockReservationRepository.update).not.toHaveBeenCalled();
+    });
+
+    it('should throw NotFoundException without updating when the reservation belongs to another provider', async () => {
+      mockReservationRepository.findOne.mockResolvedValue(null);
+
+      await expect(service.reject('1', rejectDto, providerUser)).rejects.toThrow(
+        new NotFoundException('reservations.errors.reservationNotFound'),
+      );
+
+      expect(mockReservationRepository.findOne).toHaveBeenCalledWith({
+        where: { id: '1', providerId: '7' },
+      });
+      expect(mockReservationRepository.update).not.toHaveBeenCalled();
+    });
+
+    it.each([
+      ReservationStatusEnum.Confirmed,
+      ReservationStatusEnum.Rejected,
+      ReservationStatusEnum.Cancelled,
+      ReservationStatusEnum.Completed,
+    ])(
+      'should throw ConflictException when status is %s',
+      async (status) => {
+        mockReservationRepository.findOne.mockResolvedValue({
+          id: '1',
+          providerId: '7',
+          status,
+        } as ReservationEntity);
+
+        await expect(service.reject('1', rejectDto, providerUser)).rejects.toThrow(
+          new ConflictException('reservations.errors.invalidStateReject'),
+        );
+
+        expect(mockReservationRepository.update).not.toHaveBeenCalled();
+      },
+    );
+
+    it('should throw ConflictException when the conditional update affects no rows (concurrent change)', async () => {
+      mockReservationRepository.findOne.mockResolvedValue({
+        id: '1',
+        providerId: '7',
+        status: ReservationStatusEnum.Pending,
+      } as ReservationEntity);
+      mockReservationRepository.update.mockResolvedValue({ affected: 0 });
+
+      await expect(service.reject('1', rejectDto, providerUser)).rejects.toThrow(
+        new ConflictException('reservations.errors.invalidStateReject'),
+      );
+
+      expect(mockReservationRepository.update).toHaveBeenCalledWith(
+        {
+          id: '1',
+          providerId: '7',
+          status: ReservationStatusEnum.Pending,
+        },
+        {
+          status: ReservationStatusEnum.Rejected,
+          cancellationReason: rejectDto.reason,
+        },
       );
     });
   });

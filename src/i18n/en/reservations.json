@@ -8,14 +8,20 @@
   "confirm": {
     "success": "Reservation confirmed successfully."
   },
+  "reject": {
+    "success": "Reservation rejected successfully."
+  },
   "errors": {
     "clientAssociationRequired": "Authenticated user is not associated with a client.",
     "providerAssociationRequired": "Authenticated user is not associated with a provider.",
     "serviceNotFound": "Service not found or unavailable.",
     "shiftNotFound": "Shift not found.",
+    "providerNotFound": "Provider not found.",
     "shiftInactive": "Shift is not available.",
     "conflict": "A reservation already exists for this shift on the selected date.",
     "notFound": "Reservation not found.",
-    "invalidState": "Reservation cannot be confirmed in its current state."
+    "reservationNotFound": "Reservation not found.",
+    "invalidState": "Reservation cannot be confirmed in its current state.",
+    "invalidStateReject": "Reservation cannot be rejected in its current state."
   }
 }
